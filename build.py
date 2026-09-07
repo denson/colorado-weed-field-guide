@@ -76,7 +76,7 @@ def shell(title,body,path,meta=None):
     stamp=f'<p class="metadata">Content revised <time datetime="{modified}">{modified.replace("T"," ")}</time> · Source checks dated separately in the references.</p>'
     return f'''<!doctype html>
 <html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | Colorado Weed Field Guide</title><meta name="description" content="{esc(meta.get('description',title))}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/markdown" href="{url(path+'index.md')}"><link rel="alternate" type="application/rss+xml" href="{url('feed.xml')}"><link rel="stylesheet" href="{asset_url('assets/style.css')}"><script type="application/ld+json">{data}</script></head>
-<body><a class="skip" href="#main">Skip to content</a><header><div class="bar"><a class="brand" href="{url()}"><span>W</span> Colorado Weed Field Guide</a><nav aria-label="Main"><a href="{url('biggest-concerns/')}">Biggest concerns</a><a href="{url('coverage/')}">Coverage</a><a href="{url('native/')}">Native</a><a href="{url('xeriscape/')}">Xeriscape</a><a href="{url('invasive/')}">Invasive &amp; common</a><a href="{url('safety/')}">Safety</a><a href="{url('sources/')}">Sources</a><a href="{url('agents/')}">For agents</a></nav></div></header><main id="main">{body}{stamp}{links(path)}</main><footer><div class="footer-inner">An independent Colorado field guide. Source-backed synthesis; botanical and veterinary expert review is pending. Native does not mean harmless, and an evidence gap does not mean safe. <a href="{url('about/')}">About this guide</a> · <a href="{CFG['repository']}">GitHub source</a></div></footer></body></html>'''
+<body><a class="skip" href="#main">Skip to content</a><header><div class="bar"><a class="brand" href="{url()}"><span>W</span> Colorado Weed Field Guide</a><nav aria-label="Main"><a href="{url('biggest-concerns/')}">Biggest concerns</a><a href="{url('coverage/')}">Coverage</a><a href="{url('native/')}">Native</a><a href="{url('xeriscape/')}">Xeriscape</a><a href="{url('invasive/')}">Invasive &amp; common</a><a href="{url('safety/')}">Safety</a><a href="{url('sources/')}">Sources</a><a href="{url('agents/')}">For agents</a></nav></div></header><main id="main">{body}{stamp}{links(path)}</main><footer><div class="footer-inner">An independent Colorado field guide. Source-backed synthesis; botanical and veterinary expert review is pending. Native does not mean harmless, and an evidence gap does not mean safe. <a href="{url('about/')}">About this guide</a></div></footer></body></html>'''
 def publish(title,body,path,meta=None,human=None):
     meta=meta or {}; full=body.replace('{{BASE}}',BASE)
     human=human if human is not None else markdown.markdown(full.split('\n# Appendix for agents')[0],extensions=['tables','fenced_code','attr_list'])
@@ -103,7 +103,7 @@ def card(p):
     i=next(x for x in IMAGES if x['plant_id']==p['id']); needle=(p['name']+' '+p['scientific']+' '+' '.join(p.get('aliases',[]))+' '+p['warning']).lower()
     thumb=i.get('thumbnail',i)
     management=f'<p class="management"><a href="{url("safety/#weed-lists")}">{esc(list_label(p))}</a></p>' if list_label(p) else ''
-    return f'<article class="card" data-plant="{esc(needle)}"><a href="{url("plants/"+p["id"]+"/")}"><img src="{url(thumb["path"])}" width="{thumb["width"]}" height="{thumb["height"]}" alt="{esc(i["alt"])}" loading="lazy"></a><h3><a href="{url("plants/"+p["id"]+"/")}">{esc(p["name"])}</a></h3><p class="scientific">{esc(p["scientific"])}</p><span class="badge {esc(p["warning_tone"])}">{esc(p["warning"])}</span>{management}<p class="metadata">Photo: <a href="{esc(i["source_page"])}">{esc(i["creator"])}</a> · <a href="{esc(i["license_url"])}">{esc(i["license"])}</a></p></article>'
+    return f'<article class="card" data-plant="{esc(needle)}"><a href="{url("plants/"+p["id"]+"/")}"><img src="{url(thumb["path"])}" width="{thumb["width"]}" height="{thumb["height"]}" alt="{esc(i["alt"])}" loading="lazy"></a><h3><a href="{url("plants/"+p["id"]+"/")}">{esc(p["name"])}</a></h3><p class="scientific">{esc(p["scientific"])}</p><span class="badge {esc(p["warning_tone"])}">{esc(p["warning"])}</span>{management}<p class="metadata">Photo: {esc(i["creator"])} · {esc(i["license"])} · <a href="{url("plants/"+p["id"]+"/")}">Credits and sources</a></p></article>'
 for category in [None,*CATEGORIES]:
     subset=[p for p,b in PLANTS if category is None or p['category']==category]
     title=CATEGORIES[category] if category else 'Know what is growing.'
@@ -121,7 +121,7 @@ for category in [None,*CATEGORIES]:
         for p in plants:
             md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — *{p["scientific"]}*. **{p["warning"]}**.'+list_note_md(p)+f' [Full Markdown profile]({url("plants/"+p["id"]+"/index.md")}).\n'
             i=next(i for i in IMAGES if i['plant_id']==p['id'])
-            md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: [{i["creator"]}]({i["source_page"]}); [{i["license"]}]({i["license_url"]}).\n'
+            md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: {i["creator"]}; {i["license"]}. [Photo credits and sources]({url("plants/"+p["id"]+"/")}).\n'
         md+='\n'
     md+='\n# Appendix for agents\n\nCategory membership is editorial navigation. Native plants can also be xeriscape plants; noxious-list class is separate from toxicity. Follow the individual profiles for claim scope, caveats, and photo attribution. This is a selected catalog, not the entire Colorado flora.\n'
     head+=f'<script src="{url("assets/search.js")}" defer></script>'
@@ -163,7 +163,7 @@ for group in CONCERNS['groups']:
     for p in members:
         concern_md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — **{p["warning"]}**.'+list_note_md(p)+f' [Evidence and agent notes]({url("plants/"+p["id"]+"/index.md")}).\n'
         i=next(i for i in IMAGES if i['plant_id']==p['id'])
-        concern_md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: [{i["creator"]}]({i["source_page"]}); [{i["license"]}]({i["license_url"]}).\n'
+        concern_md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: {i["creator"]}; {i["license"]}. [Photo credits and sources]({url("plants/"+p["id"]+"/")}).\n'
     concern_md+='\n'
 more='## Early detection matters\n\nAll **List '+COVERAGE['list_definitions']['A']['label']+'** entries are included in the [coverage checklist]('+url('coverage/')+'). Statewide eradication requirements make these reporting priorities even where a plant is not yet widespread. ['+COVERAGE['source_id']+']('+SOURCES[COVERAGE['source_id']]['url']+').\n'
 concern_md+=more+'\n# Appendix for agents\n\nGroup membership is an editorial selection based on the linked profile warnings. It is not an incidence estimate, dose comparison or complete toxic-plant list. The [concerns.json]('+url('concerns.json')+') mapping preserves these choices; claim-level references remain with each plant.\n'

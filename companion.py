@@ -6,19 +6,19 @@ BOT = 'https://box.boodle.ai/a/@ColoradoWeedGuide'
 def tutorial_examples(base, images):
     examples = [
         ('russian-thistle', '1. Russian thistle: recognize a tumbleweed',
-         'A widespread introduced weed that dries into a tumbleweed. We will use it to practice searching, comparing the photographs with the Recognize section, and reading Plants & habitat to learn how it spreads.',
-         'CSU Extension', 'https://extension.colostate.edu/resource/identification-and-management-of-kochia-and-russian-thistle/'),
+         'A widespread introduced weed that dries into a tumbleweed. We will use our Russian thistle page to practice searching, compare the photographs with Recognize, and read Plants & habitat to learn how it spreads.'),
         ('showy-milkweed', '2. Showy milkweed: check pet hazards',
-         'Its pink flowers make an appealing second example. We will open Dogs & cats and follow its ASPCA source: milkweeds are toxic to dogs and cats. The warning covers milkweeds as a group. Flowering beauty and native status do not establish pet safety.',
-         'ASPCA: Milkweed', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/milkweed')]
+         'Its pink flowers make an appealing second example. Our Showy milkweed page has a Dogs & cats section explaining the pet warning and its limits. Milkweeds are toxic to dogs and cats; the warning covers milkweeds as a group. The original ASPCA reference is available on that plant page.')]
     cards, mirror = [], []
-    for pid, title, description, source, source_url in examples:
+    for pid, title, description in examples:
         photo = next(i for i in images if i['plant_id'] == pid)
         thumb = photo.get('thumbnail', photo)
         src, profile = base+'/'+thumb['path'], base+'/plants/'+pid+'/'
-        cards.append(f'<section><h3>{html.escape(title)}</h3><figure><img src="{src}" width="{thumb["width"]}" height="{thumb["height"]}" loading="lazy" alt="{html.escape(photo["alt"])}"><figcaption>Photo: <a href="{html.escape(photo["source_page"])}">{html.escape(photo["creator"])}</a> · <a href="{html.escape(photo["license_url"])}">{html.escape(photo["license"])}</a></figcaption></figure><p>{html.escape(description)} <a href="{source_url}">{html.escape(source)}</a>.</p></section>')
-        mirror.append(f'### {title}\n\n![{photo["alt"]}]({src})\n\nPhoto: [{photo["creator"]}]({photo["source_page"]}); [{photo["license"]}]({photo["license_url"]}).\n\n{description} [{source}]({source_url}).\n')
-    return '<div class="tour-examples">'+''.join(cards)+'</div>', '\n'.join(mirror)
+        cards.append(f'<section><h3>{html.escape(title)}</h3><figure><img src="{src}" width="{thumb["width"]}" height="{thumb["height"]}" loading="lazy" alt="{html.escape(photo["alt"])}"><figcaption>Photo: {html.escape(photo["creator"])} · {html.escape(photo["license"])}</figcaption></figure><p>{html.escape(description)}</p></section>')
+        mirror.append(f'### {title}\n\n![{photo["alt"]}]({src})\n\nPhoto: {photo["creator"]}; {photo["license"]}.\n\n{description}\n')
+    profile_links = f'<p>Read more in our guide: <a href="{base}/plants/russian-thistle/">Russian thistle</a> · <a href="{base}/plants/showy-milkweed/">Showy milkweed</a>. Each plant page includes the evidence, original references and full photo credits.</p>'
+    mirror.append(f'Read more in our guide: [Russian thistle]({base}/plants/russian-thistle/) · [Showy milkweed]({base}/plants/showy-milkweed/). Each plant page includes the evidence, original references and full photo credits.\n')
+    return '<div class="tour-examples">'+''.join(cards)+'</div>'+profile_links, '\n'.join(mirror)
 
 def panel(base, plants, script_url):
     options = ''.join(f'<option value="{html.escape(p["id"])}">{html.escape(p["name"])} — {html.escape(p["scientific"])}</option>' for p, _ in sorted(plants, key=lambda pair: pair[0]['name']))
