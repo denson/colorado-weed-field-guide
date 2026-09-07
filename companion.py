@@ -9,16 +9,19 @@ def panel(base, plants):
 <div class="field-bot"><img src="{base}/assets/colorado-weed-guide-avatar-v1.png" width="80" height="80" alt="Colorado Weed Guide’s decorative thistle and hand-lens emblem"><p><strong><a href="{BOT}" target="_blank" rel="noopener">Colorado Weed Guide ↗</a></strong><br>A conversational companion for the evidence in this field guide.</p></div>
 <div class="field-grid"><form id="field-form">
 <h2>1. What caught your attention?</h2>
-<label for="plant-one">A possible match</label><select id="plant-one"><option value="">I’m not sure yet</option>{options}</select>
+<label for="field-mode">What kind of note?</label><select id="field-mode"><option value="field">My plant observations</option><option value="practice">Tutorial practice — learning the website</option></select>
+<label for="plant-one" id="plant-one-label">A possible match</label><select id="plant-one"><option value="">I’m not sure yet</option>{options}</select>
+<div id="field-details">
 <label for="plant-two">Compare with another plant <span>(optional)</span></label><select id="plant-two"><option value="">No comparison yet</option>{options}</select>
 <label for="field-goal">What would you like help with?</label><select id="field-goal"><option>Compare identifying features</option><option>Understand risks to people or animals</option><option>Understand habitat and ecological effects</option><option>Prepare questions about removal or management</option></select>
 <label for="field-place">General setting <span>(optional; no street address needed)</span></label><input id="field-place" maxlength="180" placeholder="For example: Pueblo County, beside a ditch">
-<label for="field-observations">What can you see?</label><textarea id="field-observations" rows="5" maxlength="900" placeholder="Leaves, stem, flower or fruit, height, season… Describe only what you actually observed."></textarea>
-<p class="metadata">A selected profile is a candidate, not a confirmed identification. Observe without tasting or handling an unfamiliar plant.</p>
+</div>
+<label for="field-observations" id="field-observations-label">What can you see?</label><textarea id="field-observations" rows="5" maxlength="900" placeholder="Leaves, stem, flower or fruit, height, season… Describe only what you actually observed."></textarea>
+<p class="metadata" id="field-mode-help">A selected profile is a candidate, not a confirmed identification. Observe without tasting or handling an unfamiliar plant.</p>
 <button type="submit">Prepare my field note →</button><p id="prepare-status" role="status"></p>
 </form><section id="field-result" hidden aria-labelledby="note-heading">
 <h2 id="note-heading" tabindex="-1">2. Take it to your guide</h2>
-<p>Your observations, selected profiles and reference links are ready below. Review them before sharing. The guide also has a reference book covering all the plants. Nothing has been sent to BoodleBox.</p>
+<p>Your note, selected profiles and reference links are ready below. Review them before sharing. The guide also has a reference book covering all the plants. Nothing has been sent to BoodleBox.</p>
 <div class="field-note-heading"><label for="field-note">Your field note and references</label><button type="button" class="field-copy" id="copy-field-note" title="Copy field note" aria-label="Copy field note"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/></svg></button></div>
 <textarea id="field-note" rows="14" readonly></textarea>
 <div data-fieldwork-share data-note-id="field-note" data-companion="ColoradoWeedGuide" hidden></div>

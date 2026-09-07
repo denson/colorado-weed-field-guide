@@ -271,7 +271,7 @@
   },
   "_project": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T06:30:00Z"
+    "modified": "2026-09-07T06:45:00Z"
   },
   "data/exclusions.json": {
     "created": "2026-09-07T00:44:00Z",
@@ -977,8 +977,8 @@
   },
   "content/pages/companion.md": {
     "created": "2026-09-07T04:51:00Z",
-    "modified": "2026-09-07T06:30:00Z",
-    "sha256": "1874bd2627f981bb987f8387521f5aa0781a6613ece58f133402118f1d35bb1c",
+    "modified": "2026-09-07T06:45:00Z",
+    "sha256": "c703b209cdcf503306887ffd1c7e9e50bf96af1670869868d34d6b0f3d60fd66",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   }
 }

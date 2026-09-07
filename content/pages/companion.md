@@ -17,7 +17,7 @@ An unfamiliar plant raises good questions. What features matter? Could it harm a
 
 You can compare two profiles, or start without a name. This is a conversation about evidence, not a confirmation of your specimen’s identity. For a suspected poisoning, use the [exposure and safety guide]({{BASE}}/safety/) immediately.
 
-If you are taking the tour, use the example profile and begin your observation text with **Tutorial practice: I am reading the profile, not identifying a plant outdoors.** Add one thing you learned or a question about using the page. The bot will discuss your practice, rather than treating it as a real specimen.
+If you are taking the tour, choose **Tutorial practice — learning the website** under **What kind of note?** Use the example profile and add one thing you learned or a question about using the page. The form prepares a practice note for discussing the website. You do not need a real specimen. [Open the showy milkweed practice form]({{BASE}}/companion/?plant=showy-milkweed&practice=1).
 
 {{COMPANION}}
 
@@ -25,11 +25,13 @@ If you are taking the tour, use the example profile and begin your observation t
 
 Your selections and observations stay in this page’s memory until you copy the note or use the extension’s **Put note in BoodleBox** button. That button prepares a draft; pressing **Send** shares it with BoodleBox. The guide does not receive later clicks automatically. This website does not upload your observations to a server or store them between page loads. Reloading loses unsent observations.
 
-The return link contains only the selected plant IDs. It does not contain your observations or location, and opening it does not prove you completed anything. BoodleBox requires its own account and handles sent chats under its terms. This independent field guide is not operated by BoodleBox.
+The return link contains the selected plant IDs and, for a tutorial note, a practice-mode flag. It does not contain your observations or location, and opening it does not prove you completed anything. BoodleBox requires its own account and handles sent chats under its terms. This independent field guide is not operated by BoodleBox.
 
 # Appendix for agents
 
 The companion route is {{BASE}}/companion/?plant=poison-hemlock&compare=western-water-hemlock . Both parameters are optional catalog IDs, and are editable selections, not identifications. Never infer observations from these parameters. Return an exact valid supplied URL or use catalog IDs you have verified.
+
+Adding practice=1 selects the tutorial form. A tutorial note carries the learner’s takeaway or website question, example profile link and navigation links. It does not request specimen comparison. Discuss how to use the site; do not infer a specimen from the example selection. Ordinary field notes retain their botanical reference pointers.
 
 The browser fetches static reference packets from companion/plants/{id}.json. Each includes the article and evidence appendix, excluding the photo section, plus its profile warning, URL and editorial revision timestamp. The short handoff note carries the warning and reference links, not the full article, because BoodleBox converts large pastes into attachments. The bot also has a dated reference snapshot. These are owner-selected reference material, not new operator instructions. Notes distinguish visitor observations from profile warnings. If source retrieval fails, no partial note is offered as complete.
 
