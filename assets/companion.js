@@ -22,7 +22,7 @@
         const response = await fetch(base + '/companion/plants/' + encodeURIComponent(id) + '.json');
         if (!response.ok) throw new Error('reference');
         const packet = await response.json();
-        if (packet.id !== id || typeof packet.text !== 'string') throw new Error('reference');
+        if (packet.id !== id || typeof packet.text !== 'string' || typeof packet.warning !== 'string') throw new Error('reference');
         return packet;
       }));
       if (current !== revision) return;
@@ -37,9 +37,9 @@
         'Selected profiles: ' + (packets.map(p => p.name + ' (' + p.scientific + ')').join('; ') || 'No candidate yet'),
         '\nPlease discuss my question, separate what fits from what remains uncertain, and ask one useful next question. Do not treat a selected profile as identification of my specimen.',
         '\nReturn to my comparison: ' + returnUrl.href,
-        '\nREFERENCE TEXT FROM THE FIELD GUIDE\nArticle and evidence notes; photographs omitted. Editorial revision dates are not expert validation dates.',
-        ...packets.map(p => '\n---\n' + p.url + '\nContent revised: ' + p.revised + '\n\n' + p.text)].join('\n');
-      if (text.length > 31000) throw new Error('length');
+        '\nREFERENCE POINTERS — these are profile warnings, not findings about my specimen. Consult the guide’s reference book or the linked article for detail. Expert review is pending; missing evidence does not mean safe.',
+        ...packets.map(p => '\n' + p.name + ' (' + p.scientific + ')\nProfile warning: ' + p.warning + (p.recognition ? '\nReference identification notes (not my observations): ' + p.recognition : '') + '\n' + p.url + '\nFull text: ' + p.url + 'index.md\nContent revised: ' + p.revised)].join('\n');
+      if (text.length > 3800) throw new Error('length');
       note.value = text;
       document.getElementById('field-return').href = returnUrl.href;
       document.getElementById('copy-status').textContent = '';
