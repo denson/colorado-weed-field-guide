@@ -9,11 +9,15 @@
 
 # Look closer. Talk it through.
 
+**New to the field guide?** [Start the guided tour in BoodleBox](https://box.boodle.ai/a/@ColoradoWeedGuide). The guide will show you the homepage, search, photographs and evidence sections before bringing you here to practice sharing a note. You do not need to choose a plant first.
+
 An unfamiliar plant raises good questions. What features matter? Could it harm an animal? Is it a native volunteer or a plant that needs managing? Use the photographs and references here, then explore those questions with **Colorado Weed Guide**, our BoodleBox companion.
 
 **Choose a possible match, describe what you see, and prepare a field note.** The note includes your observations, the selected profiles’ warnings and links to their evidence. The guide also has a dated reference book covering the plants, so it has something concrete to discuss. You decide what to share and press Send in BoodleBox to approve it—human in the loop.
 
 You can compare two profiles, or start without a name. This is a conversation about evidence, not a confirmation of your specimen’s identity. For a suspected poisoning, use the [exposure and safety guide]({{BASE}}/safety/) immediately.
+
+If you are taking the tour, use the example profile and begin your observation text with **Tutorial practice: I am reading the profile, not identifying a plant outdoors.** Add one thing you learned or a question about using the page. The bot will discuss your practice, rather than treating it as a real specimen.
 
 {{COMPANION}}
 

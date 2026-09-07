@@ -2,7 +2,11 @@
 
 Bot profile: https://box.boodle.ai/a/@ColoradoWeedGuide
 
-Public entry: https://denson.github.io/colorado-weed-field-guide/companion/
+Tutorial starting page: https://denson.github.io/colorado-weed-field-guide/
+
+Later field-note step: https://denson.github.io/colorado-weed-field-guide/companion/
+
+The bot now defaults to a website tour. It opens the homepage before asking for a choice, uses Showy milkweed as an example, introduces search and profile evidence, then teaches the practice-note handoff. No actual specimen or prior plant knowledge is required. A note marked Tutorial practice is discussed as a learning exercise, not as a specimen identification. Returning visitors can skip the tour. `greeting.md` and `description.md` are the separately published communication fields; `instructions.md` controls the conversation.
 
 The site builds static per-plant reference packets from the same Markdown as the human articles. A visitor selects zero, one or two profiles and prepares a short note with observations, profile warnings and source links. Full article/evidence text remains available in the packets, public Markdown mirrors and the bot’s uploaded snapshot. BoodleBox turns large pastes into knowledge attachments, so the automatic draft handoff intentionally stays short. No observation backend, API key, local storage, automatic submission or third-party page script is used. Selecting a profile does not identify a specimen.
 

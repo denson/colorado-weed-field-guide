@@ -1,0 +1,1 @@
+A guided introduction to the Colorado Weed Field Guide. Learn the site one step at a time: search for an example plant, use its photos and evidence sections, prepare a practice note, and discuss it in BoodleBox. No plant knowledge or real specimen needed. After the tour, keep exploring garden weeds and wild plants with the guide.
