@@ -16,8 +16,8 @@ def tutorial_examples(base, images):
         photo = next(i for i in images if i['plant_id'] == pid)
         thumb = photo.get('thumbnail', photo)
         src, profile = base+'/'+thumb['path'], base+'/plants/'+pid+'/'
-        cards.append(f'<section><h3>{html.escape(title)}</h3><figure><a href="{profile}"><img src="{src}" width="{thumb["width"]}" height="{thumb["height"]}" loading="lazy" alt="{html.escape(photo["alt"])}"></a><figcaption>Photo: <a href="{html.escape(photo["source_page"])}">{html.escape(photo["creator"])}</a> · <a href="{html.escape(photo["license_url"])}">{html.escape(photo["license"])}</a></figcaption></figure><p>{html.escape(description)} <a href="{source_url}">{html.escape(source)}</a>.</p><p><a href="{profile}">Open this example’s plant page →</a></p></section>')
-        mirror.append(f'### {title}\n\n![{photo["alt"]}]({src})\n\nPhoto: [{photo["creator"]}]({photo["source_page"]}); [{photo["license"]}]({photo["license_url"]}).\n\n{description} [{source}]({source_url}).\n\n[Open this example’s plant page]({profile}).\n')
+        cards.append(f'<section><h3>{html.escape(title)}</h3><figure><img src="{src}" width="{thumb["width"]}" height="{thumb["height"]}" loading="lazy" alt="{html.escape(photo["alt"])}"><figcaption>Photo: <a href="{html.escape(photo["source_page"])}">{html.escape(photo["creator"])}</a> · <a href="{html.escape(photo["license_url"])}">{html.escape(photo["license"])}</a></figcaption></figure><p>{html.escape(description)} <a href="{source_url}">{html.escape(source)}</a>.</p></section>')
+        mirror.append(f'### {title}\n\n![{photo["alt"]}]({src})\n\nPhoto: [{photo["creator"]}]({photo["source_page"]}); [{photo["license"]}]({photo["license_url"]}).\n\n{description} [{source}]({source_url}).\n')
     return '<div class="tour-examples">'+''.join(cards)+'</div>', '\n'.join(mirror)
 
 def panel(base, plants, script_url):
