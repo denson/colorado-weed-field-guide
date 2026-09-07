@@ -59,7 +59,8 @@
       "note": "Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources.",
       "id": "dames-rocket-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

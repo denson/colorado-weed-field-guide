@@ -60,7 +60,8 @@
       "note": "The reviewed control source does not establish species-specific livestock chemical toxicity.",
       "id": "musk-thistle-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

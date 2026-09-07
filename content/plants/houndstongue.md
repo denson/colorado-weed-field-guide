@@ -58,7 +58,8 @@
       "note": "",
       "id": "houndstongue-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

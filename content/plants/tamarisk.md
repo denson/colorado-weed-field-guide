@@ -59,7 +59,8 @@
       "note": "This review does not establish unrestricted livestock feeding safety.",
       "id": "tamarisk-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

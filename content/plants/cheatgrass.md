@@ -70,7 +70,8 @@
       "reviewed": "2026-09-06",
       "id": "cheatgrass-5"
     }
-  ]
+  ],
+  "noxious_class": "C"
 }
 ---
 

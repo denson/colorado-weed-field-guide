@@ -18,5 +18,77 @@
   {
     "url": "https://gardentheplains.extension.colostate.edu/prep-the-site/native-adapted-perennials-and-biennial-flowers/",
     "reason": "Direct retrieval redirected to a general CSU landing page. Not used as evidence."
+  },
+  {
+    "url": "https://plants.ces.ncsu.edu/plants/jacobaea-vulgaris/",
+    "reason": "Retrieved body describes common groundsel, not tansy ragwort. Not used.",
+    "accessed": "2026-09-07T01:04:53+00:00",
+    "response_sha256": "85619e834836a8eb8558b46aeb2210eddcdf97fc019a4fcdd3ef30b548c6eb6e"
+  },
+  {
+    "url": "https://plants.ces.ncsu.edu/plants/anthemis-cotula/",
+    "reason": "Retrieved body describes false daisy, not mayweed chamomile. Not used.",
+    "accessed": "2026-09-07T01:04:54+00:00",
+    "response_sha256": "bb2468231b52395dfb87ab95ade310987c8874bb21c7d66a39983b34424b9496"
+  },
+  {
+    "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/chamomile",
+    "reason": "Scientific name Anthemis nobilis is Roman chamomile, not Anthemis cotula. Not used as mayweed evidence.",
+    "accessed": "2026-09-07T01:16:20+00:00",
+    "response_sha256": "38b7ba87406a9fc031b0650f513856513f0b3cf8210b3314e6f886e2ebcdaa6e"
+  },
+  {
+    "url": "https://extension.usu.edu/rangeplants/grasses-and-grasslikes/bulbous-bluegrass",
+    "reason": "Only the Poa bulbosa scientific-name field and matching grass body are used. Unrelated mountain-mahogany heading is excluded.",
+    "accessed": "2026-09-07T01:16:17+00:00",
+    "response_sha256": "3596299bb612d546806c23ccb7145ddafb4eb96ed056c1b622d2f736299a1db5"
+  },
+  {
+    "url": "https://routt.extension.colostate.edu/wp-content/uploads/sites/4/2021/06/RC_Weed_Guide_2021.pdf",
+    "reason": "Identity and hazard descriptions only. Older home-treatment instructions, inducing vomiting, antidote administration and pesticide rates are not republished. Cocklebur name typo is not adopted.",
+    "accessed": "2026-09-07T01:14:14+00:00",
+    "response_sha256": "48aca3d735bdf26f60355bba330751c36cefe2697028e87f5a01e9abe489e285"
+  },
+  {
+    "url": "https://extension.usu.edu/rangeplants/forbs-herbaceous/water-hemlock",
+    "reason": "Morphology and animal hazard used; incorrect alkaloid classification of cicutoxin is excluded.",
+    "accessed": "2026-09-07T01:14:00+00:00",
+    "response_sha256": "87407171ffb1ab2470a5d63c1b7ff7a67215b218cef4c107218f9c49bf65cc77"
+  },
+  {
+    "url": "https://cnhp.colostate.edu/wp-content/uploads/download/documents/cwic_docs/WesternSlope.pdf",
+    "reason": "Older taxonomic treatments are disclosed; an incorrect water-hemlock chemical classification is not adopted.",
+    "accessed": "2026-09-07T01:14:13+00:00",
+    "response_sha256": "56cc4b2c59927dc5d4d35b34c1a0034d10c347b9caa18732f7859b8e01f381f1"
+  },
+  {
+    "url": "https://fremontcountyco.gov/sites/default/files/weed-control/weed-files/elongated-mustard-fact-sheet.pdf",
+    "reason": "Inconsistent sepal-count caption is excluded; diagnostic text used with caveat.",
+    "accessed": "2026-09-07T01:14:00+00:00",
+    "response_sha256": "53cc6099e6054a90e60a72a7bbde55b0999ea69723ae58fdf075d7c6660ef45e"
+  },
+  {
+    "url": "https://extension.usu.edu/rangeplants/forbs-herbaceous/meadow-deathcamas",
+    "reason": "HTTP response was a soft-404 Page Not Found. Not used.",
+    "accessed": "2026-09-07T01:21:12+00:00",
+    "response_sha256": "6aa8f5a30eafc1d24f2f6e2ec10ca51a86d1cc74f9f933c8469155d44de5d89a"
+  },
+  {
+    "url": "https://extension.usu.edu/rangeplants/forbs-herbaceous/low-larkspur",
+    "reason": "HTTP response was a soft-404 Page Not Found. Not used.",
+    "accessed": "2026-09-07T01:21:12+00:00",
+    "response_sha256": "6aa8f5a30eafc1d24f2f6e2ec10ca51a86d1cc74f9f933c8469155d44de5d89a"
+  },
+  {
+    "url": "https://extension.usu.edu/rangeplants/forbs-herbaceous/tall-larkspur",
+    "reason": "Body identifies Delphinium occidentale, not D. barbeyi. Not used as exact-species evidence.",
+    "accessed": "2026-09-07T01:21:12+00:00",
+    "response_sha256": "f46a949e074d6ca82b37d418f56cceb5e595082407852fe542c7fdc13642600d"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3352454/",
+    "reason": "Downloaded response was a browser-check challenge, not the paper. No verified-paper claim is made for these bytes.",
+    "accessed": "2026-09-07T01:21:11+00:00",
+    "response_sha256": "df680b8f2e63ae45146b6ed7737bb23efd196677d1618de226073da7aef161b0"
   }
 ]

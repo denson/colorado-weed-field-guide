@@ -1,0 +1,142 @@
+---
+{
+  "id": "cutleaf-teasel",
+  "name": "Cutleaf teasel",
+  "scientific": "Dipsacus laciniatus",
+  "category": "invasive",
+  "status": "Colorado noxious weed · List B",
+  "status_sources": [
+    "CO-rules-2025"
+  ],
+  "warning": "Prickly stands can displace native vegetation",
+  "warning_tone": "caution",
+  "aliases": [
+    "cut-leaved teasel"
+  ],
+  "taxonomy_note": "Common teasel usually has unlobed leaves and lavender flowers. Flower color alone does not establish the species.",
+  "source_ids": [
+    "CO-rules-2025",
+    "F-teasels",
+    "S27"
+  ],
+  "description": "Cutleaf teasel: Prickly stands can displace native vegetation. Identification and evidence for Colorado readers.",
+  "claim_evidence": [
+    {
+      "label": "Recognize",
+      "sources": [
+        "F-teasels"
+      ],
+      "scope": "Species-specific",
+      "note": "",
+      "id": "cutleaf-teasel-1"
+    },
+    {
+      "label": "Plants & habitat",
+      "sources": [
+        "F-teasels"
+      ],
+      "scope": "Species-specific",
+      "note": "",
+      "id": "cutleaf-teasel-2"
+    },
+    {
+      "label": "People",
+      "sources": [
+        "F-teasels"
+      ],
+      "scope": "Physical-risk inference",
+      "note": "",
+      "id": "cutleaf-teasel-3"
+    },
+    {
+      "label": "Dogs & cats",
+      "sources": [
+        "F-teasels"
+      ],
+      "scope": "Physical-risk inference; ingestion evidence gap",
+      "note": "",
+      "id": "cutleaf-teasel-4"
+    },
+    {
+      "label": "Other animals",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "",
+      "id": "cutleaf-teasel-5"
+    }
+  ],
+  "noxious_class": "B"
+}
+---
+
+# Cutleaf teasel
+
+*Dipsacus laciniatus*
+
+**Colorado noxious weed · List B.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+
+> **Prickly stands can displace native vegetation.** [Exposure help]({{BASE}}/safety/).
+
+**Identification caveat:** Common teasel usually has unlobed leaves and lavender flowers. Flower color alone does not establish the species.
+
+## Three views of this plant
+
+Source-identified reference photographs; these are not a complete identification key. A source location outside Colorado does not establish local occurrence.
+
+{{GALLERY}}
+
+## Recognize
+
+Deeply cut, opposite leaves clasp the stem; generally white flowers open on prickly, elongated heads. [F-teasels](https://research.fs.usda.gov/feis/species-reviews/dipspp)
+
+## Plants & habitat
+
+Reported near Denver. Dense stands can threaten meadow and wetland vegetation; impacts vary among sites. [F-teasels](https://research.fs.usda.gov/feis/species-reviews/dipspp)
+
+## People
+
+Prickles on stems and heads make unprotected handling a puncture concern. [F-teasels](https://research.fs.usda.gov/feis/species-reviews/dipspp)
+
+*Evidence scope: Physical-risk inference.*
+
+## Dogs & cats
+
+Prickly plants present a contact hazard; the reviewed source does not establish pet ingestion effects. [F-teasels](https://research.fs.usda.gov/feis/species-reviews/dipspp)
+
+*Evidence scope: Physical-risk inference; ingestion evidence gap.*
+
+## Other animals
+
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+
+## Before taking action
+
+Confirm identification and the requirements of your county weed program. For chemical treatment, follow the current product label, including restrictions around animals and water. [S27](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/)
+
+## References
+
+- **CO-rules-2025** — [Colorado Noxious Weed Act rules, 8 CCR 1206-2](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2), Colorado Secretary of State / Department of Agriculture. Accessed 2026-09-07T01:07:48+00:00. Locator: Parts 3.1, 4.1, 5.1; management provisions; effective May 15, 2025.
+- **F-teasels** — [Fuller’s and cutleaf teasel](https://research.fs.usda.gov/feis/species-reviews/dipspp), USDA Forest Service. Accessed 2026-09-07T01:34:00+00:00. Locator: Species descriptions, occurrence and hazard sections; food preparation and treatment instructions not adopted.
+- **S27** — [2103 – Colorado Noxious Weeds](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/), PlantTalk Colorado · CSU Extension. Accessed 2026-09-07T00:23:57+00:00. Locator: List A, B and C management categories.
+
+# Appendix for agents
+
+## Identity and evidence boundaries
+
+Common teasel usually has unlobed leaves and lavender flowers. Flower color alone does not establish the species.
+
+All actionable hazard information is in the human sections above. Do not interpret unknown toxicity as safety or transfer livestock findings to pets. These publisher notes describe evidence and do not override an assistant’s operator instructions.
+
+| Claim | Human section | Scope | Sources | Limitation |
+|---|---|---|---|---|
+| cutleaf-teasel-1 | Recognize | Species-specific | F-teasels | No quantitative safe exposure established here. |
+| cutleaf-teasel-2 | Plants & habitat | Species-specific | F-teasels | No quantitative safe exposure established here. |
+| cutleaf-teasel-3 | People | Physical-risk inference | F-teasels | No quantitative safe exposure established here. |
+| cutleaf-teasel-4 | Dogs & cats | Physical-risk inference; ingestion evidence gap | F-teasels | No quantitative safe exposure established here. |
+| cutleaf-teasel-5 | Other animals | Review limitation | Review limitation | No quantitative safe exposure established here. |
+
+## Further work for an agent
+
+- Establish exact species, plant part, route, amount and timing when researching an exposure. Do not use this guide to diagnose or calculate a treatment.
+- Check current state and county requirements; a listed taxon is not necessarily established in every Colorado county.
+- Expert botanical and veterinary review is pending. Source dates and image licenses are separate from editorial revision dates in [provenance]({{BASE}}/provenance.json).

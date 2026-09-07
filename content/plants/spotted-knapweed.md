@@ -59,7 +59,8 @@
       "note": "Do not transfer Russian-knapweed horse toxicity to spotted knapweed without species-specific evidence.",
       "id": "spotted-knapweed-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

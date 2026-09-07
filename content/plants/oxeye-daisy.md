@@ -65,7 +65,8 @@
       "note": "",
       "id": "oxeye-daisy-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

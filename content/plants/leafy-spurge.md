@@ -63,7 +63,8 @@
       "note": "",
       "id": "leafy-spurge-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

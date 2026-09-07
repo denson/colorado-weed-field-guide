@@ -71,7 +71,8 @@
       "reviewed": "2026-09-06",
       "id": "poison-hemlock-5"
     }
-  ]
+  ],
+  "noxious_class": "C"
 }
 ---
 

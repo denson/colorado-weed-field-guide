@@ -63,7 +63,8 @@
       "note": "",
       "id": "field-bindweed-5"
     }
-  ]
+  ],
+  "noxious_class": "C"
 }
 ---
 

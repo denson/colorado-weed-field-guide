@@ -13,9 +13,11 @@
 
 # About this guide
 
-This independent guide covers **40 selected plants** relevant to Colorado yards, gardens, paths and disturbed land. It separates native volunteers, xeriscape spreaders and introduced invasive weeds, while giving each plant dedicated sections for people, dogs and cats, other animals, and surrounding vegetation.
+This independent guide covers **119 plant profiles** relevant to Colorado yards, gardens, paths and disturbed land. It separates native volunteers, xeriscape spreaders and invasive and common weeds, while giving each plant dedicated sections for people, dogs and cats, other animals, and surrounding vegetation.
 
 “Weed” describes a plant growing where someone does not want it. It does not erase that plant’s ecological value. Colorado native communities also differ across elevation, exposure and climate. A garden choice for one site may not fit another. [CSU Extension: Native Plants](https://extension.colostate.edu/resource/native-plants/).
+
+The [coverage checklist]({{BASE}}/coverage/) maps all **82 entries** in Colorado’s reviewed A, B and C lists to illustrated profiles. Additional profiles cover common weeds, native hazards and xeriscape spreaders. [Biggest concerns]({{BASE}}/biggest-concerns/) offers a practical starting point. Coverage of a listing includes documented taxonomic limits; it is not a claim that every subspecies or hybrid has been independently confirmed.
 
 ## How the evidence is handled
 
@@ -41,7 +43,7 @@ Photo licenses apply individually and are linked with each image. Third-party pu
 
 ## Editorial record
 
-The first prototype contained 10 plants. This revision expands to 40, adds three photographs per taxon, and replaces the hosted application with a portable static build. Profile prose is maintained in Markdown. Provenance records retain the earlier evidence used and document exclusions for common-name mismatches.
+The first prototype contained 10 plants. The first portable edition expanded to 40 profiles with three photographs each and replaced the hosted application with a portable static build. The current expansion has 119 profiles and 357 photographs, with every entry in the reviewed A/B/C lists mapped and additional common weeds and native hazards. Profile prose is maintained in Markdown. Provenance records retain the earlier evidence used and document exclusions for common-name mismatches.
 
 Authorship is AI-assisted, for the project owner. Source organizations and photographers are not represented as endorsing this guide. Content revision dates are generated from recorded source revisions and source-file hashes; they are not dates of scientific validation or promises of monitoring.
 

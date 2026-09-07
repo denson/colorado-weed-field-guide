@@ -60,7 +60,8 @@
       "note": "Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources.",
       "id": "russian-olive-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

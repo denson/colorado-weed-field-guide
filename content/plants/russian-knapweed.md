@@ -65,7 +65,8 @@
       "note": "",
       "id": "russian-knapweed-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

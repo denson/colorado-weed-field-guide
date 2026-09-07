@@ -16,6 +16,8 @@ Use the Markdown profile when you need the full article plus detailed evidence n
 - Short entry: [{{BASE}}/start.md]({{BASE}}/start.md)
 - Page index: [{{BASE}}/llms.txt]({{BASE}}/llms.txt)
 - Full corpus: [{{BASE}}/llms-full.txt]({{BASE}}/llms-full.txt)
+- Official-list coverage: [{{BASE}}/coverage.json]({{BASE}}/coverage.json)
+- Biggest-concern routes: [{{BASE}}/concerns.json]({{BASE}}/concerns.json)
 - Structured catalog: [{{BASE}}/catalog.json]({{BASE}}/catalog.json)
 - Claim and photo provenance: [{{BASE}}/provenance.json]({{BASE}}/provenance.json)
 - Site map: [{{BASE}}/sitemap.xml]({{BASE}}/sitemap.xml)

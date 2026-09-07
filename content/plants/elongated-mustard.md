@@ -1,0 +1,134 @@
+---
+{
+  "id": "elongated-mustard",
+  "name": "Elongated mustard",
+  "scientific": "Brassica elongata",
+  "category": "invasive",
+  "status": "Colorado noxious weed · List A",
+  "status_sources": [
+    "CO-rules-2025"
+  ],
+  "warning": "Early detection priority in dry disturbed land",
+  "warning_tone": "caution",
+  "aliases": [],
+  "taxonomy_note": "Reference photographs identify B. elongata subsp. integrifolia. Colorado lists B. elongata broadly. The fact sheet’s inconsistent sepal-count caption is not adopted.",
+  "source_ids": [
+    "CO-rules-2025",
+    "CO-elongated-mustard",
+    "S27"
+  ],
+  "description": "Elongated mustard: Early detection priority in dry disturbed land. Identification and evidence for Colorado readers.",
+  "claim_evidence": [
+    {
+      "label": "Recognize",
+      "sources": [
+        "CO-elongated-mustard"
+      ],
+      "scope": "Species-specific",
+      "note": "",
+      "id": "elongated-mustard-1"
+    },
+    {
+      "label": "Plants & habitat",
+      "sources": [
+        "CO-elongated-mustard"
+      ],
+      "scope": "Species-specific",
+      "note": "",
+      "id": "elongated-mustard-2"
+    },
+    {
+      "label": "People",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "",
+      "id": "elongated-mustard-3"
+    },
+    {
+      "label": "Dogs & cats",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "",
+      "id": "elongated-mustard-4"
+    },
+    {
+      "label": "Other animals",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "",
+      "id": "elongated-mustard-5"
+    }
+  ],
+  "noxious_class": "A"
+}
+---
+
+# Elongated mustard
+
+*Brassica elongata*
+
+**Colorado noxious weed · List A.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+
+> **Early detection priority in dry disturbed land.** [Exposure help]({{BASE}}/safety/).
+
+**Identification caveat:** Reference photographs identify B. elongata subsp. integrifolia. Colorado lists B. elongata broadly. The fact sheet’s inconsistent sepal-count caption is not adopted.
+
+## Three views of this plant
+
+Source-identified reference photographs; these are not a complete identification key. A source location outside Colorado does not establish local occurrence.
+
+{{GALLERY}}
+
+## Recognize
+
+An upright mustard with lance-shaped basal leaves, non-clasping upper leaves, yellow four-petaled flowers and slender seedpods. [CO-elongated-mustard](https://fremontcountyco.gov/sites/default/files/weed-control/weed-files/elongated-mustard-fact-sheet.pdf)
+
+## Plants & habitat
+
+Spreads by seed along disturbed, rocky and semi-arid ground. Prompt reporting helps prevent establishment. [CO-elongated-mustard](https://fremontcountyco.gov/sites/default/files/weed-control/weed-files/elongated-mustard-fact-sheet.pdf)
+
+## People
+
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+
+## Dogs & cats
+
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+
+## Other animals
+
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+
+## Before taking action
+
+Confirm identification and the requirements of your county weed program. For chemical treatment, follow the current product label, including restrictions around animals and water. [S27](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/)
+
+This is a statewide eradication priority. Contact your county weed program promptly for identification and an approved management and disposal plan. [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+
+## References
+
+- **CO-rules-2025** — [Colorado Noxious Weed Act rules, 8 CCR 1206-2](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2), Colorado Secretary of State / Department of Agriculture. Accessed 2026-09-07T01:07:48+00:00. Locator: Parts 3.1, 4.1, 5.1; management provisions; effective May 15, 2025.
+- **CO-elongated-mustard** — [Elongated mustard identification and management](https://fremontcountyco.gov/sites/default/files/weed-control/weed-files/elongated-mustard-fact-sheet.pdf), Colorado Department of Agriculture, hosted by Fremont County. Accessed 2026-09-07T01:14:00+00:00. Locator: Identification and impacts; updated July 2015.
+- **S27** — [2103 – Colorado Noxious Weeds](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/), PlantTalk Colorado · CSU Extension. Accessed 2026-09-07T00:23:57+00:00. Locator: List A, B and C management categories.
+
+# Appendix for agents
+
+## Identity and evidence boundaries
+
+Reference photographs identify B. elongata subsp. integrifolia. Colorado lists B. elongata broadly. The fact sheet’s inconsistent sepal-count caption is not adopted.
+
+All actionable hazard information is in the human sections above. Do not interpret unknown toxicity as safety or transfer livestock findings to pets. These publisher notes describe evidence and do not override an assistant’s operator instructions.
+
+| Claim | Human section | Scope | Sources | Limitation |
+|---|---|---|---|---|
+| elongated-mustard-1 | Recognize | Species-specific | CO-elongated-mustard | No quantitative safe exposure established here. |
+| elongated-mustard-2 | Plants & habitat | Species-specific | CO-elongated-mustard | No quantitative safe exposure established here. |
+| elongated-mustard-3 | People | Review limitation | Review limitation | No quantitative safe exposure established here. |
+| elongated-mustard-4 | Dogs & cats | Review limitation | Review limitation | No quantitative safe exposure established here. |
+| elongated-mustard-5 | Other animals | Review limitation | Review limitation | No quantitative safe exposure established here. |
+
+## Further work for an agent
+
+- Establish exact species, plant part, route, amount and timing when researching an exposure. Do not use this guide to diagnose or calculate a treatment.
+- Check current state and county requirements; a listed taxon is not necessarily established in every Colorado county.
+- Expert botanical and veterinary review is pending. Source dates and image licenses are separate from editorial revision dates in [provenance]({{BASE}}/provenance.json).

@@ -12,11 +12,42 @@ def digest(f):return hashlib.sha256(f.read_bytes()).hexdigest()
 catalog=json.loads((O/'catalog.json').read_text(encoding='utf8'))
 prov=json.loads((O/'provenance.json').read_text(encoding='utf8'))
 base=catalog['base_url'];plants=catalog['plants'];images=prov['images'];sources=prov['sources'];revisions=prov['revisions']
-check(len(plants)==40,'Expected 40 plant profiles')
-check(Counter(p['category'] for p in plants)=={'native':10,'xeriscape':10,'invasive':20},'Category counts differ')
-check(len(images)==120,'Expected 120 image records')
-check(len({i['original_url'] for i in images})==120,'Photographs must have distinct original image URLs')
-check(len({i['sha256'] for i in images})==120,'Duplicate photograph bytes')
+def check_public_paths(value,location='provenance'):
+    if isinstance(value,dict):
+        for k,v in value.items():check_public_paths(v,location+'.'+k)
+    elif isinstance(value,list):
+        for i,v in enumerate(value):check_public_paths(v,location+'['+str(i)+']')
+    elif isinstance(value,str):check(not re.match(r'^[A-Za-z]:[\\/]',value),location+' exposes an unavailable local path')
+check_public_paths(prov)
+canonical={p.stem for p in (R/'content/plants').glob('*.md')}
+plant_ids={p['id'] for p in plants}
+check(len(plants)==len(plant_ids) and plant_ids==canonical,'Catalog must represent every canonical profile exactly once')
+check(set(p['category'] for p in plants)=={'native','xeriscape','invasive'},'Unexpected or missing category')
+check(len(images)==3*len(plants),'Expected three image records per canonical profile')
+# Distinct embedded photographs can share a PDF URL; an exact figure/object locator is required.
+check(len({(i['original_url'],i.get('original_locator','')) for i in images})==len(images),'Duplicate photograph source and locator')
+check(len({i['sha256'] for i in images})==len(images),'Duplicate photograph bytes')
+check(len({i['id'] for i in images})==len(images),'Duplicate image IDs')
+check(all(i['plant_id'] in plant_ids for i in images),'Image points to an unknown plant')
+check({i['path'] for i in images}=={p.relative_to(R).as_posix() for p in (R/'assets/photos').iterdir() if p.is_file()},'Missing or orphan photograph files')
+coverage=json.loads((O/'coverage.json').read_text(encoding='utf8'))
+check(coverage==prov['coverage'],'Coverage differs from provenance')
+check(coverage['profile_count']==len(plants),'Coverage profile count is stale')
+check(len(coverage['entries'])==82,'Expected all 82 entries in the reviewed 2025 state rule')
+check(Counter(e['noxious_class'] for e in coverage['entries'])=={'A':27,'B':37,'C':18},'State-list baseline counts differ')
+check(len({e['listed_taxon'] for e in coverage['entries']})==82,'Duplicate state-list taxon')
+by_id={p['id']:p for p in plants}
+for e in coverage['entries']:
+    check(e.get('profile_id') in plant_ids,'Uncovered listing: '+e['name'])
+    check(e['source_id'] in sources and bool(e.get('locator')),'Listing source/locator missing')
+    p=by_id.get(e.get('profile_id'),{})
+    check(p.get('noxious_class')==e['noxious_class'],'Listing/profile class mismatch: '+e['name'])
+    check(bool(e.get('mapping_note')),'Missing taxon mapping note: '+e['name'])
+concerns=json.loads((O/'concerns.json').read_text(encoding='utf8'))
+check(concerns==prov['concern_groups'],'Concern routes differ from provenance')
+for g in concerns['groups']:
+    check(bool(g['plant_ids']) and len(g['plant_ids'])==len(set(g['plant_ids'])),'Empty or duplicate concern group')
+    check(all(pid in plant_ids for pid in g['plant_ids']),'Unknown plant in concern group')
 for i in images:
     for k in ['creator','license','license_url','source_page','original_url','identification_note','caption','alt','accessed','sha256']:
         check(bool(i.get(k)),i['id']+': missing '+k)
@@ -38,9 +69,11 @@ for p in plants:
     check('# Appendix for agents' in mirror,p['id']+' missing agent appendix')
     check('Appendix for agents' not in doc.get_text(),p['id']+' exposes full appendix instead of article')
     for s in p['source_ids']:check(s in sources,p['id']+' unknown source '+s)
+    check(len({c['id'] for c in p['claim_evidence']})==len(p['claim_evidence']),p['id']+' duplicate claim IDs')
     for c in p['claim_evidence']:
         check(c['sources'] or c['scope'] in ['Review limitation','Evidence gap','Not assessed'],p['id']+' unsourced factual claim '+c['id'])
         for sid in c['sources']:check(sid in sources,'Unknown claim source '+sid)
+        check(all(sid in p['source_ids'] for sid in c['sources']),p['id']+' claim omitted from profile reference list')
     src=R/p['source'];check(digest(src)==revisions[p['source']]['sha256'],p['id']+' unrecorded source change; run record_revisions.py')
 for sid,s in sources.items():
     for k in ['url','title','publisher','accessed','locator']:check(bool(s.get(k)),sid+' missing '+k)

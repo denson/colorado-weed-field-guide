@@ -1,6 +1,8 @@
 # Colorado Weed Field Guide
 
-40 plant profiles, three source-identified photographs each, and separately sourced hazards for people, pets, other animals and surrounding vegetation. Native volunteers, xeriscape spreaders and invasive weeds have their own sections.
+119 plant profiles, three source-identified photographs each, and separately sourced hazards for people, pets, other animals and surrounding vegetation. Native volunteers, xeriscape spreaders and invasive and common weeds have their own sections.
+
+The coverage checklist maps all 82 entries in the reviewed Colorado A/B/C lists to illustrated profiles, including explicit synonym and taxon-scope limits. The catalog has 357 photographs. This is a regulatory baseline plus additional common weeds and native hazards, not the entire Colorado flora.
 
 The site follows the published [Stoagen pattern](https://stoagen.com/pattern/index.md): static HTML articles with complete Markdown mirrors, extra evidence notes for agents, text fallbacks, and visible discovery links. No application server, JavaScript execution, authentication or OpenAI hosting is needed to read the content.
 
@@ -31,6 +33,8 @@ For another static host, pass its full HTTPS base URL to `build.py --base-url`. 
 
 - `content/plants/*.md`: canonical plant articles, metadata and agent appendices.
 - `content/pages/*.md`: safety, about, and agent documentation.
+- `data/coverage.json`: complete state-list baseline, profile mappings and open gaps.
+- `data/concerns.json`: editorial routes to high-impact hazards, backed by profile evidence.
 - `data/sources.json`: source URLs, locators, dates and retrieval hashes.
 - `data/images.json`: image identification, creator, license, source URLs and actual-file hashes.
 - `data/exclusions.json`: sources deliberately excluded or limited because of mismatches.

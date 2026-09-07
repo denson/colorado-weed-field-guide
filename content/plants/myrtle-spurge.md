@@ -76,7 +76,8 @@
       "reviewed": "2026-09-06",
       "id": "myrtle-spurge-5"
     }
-  ]
+  ],
+  "noxious_class": "A"
 }
 ---
 

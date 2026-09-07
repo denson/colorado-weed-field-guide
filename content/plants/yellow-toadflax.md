@@ -58,7 +58,8 @@
       "note": "",
       "id": "yellow-toadflax-5"
     }
-  ]
+  ],
+  "noxious_class": "B"
 }
 ---
 

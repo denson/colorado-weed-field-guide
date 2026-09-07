@@ -72,7 +72,8 @@
       "reviewed": "2026-09-06",
       "id": "puncturevine-5"
     }
-  ]
+  ],
+  "noxious_class": "C"
 }
 ---
 
