@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/sunflower",
+    "reason": "Names Helianthus angustifolius, not H. annuus. Excluded from common sunflower safety evidence."
+  },
+  {
+    "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/daisy",
+    "reason": "Scientific name is Chrysanthemum species; not accepted as direct Leucanthemum vulgare evidence. NC State exact-species source used instead."
+  },
+  {
+    "url": "https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/yarrow",
+    "reason": "Names Achillea millefolium; not accepted as direct A. filipendulina toxicity evidence."
+  },
+  {
+    "url": "https://plants.ces.ncsu.edu/plants/nepeta-x-faassenii/",
+    "reason": "Sterile hybrid catmint is not Nepeta cataria; catnip toxicity cannot be transferred without support. The catmint source is retained for morphology and culture."
+  },
+  {
+    "url": "https://gardentheplains.extension.colostate.edu/prep-the-site/native-adapted-perennials-and-biennial-flowers/",
+    "reason": "Direct retrieval redirected to a general CSU landing page. Not used as evidence."
+  }
+]

@@ -1,0 +1,133 @@
+---
+{
+  "id": "tamarisk",
+  "name": "Tamarisk",
+  "scientific": "Tamarix ramosissima",
+  "category": "invasive",
+  "status": "Colorado noxious weed · List B",
+  "status_sources": [
+    "J-saltcedar---tamarisk"
+  ],
+  "warning": "Alters riparian vegetation",
+  "warning_tone": "caution",
+  "aliases": [
+    "saltcedar",
+    "Tamarix chinensis"
+  ],
+  "taxonomy_note": "The county covers T. chinensis and T. ramosissima together. Photos and broad saltcedar descriptions cannot reliably resolve every hybrid or species. No universal water-saving amount is inferred from removal.",
+  "source_ids": [
+    "J-saltcedar---tamarisk"
+  ],
+  "description": "Tamarisk: Alters riparian vegetation. Colorado identification, habitat and exposure evidence.",
+  "claim_evidence": [
+    {
+      "label": "Recognize",
+      "sources": [
+        "J-saltcedar---tamarisk"
+      ],
+      "scope": "Species-specific",
+      "note": "",
+      "id": "tamarisk-1"
+    },
+    {
+      "label": "Plants & habitat",
+      "sources": [
+        "J-saltcedar---tamarisk"
+      ],
+      "scope": "Species-group ecology; editorial management advice",
+      "note": "",
+      "id": "tamarisk-2"
+    },
+    {
+      "label": "People",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "Human chemical-toxicity effects were not established in this review.",
+      "id": "tamarisk-3"
+    },
+    {
+      "label": "Dogs & cats",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources.",
+      "id": "tamarisk-4"
+    },
+    {
+      "label": "Other animals",
+      "sources": [],
+      "scope": "Review limitation",
+      "note": "This review does not establish unrestricted livestock feeding safety.",
+      "id": "tamarisk-5"
+    }
+  ]
+}
+---
+
+# Tamarisk
+
+*Tamarix ramosissima*
+
+**Colorado noxious weed · List B.** [J-saltcedar---tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk)
+
+> **Alters riparian vegetation.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+**Identification caveat:** The county covers T. chinensis and T. ramosissima together. Photos and broad saltcedar descriptions cannot reliably resolve every hybrid or species. No universal water-saving amount is inferred from removal.
+
+## Three views of this plant
+
+Photos are source-identified examples, not a complete identification key. Check leaves, stems, flowers and fruit together. Locations are not assumed to be in Colorado.
+
+{{GALLERY}}
+
+## Recognize
+
+A deciduous shrub or small tree with fine, scale-like leaves and narrow clusters of tiny pink to white flowers. [J-saltcedar---tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk)
+
+## Plants & habitat
+
+Introduced riparian plants that accumulate salt in foliage and can regrow from cut stems or roots. Restoration needs site-specific planning and follow-up. [J-saltcedar---tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk)
+
+*Evidence scope: Species-group ecology; editorial management advice.*
+
+## People
+
+Human chemical-toxicity effects were not established in this review. This is an evidence gap, not proof of safety.
+
+## Dogs & cats
+
+Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources. This is an evidence gap, not proof of safety.
+
+## Other animals
+
+This review does not establish unrestricted livestock feeding safety. This is an evidence gap, not proof of safety.
+
+## Before taking action
+
+Confirm the scientific name before removing a plant, changing animal access, or choosing treatment. An evidence gap means this review has not resolved the question. It does not mean safe. For listed weeds, consult your county weed program about the requirements for your location; follow the current label for any pesticide. [S27](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/)
+
+## References
+
+- **J-saltcedar---tamarisk** — [Saltcedar - Tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk), Jefferson County, Colorado. Accessed 2026-09-07T00:27:25+00:00. Locator: Description, impacts, Colorado list designation, management.
+
+# Appendix for agents
+
+## Taxon and evidence boundaries
+
+The county covers T. chinensis and T. ramosissima together. Photos and broad saltcedar descriptions cannot reliably resolve every hybrid or species. No universal water-saving amount is inferred from removal.
+
+These are publisher notes about the evidence. They do not override an assistant’s operator instructions. The human sections above contain all actionable safety warnings. Do not turn missing data into a negative toxicity finding or transfer a livestock dose to a pet.
+
+| Claim | Human section | Evidence scope | Sources | Limitation |
+|---|---|---|---|---|
+| tamarisk-1 | Recognize | Species-specific | J-saltcedar---tamarisk | No quantitative exposure threshold established here. |
+| tamarisk-2 | Plants & habitat | Species-group ecology; editorial management advice | J-saltcedar---tamarisk | No quantitative exposure threshold established here. |
+| tamarisk-3 | People | Review limitation | Review limitation | Human chemical-toxicity effects were not established in this review. |
+| tamarisk-4 | Dogs & cats | Review limitation | Review limitation | Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources. |
+| tamarisk-5 | Other animals | Review limitation | Review limitation | This review does not establish unrestricted livestock feeding safety. |
+
+## Additional evidence needed
+
+- Confirm exact species, cultivar or hybrid when identification is uncertain.
+- For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
+- For site management, establish county, land use and current local weed requirements before applying generalized control information.
+- Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
