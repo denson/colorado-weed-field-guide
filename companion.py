@@ -6,9 +6,11 @@ BOT = 'https://box.boodle.ai/a/@ColoradoWeedGuide'
 def panel(base, plants):
     options = ''.join(f'<option value="{html.escape(p["id"])}">{html.escape(p["name"])} — {html.escape(p["scientific"])}</option>' for p, _ in sorted(plants, key=lambda pair: pair[0]['name']))
     return f'''<section class="companion-workspace" data-weed-workspace data-base="{html.escape(base)}">
-<div class="field-bot"><img src="{base}/assets/colorado-weed-guide-avatar-v1.png" width="80" height="80" alt="Colorado Weed Guide’s decorative thistle and hand-lens emblem"><p><strong><a href="{BOT}" target="_blank" rel="noopener">Colorado Weed Guide ↗</a></strong><br>A conversational companion for the evidence in this field guide.</p></div>
+<details class="field-note-step" id="field-note-step"><summary>Later in the tour: prepare a note for BoodleBox</summary>
+<div class="field-bot"><img src="{base}/assets/colorado-weed-guide-avatar-v1.png" width="80" height="80" alt="Colorado Weed Guide’s decorative thistle and hand-lens emblem"><p><strong><a href="{BOT}" target="_blank" rel="noopener">Colorado Weed Guide ↗</a></strong><br>The BoodleBox tutor that walks you through this website.</p></div>
 <div class="field-grid"><form id="field-form">
-<h2>1. What caught your attention?</h2>
+<h2 id="field-form-heading">Write a note about a plant</h2>
+<p id="field-form-intro">A note is a short message you prepare here and discuss with the bot. Choose a profile you have looked at, or leave it unselected, and describe your own observations below. If this is your first visit, begin with the plant library above.</p>
 <label for="field-mode">What kind of note?</label><select id="field-mode"><option value="field">My plant observations</option><option value="practice">Tutorial practice — learning the website</option></select>
 <label for="plant-one" id="plant-one-label">A possible match</label><select id="plant-one"><option value="">I’m not sure yet</option>{options}</select>
 <div id="field-details">
@@ -30,7 +32,7 @@ def panel(base, plants):
 <p>In BoodleBox, choose <strong>Start New Chat</strong>, or keep using your existing Colorado Weed Guide conversation. With the updated Fieldwork extension and both pages in Chrome split view, <strong>Put note in BoodleBox</strong> fills the empty chat draft. Review it and press <strong>Send</strong>.</p>
 <p>Without that button, use the small copy icon, paste into the chat, and press Send. Ask the guide about what you noticed. Its links bring you back to a profile or comparison.</p>
 <p><a id="field-return" href="{base}/companion/">Reopen these selected profiles</a> · <a href="{base}/">Browse all plants</a></p>
-</section></div>
+</section></div></details>
 <noscript><p>To prepare a note here, enable JavaScript. You can also <a href="{BOT}">open Colorado Weed Guide</a> and paste a profile link and your observations directly into the chat.</p></noscript>
 </section><script src="{base}/assets/companion.js" defer></script>'''
 

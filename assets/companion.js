@@ -12,8 +12,11 @@
   one.value = valid(query.get('plant')) ? query.get('plant') : '';
   two.value = valid(query.get('compare')) ? query.get('compare') : '';
   if (query.get('practice') === '1') mode.value = 'practice';
+  document.getElementById('field-note-step').open = Boolean(one.value || two.value || mode.value === 'practice');
   const updateMode = () => {
     const practice = mode.value === 'practice';
+    document.getElementById('field-form-heading').textContent = practice ? 'Practice discussing a plant page' : 'Write a note about a plant';
+    document.getElementById('field-form-intro').textContent = practice ? 'This is the sharing step of the tour. After looking at the example plant page, write one thing you learned or a question about the website. The note will give your BoodleBox tutor something to discuss with you. If you have not seen a plant page yet, begin with the library above.' : 'A note is a short message you prepare here and discuss with the bot. Choose a profile you have looked at, or leave it unselected, and describe your own observations below. If this is your first visit, begin with the plant library above.';
     document.getElementById('field-details').hidden = practice;
     document.getElementById('plant-one-label').textContent = practice ? 'The example profile I read' : 'A possible match';
     document.getElementById('field-observations-label').textContent = practice ? 'One thing I learned or a question about using the site' : 'What can you see?';

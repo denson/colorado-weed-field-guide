@@ -1,25 +1,33 @@
 ---
 {
   "id": "companion",
-  "title": "Look closer. Talk it through.",
+  "title": "Learn to use this field guide",
   "source_ids": [],
-  "description": "Explore Colorado garden weeds and wild plants with the field guide and its BoodleBox companion."
+  "description": "Start here to learn what the Colorado Weed Field Guide is for and how its website and BoodleBox tutor work together."
 }
 ---
 
-# Look closer. Talk it through.
+# Learn to use this field guide
 
-**New to the field guide?** [Start the guided tour in BoodleBox](https://box.boodle.ai/a/@ColoradoWeedGuide). The guide will show you the homepage, search, photographs and evidence sections before bringing you here to practice sharing a note. You do not need to choose a plant first.
+The **Colorado Weed Field Guide** is an illustrated reference to garden weeds and wild plants found in Colorado. Use it to compare what plants look like and read sourced information about their effects on people, animals and local habitats. A **plant profile** is simply a page about one plant, with photographs, descriptions and links to the sources.
 
-An unfamiliar plant raises good questions. What features matter? Could it harm an animal? Is it a native volunteer or a plant that needs managing? Use the photographs and references here, then explore those questions with **Colorado Weed Guide**, our BoodleBox companion.
+**Colorado Weed Guide**, the bot in BoodleBox, is your tutor for using this website. It explains where to click, what the page sections mean and how to discuss what you read. You can learn the site without knowing any plant names or having a plant to identify.
 
-**Choose a possible match, describe what you see, and prepare a field note.** The note includes your observations, the selected profiles’ warnings and links to their evidence. The guide also has a dated reference book covering the plants, so it has something concrete to discuss. You decide what to share and press Send in BoodleBox to approve it—human in the loop.
+## Start with the plant library
 
-You can compare two profiles, or start without a name. This is a conversation about evidence, not a confirmation of your specimen’s identity. For a suspected poisoning, use the [exposure and safety guide]({{BASE}}/safety/) immediately.
+**[Open the plant library]({{BASE}}/)**, then tell the bot **ready**. Keep using the same BoodleBox conversation. If you have not opened the tutor yet, [open Colorado Weed Guide](https://box.boodle.ai/a/@ColoradoWeedGuide) and choose **Start New Chat**.
 
-If you are taking the tour, choose **Tutorial practice — learning the website** under **What kind of note?** Use the example profile and add one thing you learned or a question about using the page. The form prepares a practice note for discussing the website. You do not need a real specimen. [Open the showy milkweed practice form]({{BASE}}/companion/?plant=showy-milkweed&practice=1).
+The tutor will guide you through these steps, one at a time:
+
+1. **Find an example together.** Use the search box to find showy milkweed. The tutor supplies the example so you can learn the controls.
+2. **Read its plant page.** Look at the photographs, learn where to find descriptions and warnings, and follow a source link.
+3. **Discuss what you learned.** Later, return here to prepare a short practice message called a **note**. Put it in BoodleBox, review it and press **Send**. The tutor can then discuss your takeaway or answer your question.
+
+Start with the library; the note form below is for that later step. Selecting a reference plant is not a confirmed identification of a plant outdoors.
 
 {{COMPANION}}
+
+For a suspected poisoning, use the [exposure and safety guide]({{BASE}}/safety/) immediately.
 
 ## What is shared?
 
