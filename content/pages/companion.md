@@ -2,7 +2,7 @@
 {
   "id": "companion",
   "title": "Learn to use this field guide",
-  "source_ids": [],
+  "source_ids": ["C-tumbleweeds", "S04"],
   "description": "Start here to learn what the Colorado Weed Field Guide is for and how its website and BoodleBox tutor work together."
 }
 ---
@@ -19,11 +19,17 @@ The **Colorado Weed Field Guide** is an illustrated reference to garden weeds an
 
 The tutor will guide you through these steps, one at a time:
 
-1. **Find an example together.** Use the search box to find showy milkweed. The tutor supplies the example so you can learn the controls.
-2. **Read its plant page.** Look at the photographs, learn where to find descriptions and warnings, and follow a source link.
+1. **Find a familiar weed.** Search for **Russian thistle**, a widespread tumbleweed. Use its photographs and the **Recognize** and **Plants & habitat** sections to learn what a plant page can tell you.
+2. **Check a flower’s pet warning.** Next, search for **showy milkweed**. Open **Dogs & cats** and follow the source behind its warning. This shows why a pretty plant needs more than a glance at its flowers.
 3. **Discuss what you learned.** Later, return here to prepare a short practice message called a **note**. Put it in BoodleBox, review it and press **Send**. The tutor can then discuss your takeaway or answer your question.
 
 Start with the library; the note form below is for that later step. Selecting a reference plant is not a confirmed identification of a plant outdoors.
+
+## Meet the two examples
+
+We will visit Russian thistle first, then showy milkweed. These are reference examples for learning the site; you do not need either plant in your yard.
+
+{{TOUR_EXAMPLES}}
 
 {{COMPANION}}
 

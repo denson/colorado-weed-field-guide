@@ -3,6 +3,23 @@ import html, json, re
 
 BOT = 'https://box.boodle.ai/a/@ColoradoWeedGuide'
 
+def tutorial_examples(base, images):
+    examples = [
+        ('russian-thistle', '1. Russian thistle: recognize a tumbleweed',
+         'A widespread introduced weed that dries into a tumbleweed. We will use it to practice searching, comparing the photographs with the Recognize section, and reading Plants & habitat to learn how it spreads.',
+         'CSU Extension', 'https://extension.colostate.edu/resource/identification-and-management-of-kochia-and-russian-thistle/'),
+        ('showy-milkweed', '2. Showy milkweed: check pet hazards',
+         'Its pink flowers make an appealing second example. We will open Dogs & cats and follow its ASPCA source: milkweeds are toxic to dogs and cats. The warning covers milkweeds as a group. Flowering beauty and native status do not establish pet safety.',
+         'ASPCA: Milkweed', 'https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/milkweed')]
+    cards, mirror = [], []
+    for pid, title, description, source, source_url in examples:
+        photo = next(i for i in images if i['plant_id'] == pid)
+        thumb = photo.get('thumbnail', photo)
+        src, profile = base+'/'+thumb['path'], base+'/plants/'+pid+'/'
+        cards.append(f'<section><h3>{html.escape(title)}</h3><figure><a href="{profile}"><img src="{src}" width="{thumb["width"]}" height="{thumb["height"]}" loading="lazy" alt="{html.escape(photo["alt"])}"></a><figcaption>Photo: <a href="{html.escape(photo["source_page"])}">{html.escape(photo["creator"])}</a> · <a href="{html.escape(photo["license_url"])}">{html.escape(photo["license"])}</a></figcaption></figure><p>{html.escape(description)} <a href="{source_url}">{html.escape(source)}</a>.</p><p><a href="{profile}">Open this example’s plant page →</a></p></section>')
+        mirror.append(f'### {title}\n\n![{photo["alt"]}]({src})\n\nPhoto: [{photo["creator"]}]({photo["source_page"]}); [{photo["license"]}]({photo["license_url"]}).\n\n{description} [{source}]({source_url}).\n\n[Open this example’s plant page]({profile}).\n')
+    return '<div class="tour-examples">'+''.join(cards)+'</div>', '\n'.join(mirror)
+
 def panel(base, plants, script_url):
     options = ''.join(f'<option value="{html.escape(p["id"])}">{html.escape(p["name"])} — {html.escape(p["scientific"])}</option>' for p, _ in sorted(plants, key=lambda pair: pair[0]['name']))
     return f'''<section class="companion-workspace" data-weed-workspace data-base="{html.escape(base)}">

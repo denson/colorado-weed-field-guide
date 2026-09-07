@@ -8,3 +8,4 @@
 
 .field-bot{display:flex;align-items:center;gap:1rem;margin:1.5rem 0}.field-bot img{border-radius:50%;flex:none}.field-bot p{font-size:.95rem}.field-bot strong{font-size:1.2rem}
 .field-note-step{border:1px solid var(--line);padding:1rem 1.25rem;margin:2rem 0}.field-note-step>summary{font-weight:700;cursor:pointer;color:var(--green)}.field-grid #field-form-heading{margin-bottom:.8rem}
+.tour-examples{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin:1.5rem 0 2.5rem}.tour-examples section{border-top:2px solid var(--green);padding-top:1rem;min-width:0}.tour-examples h3{margin:0 0 1rem}.tour-examples figure{margin:0}.tour-examples img{display:block;width:100%;height:260px;object-fit:contain;background:var(--field)}.tour-examples figcaption{font-size:.8rem;color:var(--muted);padding:.5rem 0}@media(max-width:650px){.tour-examples{grid-template-columns:1fr}}

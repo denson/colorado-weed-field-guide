@@ -172,8 +172,11 @@ publish('Biggest concerns',concern_md,'biggest-concerns/',{'source_ids':sorted({
 for f in sorted((ROOT/'content/pages').glob('*.md')):
     meta,body=read(f);meta['source']=f.relative_to(ROOT).as_posix()
     if meta['id']=='companion':
+        example_html, example_md = companion.tutorial_examples(BASE,IMAGES)
         human=markdown.markdown(body.split('\n# Appendix for agents')[0].replace('{{BASE}}',BASE).replace('{{COMPANION}}','COMPANION_WIDGET'),extensions=['tables'])
+        human=human.replace('<p>{{TOUR_EXAMPLES}}</p>',example_html)
         human=human.replace('<p>COMPANION_WIDGET</p>',companion.panel(BASE,PLANTS,asset_url('assets/companion.js')))
+        body=body.replace('{{TOUR_EXAMPLES}}',example_md)
         body=body.replace('{{COMPANION}}',f'Open the [interactive field-note form]({url("companion/")}) or the [Colorado Weed Guide bot]({companion.BOT}). Start by learning what the website is for and opening its plant library. The note form is in Later in the tour: prepare a note for BoodleBox; a selected-profile or practice link opens it. A note is a short message for discussion. Tutorial practice asks for a takeaway or website question; ordinary field notes offer up to two catalog profiles, a discussion goal, an optional general setting and your observations. Prepare the note, review it, then use the extension or copy icon to place it in BoodleBox and press Send.')
         publish(meta['title'],body,meta['id']+'/',meta,human)
     else: publish(meta['title'],body,meta['id']+'/',meta)
