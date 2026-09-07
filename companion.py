@@ -3,7 +3,7 @@ import html, json, re
 
 BOT = 'https://box.boodle.ai/a/@ColoradoWeedGuide'
 
-def panel(base, plants):
+def panel(base, plants, script_url):
     options = ''.join(f'<option value="{html.escape(p["id"])}">{html.escape(p["name"])} — {html.escape(p["scientific"])}</option>' for p, _ in sorted(plants, key=lambda pair: pair[0]['name']))
     return f'''<section class="companion-workspace" data-weed-workspace data-base="{html.escape(base)}">
 <details class="field-note-step" id="field-note-step"><summary>Later in the tour: prepare a note for BoodleBox</summary>
@@ -34,7 +34,7 @@ def panel(base, plants):
 <p><a id="field-return" href="{base}/companion/">Reopen these selected profiles</a> · <a href="{base}/">Browse all plants</a></p>
 </section></div></details>
 <noscript><p>To prepare a note here, enable JavaScript. You can also <a href="{BOT}">open Colorado Weed Guide</a> and paste a profile link and your observations directly into the chat.</p></noscript>
-</section><script src="{base}/assets/companion.js" defer></script>'''
+</section><script src="{html.escape(script_url)}" defer></script>'''
 
 def reference_packet(meta, body, base, revised):
     # Preserve all article safety sections and evidence appendices, without photo markup.

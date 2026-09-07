@@ -24,6 +24,7 @@ CONCERNS = json.loads((ROOT/'data/concerns.json').read_text(encoding='utf-8'))
 PAGES = []
 def esc(x): return html.escape(str(x),quote=True)
 def url(path=''): return BASE+'/'+path.lstrip('/')
+def asset_url(path): return url(path)+'?v='+hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
 def dump(path,data):
     f=OUT/path; f.parent.mkdir(parents=True,exist_ok=True);f.write_text(data,encoding='utf-8',newline='\n')
 def jsdump(path,obj): dump(path,json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
@@ -74,7 +75,7 @@ def shell(title,body,path,meta=None):
     data=json.dumps(ld,ensure_ascii=False).replace('<','\\u003c')
     stamp=f'<p class="metadata">Content revised <time datetime="{modified}">{modified.replace("T"," ")}</time> · Source checks dated separately in the references.</p>'
     return f'''<!doctype html>
-<html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | Colorado Weed Field Guide</title><meta name="description" content="{esc(meta.get('description',title))}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/markdown" href="{url(path+'index.md')}"><link rel="alternate" type="application/rss+xml" href="{url('feed.xml')}"><link rel="stylesheet" href="{url('assets/style.css')}"><script type="application/ld+json">{data}</script></head>
+<html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)} | Colorado Weed Field Guide</title><meta name="description" content="{esc(meta.get('description',title))}"><link rel="canonical" href="{canonical}"><link rel="alternate" type="text/markdown" href="{url(path+'index.md')}"><link rel="alternate" type="application/rss+xml" href="{url('feed.xml')}"><link rel="stylesheet" href="{asset_url('assets/style.css')}"><script type="application/ld+json">{data}</script></head>
 <body><a class="skip" href="#main">Skip to content</a><header><div class="bar"><a class="brand" href="{url()}"><span>W</span> Colorado Weed Field Guide</a><nav aria-label="Main"><a href="{url('biggest-concerns/')}">Biggest concerns</a><a href="{url('coverage/')}">Coverage</a><a href="{url('native/')}">Native</a><a href="{url('xeriscape/')}">Xeriscape</a><a href="{url('invasive/')}">Invasive &amp; common</a><a href="{url('safety/')}">Safety</a><a href="{url('sources/')}">Sources</a><a href="{url('agents/')}">For agents</a></nav></div></header><main id="main">{body}{stamp}{links(path)}</main><footer><div class="footer-inner">An independent Colorado field guide. Source-backed synthesis; botanical and veterinary expert review is pending. Native does not mean harmless, and an evidence gap does not mean safe. <a href="{url('about/')}">About this guide</a> · <a href="{CFG['repository']}">GitHub source</a></div></footer></body></html>'''
 def publish(title,body,path,meta=None,human=None):
     meta=meta or {}; full=body.replace('{{BASE}}',BASE)
@@ -172,7 +173,7 @@ for f in sorted((ROOT/'content/pages').glob('*.md')):
     meta,body=read(f);meta['source']=f.relative_to(ROOT).as_posix()
     if meta['id']=='companion':
         human=markdown.markdown(body.split('\n# Appendix for agents')[0].replace('{{BASE}}',BASE).replace('{{COMPANION}}','COMPANION_WIDGET'),extensions=['tables'])
-        human=human.replace('<p>COMPANION_WIDGET</p>',companion.panel(BASE,PLANTS))
+        human=human.replace('<p>COMPANION_WIDGET</p>',companion.panel(BASE,PLANTS,asset_url('assets/companion.js')))
         body=body.replace('{{COMPANION}}',f'Open the [interactive field-note form]({url("companion/")}) or the [Colorado Weed Guide bot]({companion.BOT}). Start by learning what the website is for and opening its plant library. The note form is in Later in the tour: prepare a note for BoodleBox; a selected-profile or practice link opens it. A note is a short message for discussion. Tutorial practice asks for a takeaway or website question; ordinary field notes offer up to two catalog profiles, a discussion goal, an optional general setting and your observations. Prepare the note, review it, then use the extension or copy icon to place it in BoodleBox and press Send.')
         publish(meta['title'],body,meta['id']+'/',meta,human)
     else: publish(meta['title'],body,meta['id']+'/',meta)
