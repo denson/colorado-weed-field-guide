@@ -11,5 +11,5 @@ for p in packets:
     parts.append(f'- {p["name"]} ({p["scientific"]}) — ID: {p["id"]}; {p["url"]}\n')
 for p in packets:
     parts.append('\n\n---\n'+p['url']+'\nContent revised: '+p['revised']+'\n\n'+p['text'])
-(R/'boodlebox/colorado-weed-guide-reference.md').write_text(''.join(parts),encoding='utf8',newline='\n')
+(R/'boodlebox/colorado-weed-guide-reference.md').write_text('\n'.join(line.rstrip() for line in ''.join(parts).splitlines())+'\n',encoding='utf8',newline='\n')
 print(f'Prepared {len(packets)} reference profiles for BoodleBox')

@@ -403,11 +403,11 @@ Thujone-containing plant material can cause serious poisoning when overused; con
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -1098,15 +1098,15 @@ Rhizomes, stem fragments and seed spread persistent colonies that exclude other 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -1190,11 +1190,11 @@ Saponic glycosides in roots and seeds can cause nausea, vomiting and diarrhea. [
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -1449,15 +1449,15 @@ Grows early and becomes dormant as soils dry. It favors disturbed sites; the sou
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -2143,15 +2143,15 @@ Naturalized in disturbed ground, fields and roadsides. The source describes less
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -2673,15 +2673,15 @@ Reproduces from seed and can form dense stands that reduce available livestock f
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -2765,11 +2765,11 @@ Sap can cause contact dermatitis in susceptible people. Recorded food uses do no
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -2848,11 +2848,11 @@ NC State reports digestive and nervous-system effects after large ingestion and 
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -2926,15 +2926,15 @@ Common in disturbed Colorado gardens and thin lawns. Taproots become difficult t
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -3011,15 +3011,15 @@ Self-seeds in dry, disturbed places and can crowd neighboring vegetation. Preven
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -3426,7 +3426,7 @@ Thujone can cause serious poisoning, including convulsions, and the plant can ir
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -3857,7 +3857,7 @@ A Colorado weed of disturbed land. Its long-lived root and persistent seeds allo
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
@@ -4047,7 +4047,7 @@ Prickly plants present a contact hazard; the reviewed source does not establish 
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -4395,7 +4395,7 @@ Spiny bracts present a physical contact concern. The reviewed source does not es
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -4472,15 +4472,15 @@ A drought-tolerant introduced weed that reproduces from seed. Preventing seed pr
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -4561,15 +4561,15 @@ Spreads by seed along disturbed, rocky and semi-arid ground. Prompt reporting he
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -4655,11 +4655,11 @@ Dense growth interferes with swimming and boating; avoid entering heavily vegeta
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -4909,15 +4909,15 @@ Rhizome fragments and small vegetative bulbils enable spread. Casual digging can
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -5161,15 +5161,15 @@ Rhizomes form dense colonies and even small fragments can regenerate. Keep cut m
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -5343,15 +5343,15 @@ Rapid rhizome growth crowds out other plants. Stem nodes can root; moving cut ma
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -5437,7 +5437,7 @@ Dense surface mats obstruct boating and swimming; this is a water-access hazard 
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -5691,15 +5691,15 @@ Rhizomes and wind-carried seeds spread this wet-site plant. Inspect nursery stoc
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -5778,11 +5778,11 @@ Occupies disturbed dry rangeland and saline soils. Prevent seed spread and invol
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -6047,11 +6047,11 @@ Creeping roots create dense colonies in fields and disturbed ground. Root pieces
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -6305,15 +6305,15 @@ The Forest Service records the hybrid in Colorado. Colorado lists the hybrid sep
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -6395,15 +6395,15 @@ Perennial hybrids spread through root buds and seeds. The federal guide reports 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -6483,11 +6483,11 @@ Fragments and overwintering tubers support persistent infestations. Dense growth
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -6573,15 +6573,15 @@ Rhizomes form dense stands and cut stems can root in wet conditions. Growth can 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -6745,7 +6745,7 @@ Pollen can trigger hay fever. This is not a substitute for grain sorghum. [N-sor
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -6824,15 +6824,15 @@ Occurs in wheat fields, rangeland and disturbed corridors. Spreads by seed, so c
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -6913,11 +6913,11 @@ Colonizes disturbed yards, roadsides and pastures. New seedlings can emerge over
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -7338,7 +7338,7 @@ Routt County records low larkspur in meadows, woodlands and sagebrush slopes. [C
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
@@ -7425,11 +7425,11 @@ Colonizes disturbed ground and agricultural sites; seed production sustains infe
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -7521,7 +7521,7 @@ Death-camas bulbs have caused severe and fatal human poisoning. Suspected ingest
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -7602,15 +7602,15 @@ Spreads through seed and regrowth from root crowns, replacing desirable forage a
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -7692,15 +7692,15 @@ Unpalatable growth can displace forage. Dry flowering stalks detach and tumble, 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -7870,15 +7870,15 @@ A garden escape in pastures and hay fields. Seeds persist, requiring monitoring 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8135,15 +8135,15 @@ Colorado lists this taxon separately. The 2016 federal guide considered its Nort
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8315,15 +8315,15 @@ Seed, surface runners and rhizomes produce spreading patches that crowd out desi
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8490,15 +8490,15 @@ Vegetative spread produces dense growth that competes with native aquatic plants
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8578,15 +8578,15 @@ Invades wetlands, ditches and pastures. Deep and lateral roots produce new shoot
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8665,15 +8665,15 @@ A perennial of moist disturbed places with spreading underground growth. Seed pr
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -8860,7 +8860,7 @@ Spines may injure mouths or paws. Pet-specific chemical toxicity is not establis
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -9461,11 +9461,11 @@ Extensive roots and abundant seeds enable wetland invasion. Cultivar labels do n
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -9547,15 +9547,15 @@ Rhizomes compete with desired vegetation and regrow from pieces. Repeated distur
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -9713,11 +9713,11 @@ A Colorado garden and field weed that competes strongly with crops and replenish
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -9798,15 +9798,15 @@ An introduced annual or biennial found in gardens, turf and disturbed land. Prev
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -9978,15 +9978,15 @@ Wind-carried seeds and root buds spread the plant. Deep roots and fragments can 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -10240,11 +10240,11 @@ An introduced plant suited to sunny, well-drained Colorado gardens. Shoots can s
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -10413,11 +10413,11 @@ Dense seedlings develop in meadows and disturbed ground. Many persistent seeds a
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -10771,7 +10771,7 @@ Falling limbs can endanger animals as well as people; this is a structural-risk 
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -11384,7 +11384,7 @@ Hooked heads can catch in fur; inspect animals after contact. Pet ingestion effe
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -11567,15 +11567,15 @@ Self-seeds in pastures, disturbed ground and roadsides. Persistent seeds require
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -11750,7 +11750,7 @@ Routt County records tall larkspur on higher-elevation slopes and in aspen habit
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
@@ -12032,7 +12032,7 @@ Spines may injure paws or mouths. No pet-specific chemical toxicity is establish
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -12110,15 +12110,15 @@ Seeds and suckers form dense thickets that displace vegetation. It is a host for
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -12286,15 +12286,15 @@ A competitive crop weed whose durable seedbank can require years of follow-up. P
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -12373,11 +12373,11 @@ Invades grasslands and hay systems. Seeds move with equipment and hay, and reduc
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
@@ -13358,15 +13358,15 @@ Weedy biotypes compete in crops and spread with contaminated seed or machinery. 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
@@ -13530,15 +13530,15 @@ Rhizomes and tubers compete strongly with crops and can remain after shoots are 
 
 ## People
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for people. Missing evidence does not establish safety.
 
 ## Dogs & cats
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for dogs or cats. Missing evidence does not establish safety.
 
 ## Other animals
 
-The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety. 
+The reviewed sources do not establish species-specific ingestion effects or a safe exposure amount for livestock. Missing evidence does not establish safety.
 
 ## Before taking action
 
