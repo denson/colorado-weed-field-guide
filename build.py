@@ -113,6 +113,7 @@ for category in [None,*CATEGORIES]:
     head+=f'<div class="category-tabs">'+''.join(f'<a href="{url(k+"/")}">{v}</a>' for k,v in CATEGORIES.items())+'</div>'
     head+='<div class="browse-tools"><label for="plant-search">Find a plant</label><input type="search" id="plant-search" data-search placeholder="Name, scientific name, or hazard"><button type="button" data-clear>Clear</button><span class="metadata" aria-live="polite" data-result>'+str(len(subset))+' plants</span></div><noscript><p>All plants are listed below. Use your browser’s Find command to search this page.</p></noscript>'
     md=f'# {title}\n\n{intro}\n\n{len(subset)} plants in this view; {len(PLANTS)} profiles and {len(IMAGES)} photographs in the guide.\n\n{quick}\n\n'
+    head+='<div data-catalog>'
     for k,v in CATEGORIES.items():
         plants=[p for p in subset if p['category']==k]
         if not plants:continue
@@ -124,7 +125,7 @@ for category in [None,*CATEGORIES]:
             md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: {i["creator"]}; {i["license"]}. [Photo credits and sources]({url("plants/"+p["id"]+"/")}).\n'
         md+='\n'
     md+='\n# Appendix for agents\n\nCategory membership is editorial navigation. Native plants can also be xeriscape plants; noxious-list class is separate from toxicity. Follow the individual profiles for claim scope, caveats, and photo attribution. This is a selected catalog, not the entire Colorado flora.\n'
-    head+=f'<script src="{url("assets/search.js")}" defer></script>'
+    head+=f'</div><script src="{asset_url("assets/search.js")}" defer></script>'
     publish(title,md,(category+'/') if category else '',human=head)
 # A traceable finite baseline, including mappings and unresolved taxonomic scope.
 by_id={p['id']:p for p,b in PLANTS}
