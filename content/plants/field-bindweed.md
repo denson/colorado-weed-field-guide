@@ -64,7 +64,46 @@
       "id": "field-bindweed-5"
     }
   ],
-  "noxious_class": "C"
+  "noxious_class": "C",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "field-bindweed-3"
+        ]
+      },
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "field-bindweed-4"
+        ]
+      },
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "field-bindweed-5"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -77,6 +116,11 @@
 > **Smothers plants; livestock concern.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Morning glory is an ambiguous common name. Ipomoea poison listings do not automatically apply to Convolvulus arvensis.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Dogs & cats, Other animals**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -115,6 +159,15 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **K-bindweed** — [Bindweeds: field and hedge bindweed](https://blogs.cornell.edu/weedid/859-2/), Cornell University. Accessed 2026-09-07T00:31:29+00:00. Locator: Field bindweed description, alkaloids and livestock, management.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

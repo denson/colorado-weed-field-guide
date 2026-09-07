@@ -66,7 +66,32 @@
       "id": "wild-caraway-5"
     }
   ],
-  "noxious_class": "B"
+  "noxious_class": "B",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "wild-caraway-5"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -79,6 +104,11 @@
 > **Spreads by seed; pet safety concern.** [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** A white flower umbrella is not sufficient to separate caraway from poison hemlock or water hemlock; the comparison is an editorial identification precaution.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **Other animals**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -121,6 +151,13 @@ Confirm identification and the requirements of your county weed program. For che
 - **A-caraway** — [Caraway](https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/caraway), ASPCA Poison Control. Accessed 2026-09-07T01:14:01+00:00. Locator: Scientific name and toxicity.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Identity and evidence boundaries
 

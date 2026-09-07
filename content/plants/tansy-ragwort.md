@@ -69,7 +69,32 @@
       "id": "tansy-ragwort-5"
     }
   ],
-  "noxious_class": "A"
+  "noxious_class": "A",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "tansy-ragwort-3"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -82,6 +107,11 @@
 > **Poisonous to livestock; harmful alkaloids.** [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** This is not common tansy or common groundsel. The attempted NC State Jacobaea URL returned a common-groundsel account and was excluded as mismatched evidence.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -126,6 +156,13 @@ This is a statewide eradication priority. Contact your county weed program promp
 - **A-ragwort** — [Ragwort](https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/ragwort), ASPCA Poison Control. Accessed 2026-09-07T01:16:20+00:00. Locator: Species identity, description, ecological and exposure evidence; verify group scope.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Identity and evidence boundaries
 

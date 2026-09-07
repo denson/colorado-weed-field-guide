@@ -1,8 +1,10 @@
 # Colorado Weed Field Guide
 
-119 plant profiles, three source-identified photographs each, and separately sourced hazards for people, pets, other animals and surrounding vegetation. Native volunteers, xeriscape spreaders and invasive and common weeds have their own sections.
+154 plant profiles, three source-identified photographs each, and separately sourced hazards for people, pets, other animals and surrounding vegetation. Native volunteers, xeriscape spreaders and invasive and common weeds have their own sections.
 
-The coverage checklist maps all 82 entries in the reviewed Colorado A/B/C lists to illustrated profiles, including explicit synonym and taxon-scope limits. The catalog has 357 photographs. This is a regulatory baseline plus additional common weeds and native hazards, not the entire Colorado flora.
+The coverage checklist maps all 82 entries in the reviewed Colorado A/B/C lists to illustrated profiles, including explicit synonym and taxon-scope limits. The catalog has 462 photographs. This is a regulatory baseline plus additional common weeds and native hazards, not the entire Colorado flora.
+
+Every profile displays “Still researching this plant” and carries structured open questions in its Markdown and catalog record. The source comparison covers all 37 CSU Weed Descriptions topics (36 full, one genus partly represented) and 57 of 84 Corteva Western Rangeland topics (50 full, seven partial). Remaining topics are a research backlog, not claims of Colorado occurrence. The 35 newest profiles have individual locators in CNHP’s 2020 statewide flora assessment.
 
 The site follows the published [Stoagen pattern](https://stoagen.com/pattern/index.md): static HTML articles with complete Markdown mirrors, extra evidence notes for agents, text fallbacks, and visible discovery links. No application server, JavaScript execution, authentication or OpenAI hosting is needed to read the content.
 

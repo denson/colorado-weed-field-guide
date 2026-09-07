@@ -31,6 +31,8 @@ For example, the showy-milkweed article has these forms:
 
 ## What the records mean
 
+Each profile has a visible **Still researching this plant** section. Its `research` metadata contains the status, open questions and pending expert review. Keep these qualifications attached when summarizing the plant. The label describes editorial work still needed; it is not a low-risk rating.
+
 Use scientific names to match plants. Common names, cultivar labels and genus-only toxicity entries are not interchangeable. Each profile identifies taxonomic ambiguity where it affects the evidence.
 
 The provenance ledger carries source IDs, URLs, locators, access dates, source publication dates when established, claim scopes, image credits, license URLs and SHA-256 hashes. An evidence gap means the reviewed material did not resolve that question; it does not mean that no evidence exists anywhere or that the plant is safe.

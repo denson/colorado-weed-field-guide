@@ -71,7 +71,34 @@
       "reviewed": "2026-09-06",
       "id": "common-sunflower-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "common-sunflower-3"
+        ]
+      },
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "common-sunflower-5"
+        ]
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -82,6 +109,11 @@
 **Colorado native.** [S28](https://pueblo.extension.colostate.edu/loving-our-native-plants/) [S23](https://plants.ces.ncsu.edu/plants/helianthus-annuus/)
 
 > **Listed non-toxic to dogs & cats.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Other animals**. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -121,6 +153,13 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **S25** — [Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants), ASPCA Poison Control. Accessed 2026-09-07T00:23:56+00:00. Locator: Any plant material may cause vomiting or gastrointestinal upset; database limitations.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

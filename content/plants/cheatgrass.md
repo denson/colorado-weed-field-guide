@@ -71,7 +71,20 @@
       "id": "cheatgrass-5"
     }
   ],
-  "noxious_class": "C"
+  "noxious_class": "C",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -82,6 +95,11 @@
 **Colorado List C.** [S20](https://extension.colostate.edu/resource/cheatgrass-and-wildfire/)
 
 > **Grass awns · Fire hazard.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. The cited findings are available below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -120,6 +138,11 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **S21** — [Source Unit in Range and Pasture Management](https://cmg.extension.colostate.edu/wp-content/uploads/sites/42/2016/10/SourceUnitInRangeAndPastureMngmt_REVISED_5-22-2017.pdf), Colorado State University Extension. Accessed 2026-09-07T00:23:55+00:00. Locator: Printed page 44: plants that can cause mechanical injury.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

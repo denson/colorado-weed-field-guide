@@ -65,7 +65,20 @@
       "note": "",
       "id": "foxtail-barley-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -76,6 +89,11 @@
 **Colorado native.** [C-foxtail](https://extension.colostate.edu/resource/foxtail-barley/)
 
 > **Barbed seed awns injure animals.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. The cited findings are available below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -117,6 +135,11 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **S22** — [Foxtails and Dogs](https://healthtopics.vetmed.ucdavis.edu/health-topics/foxtails), UC Davis · School of Veterinary Medicine. Accessed 2026-09-06. Locator: Takeaways; signs; prevention.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

@@ -90,5 +90,29 @@
     "reason": "Downloaded response was a browser-check challenge, not the paper. No verified-paper claim is made for these bytes.",
     "accessed": "2026-09-07T01:21:11+00:00",
     "response_sha256": "df680b8f2e63ae45146b6ed7737bb23efd196677d1618de226073da7aef161b0"
+  },
+  {
+    "url": "https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants/sorrel",
+    "accessed": "2026-09-07T02:26:10+00:00",
+    "response_sha256": "5509301b66935952d10e9f0380869565c1f8007fa906f927985d2ae172f98a44",
+    "reason": "ASPCA Sorrel page identifies Rumex scutatus, not Oxalis corniculata. Excluded from woodsorrel pet evidence."
+  },
+  {
+    "url": "https://csuvth.colostate.edu/poisonous_plants/Plants/Details/49",
+    "accessed": "2026-09-07T02:23:14+00:00",
+    "response_sha256": "0eb4d6f4cc73213962c9652c8263a527d51cfc01080d3b4020edcff853dae856",
+    "reason": "Current URL redirected to a client-rendered application; downloaded text did not expose the plant record. Not used as verified species evidence."
+  },
+  {
+    "url": "https://swsbm.org/swsbm-archive/Floras/COchklst.pdf",
+    "accessed": "2026-09-07T02:26:10+00:00",
+    "response_sha256": "429f5227b8c1fca496ffe67483099fccc66f44879f71d0ef340d302e2ab31b7a",
+    "reason": "Archived checklist has no verified authorship in the retrieved document. Replaced for Colorado relevance with the primary CNHP 2020 statewide assessment."
+  },
+  {
+    "url": "https://sites.warnercnr.colostate.edu/wp-content/uploads/sites/4/2013/12/Hazlett-ref.pdf",
+    "accessed": "2026-09-07T02:23:14+00:00",
+    "response_sha256": "9621b0450b6c9c3e0e023b5bf1ae35205a87d46ada7dc62e6e6f881fb1d73982",
+    "reason": "Scanned PDF could not be text-reviewed in this workflow. Not used; the primary CNHP 2020 assessment supplies the reviewed baseline."
   }
 ]

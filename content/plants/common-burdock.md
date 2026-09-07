@@ -65,7 +65,20 @@
       "id": "common-burdock-5"
     }
   ],
-  "noxious_class": "C"
+  "noxious_class": "C",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -76,6 +89,11 @@
 **Colorado noxious weed · List C.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
 
 > **Burs and fine bristles injure animals.** [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. The cited findings are available below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -114,6 +132,11 @@ Confirm identification and the requirements of your county weed program. For che
 - **S27** — [2103 – Colorado Noxious Weeds](https://planttalk.colostate.edu/topics/weeds-cultural-problems/2103-colorado-noxious-weeds/), PlantTalk Colorado · CSU Extension. Accessed 2026-09-07T00:23:57+00:00. Locator: List A, B and C management categories.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Identity and evidence boundaries
 

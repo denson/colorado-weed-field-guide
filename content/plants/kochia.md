@@ -76,7 +76,39 @@
       ],
       "note": "Synonym mapping"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "kochia-3"
+        ]
+      },
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "kochia-4"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -89,6 +121,11 @@
 > **Tumbling seed spread; livestock poisoning risk.** [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Bassia scoparia is also published as Kochia scoparia. It is distinct from Russian thistle and from the woody ornamental Euonymus alatus, also called burning bush.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Dogs & cats**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -133,6 +170,14 @@ Confirm identification and the requirements of your county weed program. For che
 - **K-kochia** — [Kochia](https://cals.cornell.edu/weed-science/weed-profiles/kochia), Cornell University College of Agriculture and Life Sciences. Accessed 2026-09-07T01:16:19+00:00. Locator: taxonomy.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Identity and evidence boundaries
 

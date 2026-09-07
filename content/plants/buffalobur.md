@@ -68,7 +68,39 @@
       "note": "",
       "id": "buffalobur-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "buffalobur-3"
+        ]
+      },
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "buffalobur-4"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -81,6 +113,11 @@
 > **Sharp spines; toxic to livestock.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Washington lists this plant as a noxious weed in that state. That legal designation is not transferred to Colorado.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Dogs & cats**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -123,6 +160,14 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **W-buffalobur** — [Buffalobur](https://www.nwcb.wa.gov/weeds/buffalobur), Washington State Noxious Weed Control Board. Accessed 2026-09-07T00:27:17+00:00. Locator: Description, distribution, hazards, management; see claim locator.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

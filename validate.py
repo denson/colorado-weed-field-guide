@@ -64,6 +64,11 @@ for p in plants:
     check(len(doc.select('.gallery figure img'))==3,p['id']+' missing gallery photos')
     check(p['name'] in doc.get_text() and p['scientific'] in doc.get_text(),p['id']+' missing identity')
     check(p['warning'] in doc.get_text() and p['warning'] in mirror,p['id']+' missing warning')
+    research=p.get('research',{})
+    check(research.get('status')=='researching' and research.get('open_questions'),p['id']+' missing research status or open questions')
+    check(doc.select_one('#research-status') is not None and 'Still researching this plant' in mirror,p['id']+' research status must appear in HTML and Markdown')
+    for question in research.get('open_questions',[]):
+        check(question['question'] in mirror,p['id']+' missing agent research question')
     for label in ['People','Dogs & cats','Other animals','Plants & habitat']:
         check(any(h.get_text()==label for h in doc.select('h2')),p['id']+' missing '+label)
     check('# Appendix for agents' in mirror,p['id']+' missing agent appendix')
@@ -97,6 +102,14 @@ for file in pages:
         check(f.is_file(),rel+' broken local URL '+value)
     for i in doc.select('img'):check(bool(i.get('alt')),rel+' image without alt text')
 full=(O/'llms-full.txt').read_text(encoding='utf8')
+comparison=json.loads((O/'coverage.json').read_text(encoding='utf8')).get('source_comparison',{})
+check(comparison.get('profile_count')==len(plants),'Source comparison has a stale profile count')
+for publication in comparison.get('publications',[]):
+    check(publication['topic_count']==len(publication['rows']),'Comparison topic count mismatch')
+    for status in ['full','partial','none']:
+        check(publication['counts'][status]==sum(row['status']==status for row in publication['rows']),'Comparison status count mismatch')
+    for row in publication['rows']:
+        check(all(any(p['id']==pid for p in plants) for pid in row['profile_ids']),'Comparison points to a missing profile')
 check(full.count('# FILE: ')==len(pages),'Full corpus page count differs')
 check((O/'start.md').read_bytes()==(O/'start.md.txt').read_bytes(),'Start mirror fallback differs')
 check(all('localhost' not in u for u in [base]) or '--allow-local' in sys.argv,'Production base URL is local')

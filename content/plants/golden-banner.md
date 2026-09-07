@@ -59,7 +59,39 @@
       "note": "",
       "id": "golden-banner-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "golden-banner-3"
+        ]
+      },
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "golden-banner-4"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -72,6 +104,11 @@
 > **May poison livestock.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Do not silently substitute Thermopsis montana or T. lupinoides studies for T. divaricarpa.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Dogs & cats**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -109,6 +146,14 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **C-banner** — [Rural Living Guide: Agriculture and Livestock](https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2021/03/BoCo-Rural-Living-Guide-Agriculture-Livestock-Rev-1.pdf), CSU Extension, Boulder County. Accessed 2026-09-07T00:31:28+00:00. Locator: Other Common Plants that may be Poisonous to Livestock: Golden Banner (Thermopsis divaricarpa).
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

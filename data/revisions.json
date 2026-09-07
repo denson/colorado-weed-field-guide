@@ -1,14 +1,14 @@
 {
   "content/pages/about.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e56bb19e680af416c91d0ac515d54fd64a3569e777ecde01b92e24daab5f1997",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "40208cb55096ea1d7e158d6feacfe6e8724cb3ef34b85498dea48237355c30f6",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/pages/agents.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f60aadbacd8ef7af819c8038c17c9ff84a8c0c26b9f80ca199a1a90b905aa68e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "87b6c128707e778e01a77263784efe66826a5c857be3fd7a143be44702f1738e",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/pages/safety.md": {
@@ -19,750 +19,960 @@
   },
   "content/plants/blanketflower.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "ecabcccc1d2642014c38aef5c1e18cdba7fce44f05050ad8ed9ff6436b20c50d",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8a6a62e2f38859634634d6a6f057c7694ace6fbd962346d94886e4a49678fcf3",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/buffalobur.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "442d5d566187abc8f3c5807bb8335c84e05d6d783a302a20910a85039da7b009",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "31b1483a4e08d6b9aeb0192c80a45ccf9f56d46dca0f0ff3e09bb1300772f33c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/bull-thistle.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "c1879ec60e3b0a7f7d40d9f058b37d9ab910f65d5e3aaad2f2e3e4f2b7931bbb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c7da613c078e403e24d4ad644c557b071a396d9c85e8bd44057742dd899e422b",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/canada-goldenrod.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "ef17053b108ad63ae8a7a6406c4ab609cfd9c9225c8d7df340774a3df0740a22",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "33644ffbbce83e83ac46aac876847719a082020c64978df8f2514e94eb415400",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/canada-thistle.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "399ffdd27acab90ec6f10e59467f22f2dfb0fc7fe7d0639e387c1fc88561a1bf",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ad6259e342137a5f35dd1f4e057a6e3fbb0608a5849599e5ca4e82c6c3ff7ac6",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/catmint.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "bee2d03ab93092ccdfca5691004a7da6fac4cc73731c6c34457efedb3f8cb4ce",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "82e0f981c5b981e49892035c2092069b544be41be23ca764c5865170966f6a95",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/cheatgrass.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "b4523a7256d860872668cc5577a0667b8f9b1224dd03e774865b2ebe6fbdeeea",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "46c7030d7682000b83329d9d0f78e9b502b637f1c1603aa55ad8f1ee723c3562",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-ragweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "7c63897f080cb2d8df4ee125f47f49b38999f3446e5490b7dceccf70366b6b26",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "2f967390396f2e504e6670e89baa95dca4c72fdb654e37e7afad001a8acff8de",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-sunflower.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "807a4dd8ebb30c0c64ce1b487823351fe053dd67aec3b86a85c08648f5492772",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b4d6e2575cc6d85754dc6d414286a541f725c1eb73fad1a0d2ab579b896d20a4",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-teasel.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "fd66cd41d1167b14c01986e5ea880210e9fb9cd7f5a3636bfcbd0b9e3000dd5f",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b7388f53e7acbe86a82aa271bd8bddcc7fed6eb0734430d165bbe1b191f3f894",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-yarrow.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "4712013d928e373f0e544ff8add1ec30e10b1de08818bb1b7271e7504d0c32dd",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "6669b01c3c83af7b087b61a913a3cb7d3200d96663f5e28779d83574b4cdf2a2",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/dalmatian-toadflax.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "2a4e965e298714bbe293b0f82858fbad24f6280552b1fa4397be00df6771dfbd",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e29ee0aab09f62e3d0dfa6b996d3731d1fe2a8e1d9ffa8d44109aba25cdf937d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/dames-rocket.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "57c3349fa6a0616bb99269efbbc628f58f731279845a50bd7b15f2027d050faf",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "810777101a20d4cb59644e096a48df160126b8c353644fdc3f2527e3ac44a995",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/fernleaf-yarrow.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "e1e567b84023337cb430199b215498b4e88ff77e5793501e04489fe4efc320f6",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "6cfb915df9e59c621e08ab4cebc6c64285fe16502f5d3653811b9395cbd1a501",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/field-bindweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f467cfcc301e04cddea4b62fc51bf86004060c26d8532b67cd7d8dfaae86f461",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ea1417c75b171d2d476f3932827f7b9adb1e7188f3f6bacf6c528d61be2f6dc7",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/foxtail-barley.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "58121d20b5a96a8dab6acbf491dd3afe7e3c3cb477801cf5aec8080eb1b9b4ba",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8ae4dba45348c4c9a5e9d2473b8acae0147230172d00870c758bd2d2d46b4336",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/fringed-sage.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "c0e34db258b2f7bcdbc028273fed300188e7a3b8d4f27bd460966f96f538bb84",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1161fcb5630a4a8ef53273ea0e1e2c2811a5a1caaafbe8ce4676c020bd44ad49",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/golden-banner.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "e09dc680046ed7394f8cf222ad89c1d6eddfdfae4f2e64e32de9cf8060ccc856",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ad77d63475e2dc6e45414d17cfc65b94f2e1a109af23bb7268c4797c2facd52a",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/houndstongue.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "65e7e1d154e6c93e80aecabbf824f3de4ab11dc6affc457a500bd729fb67e819",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9d94e0bb1106e932648945a6c12b23c5042848086d27410776d338e9dad7fce7",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/lambs-ear.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "1d53421230f37a48b3cd9001a2f6cc3cd27850173fdfc8d3de1c68ebb2220fdb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "2382cfcc3088c3ecde84a50608efa96db804a8422f7dcf682dae7cc36073d313",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/leafy-spurge.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "1de056a8cc9534a361a74efb1a2070d7f1b57de86e70928923cabe7a529dd571",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e5746debda5530753b480585b5c89c15ac3cdf55129fc510838365f2206a3edd",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/lewis-blue-flax.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "31f75c0112805379aca961eb54ba45db8e0036b1aeac7d7f3dbf7e225b8f0a3a",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "d02e1316e0c690ec0937b28c2d5a3784f99ad38512ad5fc7dada373e12da93e4",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/musk-thistle.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "00ee83647dc5fc367d3c6e5b497118b5dd7b1a948eda9546a7924c27a60330f3",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9eb9b391bd7edba0036c85069e83887cd73590be3b37384a6df8785111aeeb1b",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/myrtle-spurge.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "0fca89706d4c680b872663cea512b9c2a8930a5308e73c6005bca46bbd9c6a71",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "a7ebd632ecca77ebfc0d8b051d31f40e1be772b6c162b097d9d8526047272862",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/oxeye-daisy.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "5209c69a8671d0496ac3205721206bbc6a8cbcab97a91175de05a66827575531",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "bd269d773047634f7f1814f239fb8d59ae8b996bfb54a38cae935a996aa11a77",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/poison-hemlock.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f5b69e67aa0261eca46c2c4ef9c4c6d9679888cb1c21635ce45a27babc9cf9fb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e016235753171fdaec8d8745a77ab3c74928743ee059844c99ab35489939e4c9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/prairie-sage.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "db8f252b0161f9bfb8e2f73139edd0cf056b1473773309a8d7358374dd4e46fa",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b098d53bcd1ee1f3494ce5cdf97f41597824e586ee879620bcf8953dc79aa6cc",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/puncturevine.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "a6660252dc1a764813b5bfcbc2752b2c17d5ea7d5b627d2e809e526f128292e5",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "a6a96572e9eb7934c5dc2ae1e2ecc4e8c2ace40634d6c13e485668588aaae972",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/red-valerian.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "33f1e4d671e9ee570013ae99e79baab29b9452a90aa1e93aaa51d3270b720e3c",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4b1e8fe0f0eabe1b6a4e4499574114cbac9e9104f6b113e4439c82616d16f19d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/russian-knapweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "20857e4c6bec0d95ac4352032306cca5bedf65b3b14665462ebea1a71474a2c3",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "0821ab6dc7b5dbccab8aaf762c1c8bed6e279af90f58c3c17f7aea2db48e9e9f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/russian-olive.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "13984f3e62e7eda5e77907a567b3d246c5dd72cc74ff454f17eabf23696c47a2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "dc7535e44177177b66630b9fe84674fbc75f48787c2d987babf75066dfa87275",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/scotch-thistle.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "d40bcce469ac9646f5f5c9bf519645b74ba5c7914263222102920da89c000b11",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "aa1b518456f6219c6caf369ecaa36c8aa743a9233f46d6b11a40e1ea93e14549",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/showy-milkweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "54ad50ac350804e927dcdb5d633a64a8a074597542795d001a119b308721d28e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "24c6498263a364157716931e2d92fa489ff47acdec9c3771c287f3398e851896",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/snow-in-summer.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "01cc1f3f81f94af5b0029519f2c6f60a19af987852ee2aab4bd8d2b218d9fc38",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "6ee9bc7e9c2477bc247b116ff2e8b3abecf3431c042092fa609c4b74ba77d214",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/soapweed-yucca.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "c6fafddee72f30ad3b60cdede540d1e0a3749bd3490ec711bb3ea796bbb27943",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ee76fd93de9563de81e84ed5e38c1b00007316269bcf88047457cc646c0e4bb8",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/spotted-knapweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e3a8f62d980bd7449d2841634429785c43951c776d348333dadec2c689a05f2a",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1dff49d4ad907d012c2930706319d83c479ee175d3d254e3d9c068d3d4215793",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/tamarisk.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f1def226abbee95b4b46651103a62924aee2507cd2d3ae0121c2f65e8cbf0876",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1f4b163baea7186cd169da323c8fb1e1dddd582353edaa00636a7435897b1fc5",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/western-whorled-milkweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:46:00Z",
-    "sha256": "356a7497b13d031b023f4e75fdf2926c28539f06e4ead76e0724479889bdabcf",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4921721767e5fcd3ad7d3f7cc848a44e4a8f95038d45b285b62a67895bf6c9a0",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/white-locoweed.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T00:48:00Z",
-    "sha256": "98880db5499e432682df74884279ee64a7ede26d764cf7ac1a033c812641f231",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1f04fe70d5a6c7de5c54a5f72ac89034b145d59505d26169d2c0f40083adf6fa",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/yellow-toadflax.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f7995dac15fd5fa7ff3ddab730eec49e8050181bc8b076b1f215fcd07a047a53",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "25ffff6275f3aaf0317808dea6188d7e17f683e765952f53204935b76933ddba",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "data/sources.json": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "611014c56b747e825c1d554086d76e1420972357766c7a853525602d853c2996",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "85c8e244a9c6edf53ec23b0f6d46bcbd86d1845e3f7f245620cd7d494cdea3d6",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "data/images.json": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:49:00Z",
-    "sha256": "32ba31be8d6c4070f5c5a9f676b9041b157f0893a314d399b2c4966ecd992dd2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4b2a3329e5109996ea639600b7d7554f4179b73aa632edb42c4eeb99d1c46b3c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "_project": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T01:49:00Z"
+    "modified": "2026-09-07T02:46:00Z"
   },
   "data/exclusions.json": {
     "created": "2026-09-07T00:44:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "5bcc157392cf770bd4c78ff1aaf06303ab7e13104446b9b29f0076f12574e724",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c76df15a238b631d21c92e520100e096030a909957462a435ec20f13e7426bf2",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/absinth-wormwood.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "882ac95288b9f411bdb5a6ea49673ef29627b625725f58d8f5ee8ac50caec2bd",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "82e7d3be40715cadaa76c02bb5ec274150e8a26963bfde3b753ebb839c5fe00a",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/african-rue.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f2385d489517da86a0b253344f0718bc531205e824140de9f04071b6fe15e91e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9144f328a841d745db32aafdca14abe7b9238f4413cf0a1c7c49cb9705379f50",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/bittersweet-nightshade.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "dc068ec50f109ebaaafc43027904bab60847335885d08c6726026146dadaa30e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b89507ed40d10b31056aeb39e99bd4f587b7ebf69eb630a18648fde17b0cba36",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/black-henbane.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "311caa3edad67c09f4490b2edf9d6f527bb3ff00523581a0905dda30875a8cdd",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c287254d7b37956ce28762fd2128b9677694ead0a3c228dd67055bfbfb7b3d1e",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/bohemian-knotweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "2330b15131e8403ff08f514dcf8f18e983721b004d677ef7f925169d074d49de",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f9f3147954f3f6982205ac241d07fe03eec7f7f784bc44e3beb41d64efdee2b9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/bouncingbet.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "a50da58bee5cb73def5faab6c76afaa49794cfe80720bcb69b1aa45c2a0cd376",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8486270087cf530eed728d01559963032fb4264d92e3ed04ffc88d669604967c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/bulbous-bluegrass.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "2c111d75227c21787abab4e71061857c1a2b7270ebbf106baffd76c0a3601d06",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ddc2611a9144a0f495b2fea79253125bfcd1e9c13ad1a9b7e9ee1a9c3fa49617",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/camelthorn.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "9cf8548fe76685f5828930473d05024c2b3108a85be1eee54dad8b14c1e164e1",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "5abc84e49cf3ddc32129e9f72a8da4388e0cd9e64f0cb7bb4197dc3c2ee2644a",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/chicory.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6ede808cc09d5e4dd8c87c2cf1bfcbdd1c35ad340053ee70b9355610c95fa3d3",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "86e2617bf100f32b64781fb55d4cc5680ffad16b3f4f142e1357abd9bc525983",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/chinese-clematis.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6d189177803c73a31d1d01afe3f599613b6ee26b35ecd4cc1f408696dd4cd153",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ca19078743979c944634f9313ec11d3f36b8b7beee3df90ded3ad9fd308f6e27",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-burdock.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "b314aba483450adc6db4f1649477b9e8c6e6223f067cb81efaa38d35d5b1c0fa",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "dc3fb8b958cfc8a7b3bca611a34c3d17be62eae0042f7603a1d7d64a09e0cf60",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-cocklebur.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e179230cdaf3591a0bc3388a5638e83c5e5b5245ec3256fdd6e4413be01b1f0c",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "a64a0207281503adec2ed6d4a407f64f84b953e8915ea15ccbfcd9a3b5e1f13d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-crupina.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6da1c430ab8091e718c3fc532a18f91951287c0d19194ed64be6a31fdec34b94",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "3d38fa51b12baf374ede7653c4bde7825c001adcaa811faefd4b517dd7307535",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-dandelion.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "27fabf38a480b56495a07ccb34d3f1f5c80770bae64630a9f85432b73f348760",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "3d1bee65f8f3d3a2e4a2488a28089e1661aaa8f5e17f058c26d86db8b344bb0f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-lambsquarters.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "b524c679462bc3c2653a9fc041c0af689367ef987bf6cf669ceb62ff28ed588b",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c73a33e055f72851a151cf2455c0f90c9e36e5f52a65e2b4600f14bc5b33b941",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-mallow.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "0fd79563fede30ed7a7d69e803c6178d8ef87a5460a1fc262c113fc4c56ab531",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8a4306be6d69298f95cda4fbc46284122e07ac0f4fd5e97a19b5e3ac2855a8e7",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-mullein.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "a5e48a18f4708348497f090e85f3e40dbc4c5a38cc456ede06f16c3761802318",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "ae2c1418993ae2cf8ef147fa907f041c505f5a78f6c130a5374119b7b6ee6c10",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-purslane.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "d1f80d3e01a50bea5fe9d48bdf50b462c2689d6107166ee72c49db377534c3b2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "330255cb5b3c7d8a3cf55ff8a37da5e61d305dc42d43b756e072ede4ab0780d6",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-st-johnswort.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "3429f0792648cb0e7285c76cd5b5499c4fd37206f5610804ece726d4fdd23bde",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e3d3d2aeebf78954c8a56bd14869dcf5487caf11bbc5f3036ed6e885c1aabb86",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/common-tansy.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "9af280cfb9b94a0befce85e4ba75973b7f1d260b241e715fbd20a2b34f4c38ef",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "99c56d25dca3830e2fba33f76d230aee23f6164d47c6f4ea2a18d948093d011c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/curly-dock.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "3be7b60221631c39d2a97ca9620283730cca698676e3a8ce4728e3945129763a",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f9cec7c3dda12251c9d048d047d02f588102761f6ce02f23603d0571ba09cbc3",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/cutleaf-teasel.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "543adbd478912f9335994e19b91ef9a6d70427f1bf81faf2388e40b56254b454",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "0efc5ed139be616f46cc89827fad97eabde452a7d34c3d9c89c066a6fbbddb7d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/cypress-spurge.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "d782d522067bc9edc866e22785266bb585aabe9d95ed2b9e0ab6e4d45cc70ebb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f22feeae3143a84853e1998efc2988d7a7da06ab11b52b439043e288f2e6ffeb",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/diffuse-knapweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "be94b820e3865dd19ff2944ba4b8861f58859d7adae5f58a3b20642917ce3080",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "0891cf8c91820acedb03a5acf2b338b3ce6b3591869e1a2851a2018d20636ed4",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/dyers-woad.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "2e6513bdf75add42eb5a7522f5d55e3b8a62233779226638e4100edc6ffd5c01",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8cb6bb90fe0102a4b57c0a36491235d9889245764bed7116bf4b4a59f334681f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/elongated-mustard.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "012b5cf5cd30c0278618867fd89b0e6b51768ee4a06363e6def1d17bcb4147b9",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "321dedcc3e9ab3955d2ecdbb3c6ed0ff7cc761c5ae7344b75f0b411e1265f482",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/eurasian-watermilfoil.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f17daf8cd29da379ebfc1963e11e4c0f96511fc81abbf49f36591bd833f71827",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f9eb1a8deb8c771f7d835b8c540972ffbc2b49abb9bd3c1eb85efc8afe64b4de",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/flowering-rush.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "fc752874c8b2a5173e05d6350ee1b2ac134cdea981ab688618fdad552b2acdef",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f0b3a4919789b6dbf293f43f10a3e2d65729d110fb43da45b246d35211cefcbe",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/giant-knotweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "dea2957da2da8a1ca1c52c87436c23ce307883a156b6671a18249c28d438f0fa",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "cc2bec6ed132d1ff5875415a5d66b6b4afb10517cee8ea1f5a6d8a69a721299d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/giant-reed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "058153f743fd502c783633a24e0cb439cbea025b8e59ec27d275834f99490b5c",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e7c1114e2b31403521d65dfa167d7e88c157cd878f6f54ca34ff3d833e006506",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/giant-salvinia.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "82acde4be972d7f0c1beedd4aafff298bc53f25ba86a3f25318c7ce130ba8a45",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "91eb9a3f561c90925cc590e57b2d6967f99639e544e3e5534f67435a11c755f0",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/hairy-willow-herb.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4720efc9d234cc5d6189c182203dd1936cd53d901c82573704308d3f3764e893",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "044377d6094f076333af18ffb9925a3c72f0d450c19a315abc517fb6010227ae",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/halogeton.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "44ed6911759123f9ef0b494c046cd3d319073860c235808fd9846c0f00f05969",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "50b9b5781e9ee04bad0e7c977feb035a370b39c65427cceb3355c455a40f99fb",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/hoary-cress.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "c13bf8c73bed770f3015603900230581f0f83b9f71d87f3c2d24b540a68bf110",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e4b340d56e21d7ebf16101d94236fafed879b9956b0d0fd41876ee5b126b2af2",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/hybrid-knapweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "509f2ea0c975197fdca2d92691aaa8165512fcfa0c330d9aaceb842642dc77cb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1f6887c1f673561d7444a7f114844365d65bf5fc132a1011d8e653e4e03e8583",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/hybrid-toadflax.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "861d31762600648b12f5d97eefb642e0810fb7f57c6e38435de994dc2716097d",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1d8235ca14b31481da526481b3ebe8baeb6fda1edcfd24abaaaaafd6ccc811f9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/hydrilla.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "850dbcf2c08a3f264f8dc958054ac8a610adf4271fddd650ed2006d154ba8ffb",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4a84360f918a16290a57131178a7e5bbdc8aeae0d8bb20b98cb60edca4a954e8",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/japanese-knotweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4fc453e173b8b6907a43bc1592265a921c1651c3c4766f5973fd38f0ac4128f6",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "04d17133ad1a1dd9926ce930f3d58ebc4ebeb18dffa23c4f0da7fa1f44d8cbd9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/jimsonweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6739389f89e31eba57020f75ba5534a17b2e3980c594a47f7b9b832984f890c3",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "d8b196a88cfd85a3dd1c638332b4f0aa69f0300e98ae5dc2e3886f04c988da79",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/johnsongrass.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "330ad9930cdd1084b4a5c02b295cde68dd924dab0bb15f8130880991d42b0a30",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "a9cf6de946603ff4bc4bccb0b5b5d52eaa9c52b4e8dd9a435623e731e87096d9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/jointed-goatgrass.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "2ff46e67a2532ef829ecda7b21fe9d0583ea89765aea8ceeb67b51b64a8b1078",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "5b8895b462f7b7ef9d2b059e980289796ec4ee2f06392099044d72806e3d2fa9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/kochia.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "0bdb68d006508dca042f092262b67af76a8ecf0ef59a77c72970f4710f4b421f",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "697640914fc93002cab4492acdc9fed582689bee7243dbf50de64817b3fa00e7",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/low-larkspur.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "73e062e2807a2caf6e1595ec5b586f470d7549f71fb0505db5ee0f5d88ccd988",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9ff194e6d7a39534492806886e6fa07037889f6e296a96bf46685bf9eb4cfcf3",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/mayweed-chamomile.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e50eb4c0e889202291099d3eeb69e6e879af498d4791e521d7ba226a54e637f8",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9b136602ec05d51b001b8b3a0b62525e4602182c5c60ddaa6f6c82f10a78c38b",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/meadow-death-camas.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "13fabc92a99807cc764b23a767540786dfaeaa6f61c24b44391fabe9fb4a6825",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "5952e1ce49d8994d7ccc97e80b825fd3788cbc01cb5dbf7e6c6da1b10c10e584",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/meadow-knapweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "01fd8ad5a25ddc64b0b8fe545f77c180f0a97dd6a8329ac5480637c914ab9635",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4b58954a454ec13e0c1ad9727f271582f78f9c14967249bddd3033b3d65c630f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/mediterranean-sage.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "ccf9647d7f15f6f1f699582fedc991df3a085454269bdb4b2ee14a8935708c19",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "57f068ecb06a14e6db9006d7496228255c2ee47e89e6c86c90f07c83143863a4",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/medusahead.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "36f540aceed7da60d8d044b9f4075a3292e364588b4792958a5d819b08b14108",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "6865e141b3713b617d99056309d9b5d283d8145783a70563c1e1aef3647e10b5",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/moth-mullein.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4597f9d22ad6c59477f53bba542498486436d5a9fdae8e6f20a09e8ff2a6ec4e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b0e959dd79e2aceb824501161d3ae94c87884a7fa67a94aac2bbe3de7834b80f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/narrow-leaved-dalmatian-toadflax.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "013647048b8990735832a8cfaa633b46e6097547f8f7a6531ccd2c1f03f35dd2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e3340fb44fd25d84e59cdcb4b6530127767c1460c44eebfa973d6d9bde793e28",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/orange-hawkweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "acdc563b6b302302160d6433709c407ea6d7f141e3a6e53c2a816ad0a121ca00",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c2d6d7b0760af48dc224882561d08eaa20ea374e98acbbd9a708a0d2c8c6005c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/parrotfeather.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "a67de7aa844542125385a35ea90d94323e242cd2f251ba982bbc9d108699b4c5",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c43973b57888107fa6de2a6f0d93a2926a1b1d7f97e10a5ee5be04d10e04441b",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/perennial-pepperweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "845bf248025438766a268bf2edb79285a4d353af20c6e72eafb381a1a22b77e8",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "7ee099cf1f1545d61e80edf3b9fe6cdc4630923f6b807e6a85a50985b6c1fed9",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/perennial-sowthistle.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "bff411b2f0b0960b997303fbc23305795f99c46440ae48685ad27e0737b8ff75",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "aa5af4b855c2efb82417e9d0331744492af7d96e1259c41b979ed6e9963d6b1c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/plumeless-thistle.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4a78867d1232ae4ec08360cab05a07e170d7a78548ff7f90dce0966ae930a3c2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "5de16478529eea7791b02ab329c8e12aad6a1ad684ccb3e6837b947c07c8addc",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/purple-loosestrife.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6d10846a86f2d0b22385a48b85f70e33ce3a02932d595b32f76cce118a036006",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4fac7be9922571067b5a9c22e39be46cded9dba9aae8f3411bfce3d0919d119c",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/quackgrass.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "facdadad904292c3252d8423b11fb47b16b5e1b48acf6e23d25db219336bf923",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9e7e34e731079934c0486e1034314a16a451ee81f289a3eab1b65f77c56f83fb",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/redroot-pigweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "80bdbd33b92de7e3a28df2219f726e332852b7bdadd28311a3270a276688f843",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b8a567bd939320735da4fed8670c17650e4e8dc9694fc2740f00907c043de1f1",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/redstem-filaree.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "6750bb6741e40153d2b5c261dcf7dda0458b0aaf33e8b424e948f7c60723b0e2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "da771b3088474e015e363d8f440dbefc5807eb43f4b6e037ba22f289b67e2742",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/rush-skeletonweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4adc90d2f4e24eaecb458e1f1a9e65ccb60eb13f783d1326669eb5ef99f6a73c",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "8b31d54b9ae2cdd8b8c33aa81e47832d8b10c59589148fcf1c249edc04362725",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/russian-sage.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "c02e40b3d397b3d7077da298e452e51d8eb07445d608aaec7423f456b1a30c5a",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "dddb60bdc4037ceed3ee8d1373db41f79a512bc1336fa54573df0cf857a4f8af",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/russian-thistle.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "21a28e1c70a9e6723221857b46fff8c9dc9056c3b0c652826251e87c93af05d6",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "e898c9ed8ad1bf1bd0fd4c7d20ae61e1f8d56bee217e541cd2062f4650849ed8",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/scentless-chamomile.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "bcf78f98e69ebb197b9e3061e7ea3c7b070bd1b25f2ce129ddf7888b00b455d7",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "29074cdf3ea1467c671d9810852485854ffbe0b1f2ac935c8d096eb11ecfe54d",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/siberian-elm.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "7dd044bcab3f979f9df7d84b62abab66d5c1b0cc85f735396cfb7203fdd03b67",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "d3e2752e32c166999b43cd6c5781803dd824aef7a4d77b7ff5fc996ab195dc18",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/squarrose-knapweed.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "09efe208d08248a247a06cf397eff6c956ee285dcebe4153f857080f7363427e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "f01b12c64464cdeceb44c39704d960be91ff8efbd710b946a623dd77ef35db0b",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/sulfur-cinquefoil.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "649ee6d4b1bbadfe0059f5b4e380217c9ec9fbff10e4a060ffc6f14edc8a61ab",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "3b0b0f67a1fbb655658b71ee9d5fe484724c134136fb2963100a5db5c068de39",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/tall-larkspur.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e649c738566cdf5f412edb7cc2f99126ba9ac4c2d61fee61e28827e09cc10722",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1b4591027fab209646d61fc4c2064313f1d902944909b2a2de2c3e2e3efecef5",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/tansy-ragwort.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e8435259744d5f136710ba758c02fe8e26b7df5d1021e5cb83f2d1ad50f5d8ef",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "dde3bffa643da570503a183712d61decc07d81153d30be48404d4b6080497898",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/taurian-thistle.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4322707ce51f87ec917ce5d50104a3d7109a097e490f0ae3fa59a0e65416b037",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "026f5e4882b45c9b01083764ee38cadd14d714c119ae795997059915cdba8037",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/tree-of-heaven.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "1defd01e3bb02f94f7c5ecdde8fdb3329677376d9f60d693d7b32631986982d2",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9ee11879459b05d442eaa8254bd5a9bd1937f7067b4f5b376def321fa03d3641",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/velvetleaf.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "494bb4fea0ed69b98f4965190d183c552fb669861786a3d30ed2b94929ba3cf3",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "08e316f1d1dbc9f0dda648b34aafe595db2adbef2a4a79b86677c9d4df94781f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/ventenata.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "4fd8a8da311c266a28a3671d61211d24829f8cf7a457b52b2aee58b54b722ef0",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "0023dfa1b75e710154b911ec2dd40c8b598117fd94e0fa0807ff0469821bdb2e",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/western-poison-ivy.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "e29752ca32c75f08ab7f0f35e5a613191b4041588057581806d28221649c4c97",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "0c186890a1860d72eae70bab3d6864c2e0d62b1aefeb30afe36cabf3bfd12be5",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/western-water-hemlock.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "683699b9609e4d7da7a49ce877d4b1e6ca1f027163ca63780712e92a80fc863e",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "5012d6f65780fc862337098d44e4c142a481fef5333966b1a03e4f51f34f19f0",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/wild-caraway.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "42d5d8dcea385a7e9fa75acb8c3789bee0217563c1a394352a6a351ad72487dd",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "984cc2d71c94c904a6839287b506d7a6f6beac8ea0231fae4bd3105619c29f98",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/wild-proso-millet.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "412d57288002987471ee03d1642e858157c53690b3a1244ef458fb8c78b4c490",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "c356a3db976909c28e51b276d2154ec5b48863d9bacd49ae54a580e45815a8af",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/yellow-flag-iris.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "8d34661c5a8bca3bae7b5fc4620b4e87bf41d2c1c45d077913db7297b33148b5",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "448bc6b525b1a5ed3bed19692c666df28282ca12a20918af72d71000316ca2db",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/yellow-nutsedge.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "cb164c1e6d5bb6f3bb8aa83336071ec95c259f02dccd6bf6cb7ae7b15b0d1cac",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "db1d550ce60cc202b7b26c0dc42db26221821b1962e43476327a102e5e7fce08",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/yellow-starthistle.md": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "f83488f0b9a35bb4e71ef59a602f394f35e9da404a7735585f3cd69020a8c737",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "6763c190785d1971d668efdeced4bcfef1acc09222fea3bddd2cf43881ce25d4",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "data/concerns.json": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "618ed54b0ac6453d18d568a597ec5da5e4dcd909df9d7eb586946a4dc332b2ba",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "be965cca473cf3a2dda56d00ef1a1097296c1eb061b05249bc14b185bc48dbf1",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "data/coverage.json": {
     "created": "2026-09-07T01:47:00Z",
-    "modified": "2026-09-07T01:47:00Z",
-    "sha256": "c909991aa2e74dcc1ab1f1ce3eff83439b4158cfae56ff010f90f7f6e79ea682",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "a630547627e8ffebdd57f140fe29c4a0e9b883dbbab6ade515d2c73a0cdb554f",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/annual-sowthistle.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "fde6fb16df62ba9fb48298c2a2933318dc23e913ab2e4a73ca3b9f5fed0f49a5",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/big-sagebrush.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "e692dc054e1369db4eed4bc860ed3afeb3af86e5a56bf584e43ea0297493b3e3",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/black-greasewood.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "9585188cc4a3a6634b12846c8a6007dea6c88c3a7027afc286a520724dd2bc4b",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/broom-snakeweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "473b36276e3ee5b40878fef953fe508ca251226ae627999ea26aca6b57513022",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/catchweed-bedstraw.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "40582ebfff87ce6582a2782234951f1613ce3bd4e0c764a9a4e296331b96f7fa",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/common-blue-violet.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "7d61a50548bb8d54df102d961052ec7eee630f32c7c9f237fb618a9cf7026f94",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/common-chickweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "c92adfc8837f84a13b98545ed0ff5bf1605cd6e900a364d7f6ceb9c3642f996a",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/creeping-woodsorrel.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "3bdaa1cbf0a5cc304136151b7c0ea818a9fb39236a58b6a336bc5fe97a8b1441",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/crownvetch.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "626325b9f39a68176d42fbf03dbd1b68e55bdb7a61c045b8310379241b26a077",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/curlycup-gumweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "61d7a002eb4c682e8bef195e5b5d7fe3b48b1f06f7129b3965fd5fff6c4cd2b2",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/giant-ragweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "44d2b78591e69d60e14839be46bc984291453b1787747731a0569e6167c3be38",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/green-foxtail.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "8c005d68934d3d308453a4022cb1394143351702eb0161bace77e4b8d862bd4f",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/hemp-dogbane.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "97bb5dba3f04c3175c26d352116897f0021124eeef364b177097a9793f5cadc7",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/henbit.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "d4e1110865b5a417eedf3998f53158cc12526ad6ad4a2def40f7f6761429eeca",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/horseweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "785504104b9a0b277a6ce0d37db5f4e14a0af93ebe5d5161fa3f370491a27ae8",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/large-crabgrass.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "36a76fef6859b0680cb190eed23bb36814cf7203eecca9519305e555e7295f49",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/netseed-lambsquarters.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "af08be9c96730aee9fcf633fa17c577f12535a91ddcc7ee9846eba4cbbf045fb",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/plains-pricklypear.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "1dd0b2e9f5ac13dbe1691e4c55db4fdd956694d6b5f6f52ae0201437eaa23f67",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/prickly-lettuce.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "c22a51def2434e77e668805a979bcb05ab0801607124a534ed78c972f446a44d",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/prickly-sowthistle.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "b3c1a9534cfcb612bf539d0dd5787dd170c771d7feb0c7d955bb651880638b25",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/prostrate-knotweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "06197f034a43e9a06ec1c66f8c248d7c8b214bac843bc34b795e49a8a1569102",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/rubber-rabbitbrush.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "0482915d9634d729df4f9d59b5e7c9555e292e5af6aa91287046b330cd5beb76",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/shepherds-purse.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "ab77afd2ea58c0e8a61277cf680ee77f12d1f299e6d58133481c37391ea216a1",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/silverleaf-nightshade.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "55bf8ecc84fa5f733b72e328965572e3f1259eae9235eec7638b700cd20d6bd9",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/snow-on-the-mountain.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "e4925a1cbc3996cd0810bcd2427d6f24a5126423a77bbb17c8e34a0ab16cfa25",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/spotted-spurge.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "27bed29bcc9ce3da711c0506376dd872b7574e22f7f2de185bf710874948d8c7",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/stinging-nettle.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "b7c7d15aced12a3fc165251fbf867daa9880bcb3afa8e1579dfb0e873db7e291",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/tall-buttercup.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:43:00Z",
+    "sha256": "4576c143a389da41328f2a8daeedb55006082a4846c567c3d04b37edb3ab5b23",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/tumble-mustard.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "f45c0463ea013cf9317b1239dbc262d62c1a1ee568e3a31f4801a34030ef09d3",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/western-ragweed.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "2c80ecf2938c091635a505435f39cdd3b426a3cacd72c496839e765507a62242",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/white-clover.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "4d1f370c1dc25dbe3559e7f0b322c2acb0d0226f1e1977ee6146001aae94ea88",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/white-sweetclover.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "645709b0d80108cfe83a63b2d2ec91d976b386ea9c23ef1292d0f6d0cfdf1aab",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/wild-carrot.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "6f293b03a234a6e9e5388b5722cd6576c311e90ca7f9b3ab7f8cb3da00d35643",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/wild-parsnip.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "d569567d8d0a95f991634e610e44b9e179766ec1e663aa3f8de94eda1358d227",
+    "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
+  },
+  "content/plants/yellow-sweetclover.md": {
+    "created": "2026-09-07T02:43:00Z",
+    "modified": "2026-09-07T02:46:00Z",
+    "sha256": "f306902fe225dfd6043160bd6329e066cd741fce911cb6d04febcacb963738ec",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   }
 }

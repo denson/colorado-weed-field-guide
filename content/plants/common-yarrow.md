@@ -70,7 +70,20 @@
       "reviewed": "2026-09-06",
       "id": "common-yarrow-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -81,6 +94,11 @@
 **Low-water garden plant.** [S03](https://www.extension.colostate.edu/docs/pubs/native/FrontRangeSm.pdf) [S07](https://plants.ces.ncsu.edu/plants/achillea-millefolium/)
 
 > **Toxic to pets · Skin irritation.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. The cited findings are available below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -119,6 +137,11 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **S08** — [Yarrow](https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants/yarrow), ASPCA Poison Control. Accessed 2026-09-07T00:23:53+00:00. Locator: Scientific Name; Toxicity; Clinical Signs.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

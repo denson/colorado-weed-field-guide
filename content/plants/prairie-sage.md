@@ -62,7 +62,46 @@
       "note": "",
       "id": "prairie-sage-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "People",
+        "question": "Clarify the human exposure effects and evidence limits described in this section.",
+        "related_claim_ids": [
+          "prairie-sage-3"
+        ]
+      },
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "prairie-sage-4"
+        ]
+      },
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "prairie-sage-5"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -75,6 +114,11 @@
 > **Spreading roots; pet evidence gap.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Common name white sage also refers to other plants, including Salvia apiana. Do not merge their uses or toxicology.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **People, Dogs & cats, Other animals**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -112,6 +156,15 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **N-artemisia-ludoviciana** — [Artemisia ludoviciana — Plant Toolbox](https://plants.ces.ncsu.edu/plants/artemisia-ludoviciana/), NC State Extension. Accessed 2026-09-07T00:23:57+00:00. Locator: Description, Attributes, Poisonous to Humans, Problems.
 
 # Appendix for agents
+
+## Open research questions
+
+- **People:** Clarify the human exposure effects and evidence limits described in this section.
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

@@ -107,6 +107,19 @@ for category in [None,*CATEGORIES]:
 # A traceable finite baseline, including mappings and unresolved taxonomic scope.
 by_id={p['id']:p for p,b in PLANTS}
 coverage_md=f'# Coverage checklist\n\n**{len(COVERAGE["entries"])} of {len(COVERAGE["entries"])} state-list entries have illustrated profiles.** The guide contains {len(PLANTS)} profiles and {len(IMAGES)} distinct photographs overall.\n\nBaseline: [Colorado noxious-weed rule, effective {COVERAGE["rule_effective"]}]({SOURCES[COVERAGE["source_id"]]["url"]}), parts 3.1, 4.1 and 5.1. Source checked {SOURCES[COVERAGE["source_id"]]["accessed"]}.\n\n{COVERAGE["scope_note"]}\n\nCoverage means that a profile discusses the entry, with three source-identified photographs and explicit evidence limits. It does not mean every listed subspecies, hybrid or local population has been independently identified or that pet toxicology is complete.\n\n'
+comparison=COVERAGE.get('source_comparison')
+if comparison:
+    coverage_md+='## Beyond the state lists\n\n'+comparison['scope']+'\n\n| Compared publication | Topics | Fully matched | Partly represented | Still missing |\n|---|---:|---:|---:|---:|\n'
+    for publication in comparison['publications']:
+        counts=publication['counts']
+        coverage_md+=f'| [{publication["title"]}]({publication["source_url"]}) | {publication["topic_count"]} | {counts["full"]} | {counts["partial"]} | {counts["none"]} |\n'
+    coverage_md+='\n'+comparison['unit']+' Every plant page displays its research status; a profile is not a completed safety review. The [full comparison and source records]('+url('coverage.json')+') preserve each match and gap.\n\n'
+    coverage_md+='### Next research candidates\n\nThese topics remain missing or partly covered. Colorado occurrence, exact identity and hazards need review before expansion.\n\n| Source | Topic | Coverage | Remaining taxa or groups |\n|---|---|---|---|\n'
+    for publication in comparison['publications']:
+        for row in publication['rows']:
+            if row['status']=='full':continue
+            coverage_md+='| '+publication['title']+' | ['+row['topic']+']('+row['source_url']+') | '+row['status']+' | '+', '.join(row['remaining_taxa_or_groups'])+' |\n'
+    coverage_md+='\n'
 for cls in 'ABC':
     rows=[e for e in COVERAGE['entries'] if e['noxious_class']==cls]
     coverage_md+=f'## List {cls} · {len(rows)} entries\n\n| State listing | Listed scientific name | Illustrated profile | Mapping and limits |\n|---|---|---|---|\n'
@@ -115,7 +128,7 @@ for cls in 'ABC':
         coverage_md+=f'| {e["name"]} | *{e["listed_taxon"]}* | [{p["name"]}]({url("plants/"+p["id"]+"/")}) | {e["mapping_note"]} |\n'
     coverage_md+='\n'
 coverage_md+='## Still open\n\n'+'\n'.join('- '+g for g in COVERAGE['open_gaps'])+'\n\n# Appendix for agents\n\nUse [coverage.json]('+url('coverage.json')+') for the row-to-profile mapping. Preserve listed_taxon separately from profile_taxon; an exact spelling match is not a new botanical determination. Do not infer county occurrence from regulatory listing or a photograph taken elsewhere.\n'
-publish('Coverage checklist',coverage_md,'coverage/',{'source_ids':[COVERAGE['source_id']]})
+publish('Coverage checklist',coverage_md,'coverage/',{'source_ids':[COVERAGE['source_id']]+([p['source_id'] for p in comparison['publications']] if comparison else [])})
 # Concern groupings are editorial navigation; linked profiles retain the evidence.
 concern_md='# Biggest concerns\n\nStart with the kind of problem you need to prevent. These are selected routes into the guide, not a universal severity ranking. Read each profile for the affected animal group and evidence limits. For suspected exposure, use the [safety guide]('+url('safety/')+').\n\n'
 concern_html=markdown.markdown(concern_md)

@@ -908,12 +908,2027 @@
       "mapping_note": "Exact listing name."
     }
   ],
-  "profile_count": 119,
+  "profile_count": 154,
   "open_gaps": [
     "County-by-county occurrence and abundance are not mapped.",
     "Common and native weeds beyond this catalog remain to be added; this is not the entire Colorado flora.",
     "Some species complexes, subspecies and hybrids need expert verification; image identity follows the credited source.",
     "Species-specific pet toxicology is missing for many plants and is labeled in each profile.",
-    "One hybrid-toadflax flower photograph is only 176 by 329 pixels."
-  ]
+    "One hybrid-toadflax flower photograph is only 176 by 329 pixels.",
+    "The wild-violet genus is represented by one species, and several manufacturer topics combine species still missing from this guide. The comparison is a research backlog, not evidence that every missing plant occurs in Colorado."
+  ],
+  "source_comparison": {
+    "checked_at": "2026-09-07T02:42:43+00:00",
+    "unit": "Dedicated source topic, not species count or clinical completeness. Compound and genus topics remain partial until all named components are covered.",
+    "scope": "Only the specified finite Corteva Western Rangeland guide and CSU Weed Descriptions article; not every page on either website. Missing topics are research candidates, not confirmed Colorado occurrences.",
+    "profile_count": 154,
+    "profile_inventory_sha256": "39cad4e6ab5da401965020e97bec419f569ad637e4475784beeb08c685c32c82",
+    "taxonomic_notes": [
+      "Conyza canadensis maps to Erigeron canadensis using the NC State species account.",
+      "The older Chrysothamnus genus topic is partly represented by Ericameria nauseosa, formerly Chrysothamnus nauseosus.",
+      "Corteva’s conflicting giant-ragweed scientific label remains unresolved in this audit, even though our guide now includes independently sourced Ambrosia trifida.",
+      "Viola spp. remains partial because Viola sororia is only one species.",
+      "Full match means a named taxon has a profile; subspecies, image and toxicology limits remain in that profile."
+    ],
+    "publications": [
+      {
+        "id": "csu",
+        "title": "CSU Weed Descriptions",
+        "source_id": "C-descriptions",
+        "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+        "topic_count": 37,
+        "counts": {
+          "full": 36,
+          "partial": 1,
+          "none": 0
+        },
+        "rows": [
+          {
+            "topic": "Common Mallow",
+            "source_taxa": [
+              "Malva neglecta"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-mallow"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Common Purslane",
+            "source_taxa": [
+              "Portulaca oleracea"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-purslane"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Crabgrass",
+            "source_taxa": [
+              "Digitaria sanguinalis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "large-crabgrass"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Green Foxtail",
+            "source_taxa": [
+              "Setaria viridis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "green-foxtail"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Kochia",
+            "source_taxa": [
+              "Bassia scoparia"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "kochia"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Netseed Lambsquarters",
+            "source_taxa": [
+              "Chenopodium berlandieri"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "netseed-lambsquarters"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Prostrate Knotweed",
+            "source_taxa": [
+              "Polygonum aviculare"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "prostrate-knotweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Prostrate Spurge",
+            "source_taxa": [
+              "Euphorbia maculata"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "spotted-spurge"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Redroot Pigweed",
+            "source_taxa": [
+              "Amaranthus retroflexus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "redroot-pigweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Scentless Chamomile",
+            "source_taxa": [
+              "Tripleurospermum inodorum"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "scentless-chamomile"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Downy Brome/Cheat Grass",
+            "source_taxa": [
+              "Bromus tectorum"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "cheatgrass"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Shepherd’s Purse",
+            "source_taxa": [
+              "Capsella bursa-pastoris"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "shepherds-purse"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Dame’s Rocket",
+            "source_taxa": [
+              "Hesperis matronalis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "dames-rocket"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Diffuse Knapweed",
+            "source_taxa": [
+              "Centaurea diffusa"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "diffuse-knapweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Musk Thistle",
+            "source_taxa": [
+              "Carduus nutans"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "musk-thistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Prickly Lettuce",
+            "source_taxa": [
+              "Lactuca serriola"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "prickly-lettuce"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Yellow Sweet Clover",
+            "source_taxa": [
+              "Melilotus officinalis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "yellow-sweetclover"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Curly Dock",
+            "source_taxa": [
+              "Rumex crispus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "curly-dock"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Myrtle Spurge",
+            "source_taxa": [
+              "Euphorbia myrsinites"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "myrtle-spurge"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Spotted Knapweed",
+            "source_taxa": [
+              "Centaurea stoebe"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "spotted-knapweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Bouncing Bet",
+            "source_taxa": [
+              "Saponaria officinalis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "bouncingbet"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Canada Thistle",
+            "source_taxa": [
+              "Cirsium arvense"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "canada-thistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Common Tansy",
+            "source_taxa": [
+              "Tanacetum vulgare"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-tansy"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Creeping Wood Sorrel/Oxalis",
+            "source_taxa": [
+              "Oxalis corniculata"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "creeping-woodsorrel"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Field Bindweed",
+            "source_taxa": [
+              "Convolvulus arvensis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "field-bindweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Hoary Cress (White Top)",
+            "source_taxa": [
+              "Lepidium draba"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "hoary-cress"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Leafy Spurge",
+            "source_taxa": [
+              "Euphorbia esula"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "leafy-spurge"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Orange Hawkweed",
+            "source_taxa": [
+              "Pilosella aurantiaca"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "orange-hawkweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Oxeye Daisy",
+            "source_taxa": [
+              "Leucanthemum vulgare"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "oxeye-daisy"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Purple Loosestrife",
+            "source_taxa": [
+              "Lythrum salicaria"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "purple-loosestrife"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Quackgrass",
+            "source_taxa": [
+              "Elymus repens"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "quackgrass"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Russian Knapweed",
+            "source_taxa": [
+              "Rhaponticum repens"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "russian-knapweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": [
+              "CSU mistakenly repeats Centaurea maculosa under Russian knapweed. Matched by the Russian-knapweed topic to Acroptilon/Rhaponticum repens, not merged into spotted knapweed."
+            ]
+          },
+          {
+            "topic": "White Clover",
+            "source_taxa": [
+              "Trifolium repens"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "white-clover"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Wild Violet",
+            "source_taxa": [
+              "Viola spp."
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "common-blue-violet"
+            ],
+            "remaining_taxa_or_groups": [
+              "Viola spp."
+            ],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Yellow Toadflax",
+            "source_taxa": [
+              "Linaria vulgaris"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "yellow-toadflax"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Russian Olive",
+            "source_taxa": [
+              "Elaeagnus angustifolia"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "russian-olive"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          },
+          {
+            "topic": "Tamarisk",
+            "source_taxa": [
+              "Tamarix ramosissima"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "tamarisk"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+            "printed_page": null,
+            "note": []
+          }
+        ]
+      },
+      {
+        "id": "corteva",
+        "title": "Corteva Western Rangeland guide",
+        "source_id": "Corteva-west",
+        "source_url": "https://online.flippingbook.com/view/847083821/",
+        "topic_count": 84,
+        "counts": {
+          "full": 50,
+          "partial": 7,
+          "none": 27
+        },
+        "rows": [
+          {
+            "topic": "Bitter sneezeweed",
+            "source_taxa": [
+              "Helenium badium",
+              "Helenium amarum"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Helenium badium",
+              "Helenium amarum"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 11,
+            "note": ""
+          },
+          {
+            "topic": "Annual broomweed",
+            "source_taxa": [
+              "Amphiachyris dracunculoides"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Amphiachyris dracunculoides"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 12,
+            "note": ""
+          },
+          {
+            "topic": "Buffalobur",
+            "source_taxa": [
+              "Solanum rostratum"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "buffalobur"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 13,
+            "note": ""
+          },
+          {
+            "topic": "Common chickweed",
+            "source_taxa": [
+              "Stellaria media"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-chickweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 14,
+            "note": ""
+          },
+          {
+            "topic": "Common cocklebur",
+            "source_taxa": [
+              "Xanthium strumarium"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-cocklebur"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 15,
+            "note": ""
+          },
+          {
+            "topic": "Woolly croton / goatweed",
+            "source_taxa": [
+              "Croton texensis"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Croton texensis"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 16,
+            "note": ""
+          },
+          {
+            "topic": "Cutleaf evening primrose",
+            "source_taxa": [
+              "Oenothera laciniata"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Oenothera laciniata"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 17,
+            "note": ""
+          },
+          {
+            "topic": "Fleabane",
+            "source_taxa": [
+              "Erigeron annuus"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Erigeron annuus"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 18,
+            "note": ""
+          },
+          {
+            "topic": "Carolina geranium",
+            "source_taxa": [
+              "Geranium carolinianum"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Geranium carolinianum"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 19,
+            "note": ""
+          },
+          {
+            "topic": "Henbit",
+            "source_taxa": [
+              "Lamium amplexicaule"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "henbit"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 20,
+            "note": ""
+          },
+          {
+            "topic": "Horseweed / marestail",
+            "source_taxa": [
+              "Conyza canadensis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "horseweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 21,
+            "note": ""
+          },
+          {
+            "topic": "Kochia",
+            "source_taxa": [
+              "Bassia scoparia"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "kochia"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 22,
+            "note": ""
+          },
+          {
+            "topic": "Common lambsquarters",
+            "source_taxa": [
+              "Chenopodium album"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-lambsquarters"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 23,
+            "note": ""
+          },
+          {
+            "topic": "Scentless and stinking mayweed",
+            "source_taxa": [
+              "Tripleurospermum inodorum",
+              "Anthemis cotula"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "scentless-chamomile",
+              "mayweed-chamomile"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 24,
+            "note": ""
+          },
+          {
+            "topic": "Hemp",
+            "source_taxa": [
+              "Cannabis sativa"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Cannabis sativa"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 25,
+            "note": ""
+          },
+          {
+            "topic": "Marshelder / sumpweed",
+            "source_taxa": [
+              "Iva annua"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Iva annua"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 26,
+            "note": ""
+          },
+          {
+            "topic": "Hedge and tumble mustard",
+            "source_taxa": [
+              "Sisymbrium officinale",
+              "Sisymbrium altissimum"
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "tumble-mustard"
+            ],
+            "remaining_taxa_or_groups": [
+              "Sisymbrium officinale"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 27,
+            "note": ""
+          },
+          {
+            "topic": "Wild mustard",
+            "source_taxa": [
+              "Sinapis arvensis"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Sinapis arvensis"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 28,
+            "note": ""
+          },
+          {
+            "topic": "Spiny amaranth",
+            "source_taxa": [
+              "Amaranthus spinosus"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Amaranthus spinosus"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 29,
+            "note": ""
+          },
+          {
+            "topic": "Prickly lettuce",
+            "source_taxa": [
+              "Lactuca serriola"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "prickly-lettuce"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 30,
+            "note": ""
+          },
+          {
+            "topic": "Common and giant ragweed",
+            "source_taxa": [
+              "Ambrosia artemisiifolia",
+              "UNRESOLVED giant ragweed label"
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "common-ragweed"
+            ],
+            "remaining_taxa_or_groups": [
+              "UNRESOLVED giant ragweed label"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 31,
+            "note": ""
+          },
+          {
+            "topic": "Lanceleaf ragweed",
+            "source_taxa": [
+              "Ambrosia bidentata"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Ambrosia bidentata"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 32,
+            "note": ""
+          },
+          {
+            "topic": "Prickly sida",
+            "source_taxa": [
+              "Sida spinosa"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Sida spinosa"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 33,
+            "note": ""
+          },
+          {
+            "topic": "Pennsylvania and tufted smartweed",
+            "source_taxa": [
+              "Persicaria pensylvanica",
+              "Persicaria longiseta"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Persicaria pensylvanica",
+              "Persicaria longiseta"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 34,
+            "note": ""
+          },
+          {
+            "topic": "Snow-on-the-mountain",
+            "source_taxa": [
+              "Euphorbia marginata"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "snow-on-the-mountain"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 35,
+            "note": ""
+          },
+          {
+            "topic": "Annual and prickly sowthistle",
+            "source_taxa": [
+              "Sonchus oleraceus",
+              "Sonchus asper"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "annual-sowthistle",
+              "prickly-sowthistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 36,
+            "note": ""
+          },
+          {
+            "topic": "Yellow starthistle",
+            "source_taxa": [
+              "Centaurea solstitialis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "yellow-starthistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 37,
+            "note": ""
+          },
+          {
+            "topic": "Vetch",
+            "source_taxa": [
+              "Vicia sativa"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Vicia sativa"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 38,
+            "note": ""
+          },
+          {
+            "topic": "Western bitterweed / bitter rubberweed",
+            "source_taxa": [
+              "Hymenoxys odorata",
+              "Hymenoxys richardsonii"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Hymenoxys odorata",
+              "Hymenoxys richardsonii"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 39,
+            "note": ""
+          },
+          {
+            "topic": "Smooth and catchweed bedstraw",
+            "source_taxa": [
+              "Galium mollugo",
+              "Galium aparine"
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "catchweed-bedstraw"
+            ],
+            "remaining_taxa_or_groups": [
+              "Galium mollugo"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 41,
+            "note": ""
+          },
+          {
+            "topic": "Broom snakeweed",
+            "source_taxa": [
+              "Gutierrezia sarothrae"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "broom-snakeweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 42,
+            "note": ""
+          },
+          {
+            "topic": "Bull nettle",
+            "source_taxa": [
+              "Cnidoscolus texanus"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Cnidoscolus texanus"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 43,
+            "note": ""
+          },
+          {
+            "topic": "Common burdock",
+            "source_taxa": [
+              "Arctium minus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-burdock"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 44,
+            "note": ""
+          },
+          {
+            "topic": "Tall buttercup",
+            "source_taxa": [
+              "Ranunculus acris"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "tall-buttercup"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 45,
+            "note": ""
+          },
+          {
+            "topic": "Wild caraway",
+            "source_taxa": [
+              "Carum carvi"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "wild-caraway"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 46,
+            "note": ""
+          },
+          {
+            "topic": "Chicory",
+            "source_taxa": [
+              "Cichorium intybus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "chicory"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 47,
+            "note": ""
+          },
+          {
+            "topic": "Crownvetch",
+            "source_taxa": [
+              "Securigera varia"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "crownvetch"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 48,
+            "note": ""
+          },
+          {
+            "topic": "Curlycup gumweed",
+            "source_taxa": [
+              "Grindelia squarrosa"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "curlycup-gumweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 49,
+            "note": ""
+          },
+          {
+            "topic": "Curly dock",
+            "source_taxa": [
+              "Rumex crispus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "curly-dock"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 50,
+            "note": ""
+          },
+          {
+            "topic": "Hemp dogbane",
+            "source_taxa": [
+              "Apocynum cannabinum"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "hemp-dogbane"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 51,
+            "note": ""
+          },
+          {
+            "topic": "Dogfennel",
+            "source_taxa": [
+              "Eupatorium capillifolium"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Eupatorium capillifolium"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 52,
+            "note": ""
+          },
+          {
+            "topic": "Stinging nettle",
+            "source_taxa": [
+              "Urtica dioica"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "stinging-nettle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 53,
+            "note": ""
+          },
+          {
+            "topic": "Goldenrod",
+            "source_taxa": [
+              "Solidago spp."
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "canada-goldenrod"
+            ],
+            "remaining_taxa_or_groups": [
+              "Solidago spp."
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 54,
+            "note": ""
+          },
+          {
+            "topic": "Poison hemlock",
+            "source_taxa": [
+              "Conium maculatum"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "poison-hemlock"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 55,
+            "note": ""
+          },
+          {
+            "topic": "Giant hogweed",
+            "source_taxa": [
+              "Heracleum mantegazzianum"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Heracleum mantegazzianum"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 56,
+            "note": ""
+          },
+          {
+            "topic": "Carolina and western horsenettle",
+            "source_taxa": [
+              "Solanum carolinense",
+              "Solanum dimidiatum"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Solanum carolinense",
+              "Solanum dimidiatum"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 57,
+            "note": ""
+          },
+          {
+            "topic": "Tall and western ironweed",
+            "source_taxa": [
+              "Vernonia gigantea",
+              "Vernonia baldwinii"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Vernonia gigantea",
+              "Vernonia baldwinii"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 58,
+            "note": ""
+          },
+          {
+            "topic": "Houndstongue",
+            "source_taxa": [
+              "Cynoglossum officinale"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "houndstongue"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 59,
+            "note": ""
+          },
+          {
+            "topic": "Brown and spotted knapweed",
+            "source_taxa": [
+              "Centaurea jacea",
+              "Centaurea stoebe"
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "spotted-knapweed"
+            ],
+            "remaining_taxa_or_groups": [
+              "Centaurea jacea"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 60,
+            "note": ""
+          },
+          {
+            "topic": "Russian knapweed",
+            "source_taxa": [
+              "Rhaponticum repens"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "russian-knapweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 61,
+            "note": ""
+          },
+          {
+            "topic": "Woolly locoweeds and crazyweeds",
+            "source_taxa": [
+              "Astragalus spp.",
+              "Oxytropis spp."
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "white-locoweed"
+            ],
+            "remaining_taxa_or_groups": [
+              "Astragalus spp.",
+              "Oxytropis spp."
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 62,
+            "note": ""
+          },
+          {
+            "topic": "Common mullein",
+            "source_taxa": [
+              "Verbascum thapsus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-mullein"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 63,
+            "note": ""
+          },
+          {
+            "topic": "Silverleaf nightshade",
+            "source_taxa": [
+              "Solanum elaeagnifolium"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "silverleaf-nightshade"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 64,
+            "note": ""
+          },
+          {
+            "topic": "Oxeye daisy",
+            "source_taxa": [
+              "Leucanthemum vulgare"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "oxeye-daisy"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 65,
+            "note": ""
+          },
+          {
+            "topic": "Wild parsnip",
+            "source_taxa": [
+              "Pastinaca sativa"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "wild-parsnip"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 66,
+            "note": ""
+          },
+          {
+            "topic": "Broadleaf and narrowleaf plantain",
+            "source_taxa": [
+              "Plantago major",
+              "Plantago lanceolata"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Plantago major",
+              "Plantago lanceolata"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 67,
+            "note": ""
+          },
+          {
+            "topic": "Western ragweed",
+            "source_taxa": [
+              "Ambrosia psilostachya"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "western-ragweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 68,
+            "note": ""
+          },
+          {
+            "topic": "Rush skeletonweed",
+            "source_taxa": [
+              "Chondrilla juncea"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "rush-skeletonweed"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 69,
+            "note": ""
+          },
+          {
+            "topic": "Sericea lespedeza",
+            "source_taxa": [
+              "Lespedeza cuneata"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Lespedeza cuneata"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 70,
+            "note": ""
+          },
+          {
+            "topic": "Perennial sowthistle",
+            "source_taxa": [
+              "Sonchus arvensis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "perennial-sowthistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 71,
+            "note": ""
+          },
+          {
+            "topic": "Leafy spurge",
+            "source_taxa": [
+              "Euphorbia esula"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "leafy-spurge"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 72,
+            "note": ""
+          },
+          {
+            "topic": "White and yellow sweetclover",
+            "source_taxa": [
+              "Melilotus albus",
+              "Melilotus officinalis"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "white-sweetclover",
+              "yellow-sweetclover"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 73,
+            "note": ""
+          },
+          {
+            "topic": "Common and cutleaf teasel",
+            "source_taxa": [
+              "Dipsacus fullonum",
+              "Dipsacus laciniatus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-teasel",
+              "cutleaf-teasel"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 74,
+            "note": ""
+          },
+          {
+            "topic": "Canada thistle",
+            "source_taxa": [
+              "Cirsium arvense"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "canada-thistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 75,
+            "note": ""
+          },
+          {
+            "topic": "Scotch thistle",
+            "source_taxa": [
+              "Onopordum acanthium"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "scotch-thistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 76,
+            "note": ""
+          },
+          {
+            "topic": "Bull, musk and plumeless thistle",
+            "source_taxa": [
+              "Cirsium vulgare",
+              "Carduus nutans",
+              "Carduus acanthoides"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "bull-thistle",
+              "musk-thistle",
+              "plumeless-thistle"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 78,
+            "note": ""
+          },
+          {
+            "topic": "Threadleaf groundsel",
+            "source_taxa": [
+              "Senecio douglasii"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Senecio douglasii"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 79,
+            "note": ""
+          },
+          {
+            "topic": "Dalmatian toadflax",
+            "source_taxa": [
+              "Linaria dalmatica"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "dalmatian-toadflax"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 80,
+            "note": ""
+          },
+          {
+            "topic": "Blue and hoary vervain",
+            "source_taxa": [
+              "Verbena hastata",
+              "Verbena stricta"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Verbena hastata",
+              "Verbena stricta"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 81,
+            "note": ""
+          },
+          {
+            "topic": "Wild carrot / Queen Anne's lace",
+            "source_taxa": [
+              "Daucus carota"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "wild-carrot"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 82,
+            "note": ""
+          },
+          {
+            "topic": "Hoary cress / whitetop",
+            "source_taxa": [
+              "Lepidium draba"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "hoary-cress"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 83,
+            "note": ""
+          },
+          {
+            "topic": "Wingstem",
+            "source_taxa": [
+              "Verbesina alternifolia"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Verbesina alternifolia"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 84,
+            "note": ""
+          },
+          {
+            "topic": "Absinth wormwood",
+            "source_taxa": [
+              "Artemisia absinthium"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "absinth-wormwood"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 85,
+            "note": ""
+          },
+          {
+            "topic": "Common yarrow",
+            "source_taxa": [
+              "Achillea millefolium"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "common-yarrow"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 86,
+            "note": ""
+          },
+          {
+            "topic": "Fringed sagebrush",
+            "source_taxa": [
+              "Artemisia frigida"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "fringed-sage"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 87,
+            "note": ""
+          },
+          {
+            "topic": "Russian olive",
+            "source_taxa": [
+              "Elaeagnus angustifolia"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "russian-olive"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 88,
+            "note": ""
+          },
+          {
+            "topic": "Saltcedar",
+            "source_taxa": [
+              "Tamarix ramosissima"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "tamarisk"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 89,
+            "note": ""
+          },
+          {
+            "topic": "Big sagebrush",
+            "source_taxa": [
+              "Artemisia tridentata"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "big-sagebrush"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 90,
+            "note": ""
+          },
+          {
+            "topic": "Willows",
+            "source_taxa": [
+              "Salix spp."
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Salix spp."
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 91,
+            "note": ""
+          },
+          {
+            "topic": "Great Plains yucca",
+            "source_taxa": [
+              "Yucca glauca"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "soapweed-yucca"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 92,
+            "note": ""
+          },
+          {
+            "topic": "Rabbitbrush",
+            "source_taxa": [
+              "Chrysothamnus spp."
+            ],
+            "status": "partial",
+            "profile_ids": [
+              "rubber-rabbitbrush"
+            ],
+            "remaining_taxa_or_groups": [
+              "Chrysothamnus spp."
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 93,
+            "note": ""
+          },
+          {
+            "topic": "Greasewood",
+            "source_taxa": [
+              "Sarcobatus vermiculatus"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "black-greasewood"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 94,
+            "note": ""
+          },
+          {
+            "topic": "Buckbrush",
+            "source_taxa": [
+              "Ceanothus cuneatus"
+            ],
+            "status": "none",
+            "profile_ids": [],
+            "remaining_taxa_or_groups": [
+              "Ceanothus cuneatus"
+            ],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 95,
+            "note": ""
+          },
+          {
+            "topic": "Plains pricklypear",
+            "source_taxa": [
+              "Opuntia polyacantha"
+            ],
+            "status": "full",
+            "profile_ids": [
+              "plains-pricklypear"
+            ],
+            "remaining_taxa_or_groups": [],
+            "source_url": "https://online.flippingbook.com/view/847083821/",
+            "printed_page": 96,
+            "note": ""
+          }
+        ]
+      }
+    ],
+    "retrieval_records": [
+      {
+        "id": "corteva-west",
+        "url": "https://online.flippingbook.com/view/847083821/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/",
+        "accessed": "2026-09-07T02:05:52+00:00",
+        "response_sha256": "0e93ee6c96e4ae27308d24940fd21bc566d15a4c967ffe8fdd991ea69c2c94e6"
+      },
+      {
+        "id": "csu-descriptions",
+        "url": "https://extension.colostate.edu/resource/weed-descriptions/",
+        "retrieved_url": "https://extension.colostate.edu/resource/weed-descriptions/",
+        "accessed": "2026-09-07T02:05:52+00:00",
+        "response_sha256": "974a40ae62c8d05686ffa6580cf5f814931110fb770374e3a7a331ff1015f824"
+      },
+      {
+        "id": "corteva-page-66",
+        "url": "https://online.flippingbook.com/view/847083821/66/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/66/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "c07fb73c1cc95dcbe9433bdbac90edaeebb1521b83a58d1aff94d596e451ca90"
+      },
+      {
+        "id": "corteva-page-67",
+        "url": "https://online.flippingbook.com/view/847083821/67/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/67/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "d24bafb8f5dc40b144b53967d3ad898652223fe8d756cf2dc90fec65c2d1f33a"
+      },
+      {
+        "id": "corteva-page-68",
+        "url": "https://online.flippingbook.com/view/847083821/68/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/68/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "338b44c5e445e764f05853c8795d23558e6f449679b7deff936ff50ef13fffe9"
+      },
+      {
+        "id": "corteva-page-69",
+        "url": "https://online.flippingbook.com/view/847083821/69/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/69/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "3dafc67ab194e1afae56e7f305bb58b60e716bc9d321716ad50e66cad0d142de"
+      },
+      {
+        "id": "corteva-page-70",
+        "url": "https://online.flippingbook.com/view/847083821/70/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/70/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "1f87d76d40d01aad722c17b0b3b3fc007d79ab48641762a33ff51db12b3fab1a"
+      },
+      {
+        "id": "corteva-page-71",
+        "url": "https://online.flippingbook.com/view/847083821/71/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/71/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "c776be32d816f5c786a63e0b3bcca3dba47f8606435a5e7343af4e136016bbc7"
+      },
+      {
+        "id": "corteva-page-72",
+        "url": "https://online.flippingbook.com/view/847083821/72/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/72/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "707e9cde79e0aa34ff15a444d9a79af9b7ff1a5bb30350bf1cd9fd7495d188e4"
+      },
+      {
+        "id": "corteva-page-73",
+        "url": "https://online.flippingbook.com/view/847083821/73/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/73/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "44a09d665d4855884bb15af1dc2e2a21a1a100b819b8d35a423fd507bc27cadf"
+      },
+      {
+        "id": "corteva-page-74",
+        "url": "https://online.flippingbook.com/view/847083821/74/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/74/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "3fa97fb9d05f5ac4e8d587d80315fd2fae074df7bc8f5057a50314cac30e67a2"
+      },
+      {
+        "id": "corteva-page-75",
+        "url": "https://online.flippingbook.com/view/847083821/75/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/75/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "47fdf20933800d49d9bf047b624e6879f5d53270b92d71c39e04121536048dc0"
+      },
+      {
+        "id": "corteva-page-76",
+        "url": "https://online.flippingbook.com/view/847083821/76/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/76/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "2eec853d12f0ce36bf84197cf4812ce4a04b1241b5ba45effdc1b07c9ca42731"
+      },
+      {
+        "id": "corteva-page-77",
+        "url": "https://online.flippingbook.com/view/847083821/77/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/77/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "5076e897b07378df0d219abd20dc41bdfbca2d149c9b58d2942e673d4cc26697"
+      },
+      {
+        "id": "corteva-page-78",
+        "url": "https://online.flippingbook.com/view/847083821/78/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/78/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "a78553cee00b6bf9d0fc54ab0789d2f8088c5db68d00df901bfddf13ccda2527"
+      },
+      {
+        "id": "corteva-page-79",
+        "url": "https://online.flippingbook.com/view/847083821/79/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/79/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "eb2c905a38224e0ed6bc8d6a4a2042660190eb95fc98495fe39c94557b27be66"
+      },
+      {
+        "id": "corteva-page-80",
+        "url": "https://online.flippingbook.com/view/847083821/80/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/80/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "6979d36171a3c6860253f8aed536753ae92f2a9078d4371f9f364055a425ce02"
+      },
+      {
+        "id": "corteva-page-81",
+        "url": "https://online.flippingbook.com/view/847083821/81/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/81/",
+        "accessed": "2026-09-07T02:07:06+00:00",
+        "response_sha256": "6fdf4ce4d59039b91db0dcc4b08b7ea58f038ee03a46e4e70f7698b5ead49ff5"
+      },
+      {
+        "id": "corteva-page-82",
+        "url": "https://online.flippingbook.com/view/847083821/82/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/82/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "a1e69d1fe4a3ba91388ca566a97d60f1a1f777d869c65234359b366fa43339cc"
+      },
+      {
+        "id": "corteva-page-83",
+        "url": "https://online.flippingbook.com/view/847083821/83/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/83/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "487d8b541a4233611d912df1fa97df96ca5c55cd96bdb39f05a215384ec777ba"
+      },
+      {
+        "id": "corteva-page-84",
+        "url": "https://online.flippingbook.com/view/847083821/84/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/84/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "a22846a359190ac3a0c5c6a62a91160e2dd758ea90f032ef99e9f5ae666d1e3c"
+      },
+      {
+        "id": "corteva-page-85",
+        "url": "https://online.flippingbook.com/view/847083821/85/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/85/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "83ca8d332092be4ef1e5e00725671a5e0a22cb074162c2ffc28f38c473151f78"
+      },
+      {
+        "id": "corteva-page-86",
+        "url": "https://online.flippingbook.com/view/847083821/86/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/86/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "88717c3e58d33814de46361d5ee52a1d550a34c492ae75db343d65492715f3d7"
+      },
+      {
+        "id": "corteva-page-87",
+        "url": "https://online.flippingbook.com/view/847083821/87/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/87/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "0a3234db22229fb070d14f102bd682ddd862cc45f02afc364c3fcd20dc39889f"
+      },
+      {
+        "id": "corteva-page-88",
+        "url": "https://online.flippingbook.com/view/847083821/88/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/88/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "786c777cdcf7b58ed2f8be66d044fef5414f3ac8032f45d2566a8ac33a88980d"
+      },
+      {
+        "id": "corteva-page-89",
+        "url": "https://online.flippingbook.com/view/847083821/89/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/89/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "4f06101059025f79770fe661e256150cdc10697e532cee55ada06017714b7e6c"
+      },
+      {
+        "id": "corteva-page-90",
+        "url": "https://online.flippingbook.com/view/847083821/90/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/90/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "f7df5702d7ae1b128e0102501389a5ec5887a221f838bb68803a5fd2a22f9ebc"
+      },
+      {
+        "id": "corteva-page-91",
+        "url": "https://online.flippingbook.com/view/847083821/91/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/91/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "807af7dfd80ffa99cb1917dc01bb981e5ccf912ab195a6758e267af1e1e1a218"
+      },
+      {
+        "id": "corteva-page-92",
+        "url": "https://online.flippingbook.com/view/847083821/92/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/92/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "51f6e8b266167c82a34395561903b688d27de5370cda53634de580d4b0470ddf"
+      },
+      {
+        "id": "corteva-page-93",
+        "url": "https://online.flippingbook.com/view/847083821/93/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/93/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "01f0da103786d6e322e0ec6ef07644e74698cfa4e273970d32dd54ab57fa06c6"
+      },
+      {
+        "id": "corteva-page-94",
+        "url": "https://online.flippingbook.com/view/847083821/94/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/94/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "82de74eb4d3c84677919cd0efefdcec1d8d5a4aefb9b2438ae4deafcb5834575"
+      },
+      {
+        "id": "corteva-page-95",
+        "url": "https://online.flippingbook.com/view/847083821/95/",
+        "retrieved_url": "https://online.flippingbook.com/view/847083821/95/",
+        "accessed": "2026-09-07T02:07:07+00:00",
+        "response_sha256": "3bdabd4f55a88678aebcd297f25d17d75a611b712d155c5e7db9a38a7da34005"
+      }
+    ]
+  }
 }

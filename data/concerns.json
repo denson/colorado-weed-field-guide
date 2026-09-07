@@ -5,32 +5,117 @@
     {
       "title": "Serious ingestion hazards",
       "description": "Plants with serious poisoning warnings. Affected species and evidence strength differ; use the individual profile before drawing conclusions about a person or animal.",
-      "plant_ids": ["poison-hemlock", "western-water-hemlock", "jimsonweed", "black-henbane", "meadow-death-camas", "african-rue", "bittersweet-nightshade", "western-whorled-milkweed"]
+      "plant_ids": [
+        "poison-hemlock",
+        "western-water-hemlock",
+        "jimsonweed",
+        "black-henbane",
+        "meadow-death-camas",
+        "african-rue",
+        "bittersweet-nightshade",
+        "western-whorled-milkweed",
+        "hemp-dogbane",
+        "silverleaf-nightshade",
+        "tall-buttercup",
+        "crownvetch"
+      ]
     },
     {
       "title": "Pets, paws and skin contact",
       "description": "A route to awns, burs, sharp points and irritating plant contact, including poison-ivy oil carried on fur.",
-      "plant_ids": ["foxtail-barley", "puncturevine", "common-burdock", "common-cocklebur", "myrtle-spurge", "cypress-spurge", "western-poison-ivy", "buffalobur"]
+      "plant_ids": [
+        "foxtail-barley",
+        "puncturevine",
+        "common-burdock",
+        "common-cocklebur",
+        "myrtle-spurge",
+        "cypress-spurge",
+        "western-poison-ivy",
+        "buffalobur",
+        "wild-parsnip",
+        "stinging-nettle",
+        "spotted-spurge",
+        "snow-on-the-mountain",
+        "plains-pricklypear",
+        "catchweed-bedstraw"
+      ]
     },
     {
       "title": "Pasture, hay and livestock losses",
       "description": "For landowners and animal keepers: forage poisoning and injury deserve their own review. Livestock findings are not pet exposure limits.",
-      "plant_ids": ["tall-larkspur", "low-larkspur", "halogeton", "johnsongrass", "tansy-ragwort", "russian-knapweed", "yellow-starthistle", "houndstongue", "white-locoweed", "kochia", "redroot-pigweed", "common-st-johnswort"]
+      "plant_ids": [
+        "tall-larkspur",
+        "low-larkspur",
+        "halogeton",
+        "johnsongrass",
+        "tansy-ragwort",
+        "russian-knapweed",
+        "yellow-starthistle",
+        "houndstongue",
+        "white-locoweed",
+        "kochia",
+        "redroot-pigweed",
+        "common-st-johnswort",
+        "broom-snakeweed",
+        "black-greasewood",
+        "yellow-sweetclover",
+        "white-sweetclover",
+        "crownvetch"
+      ]
     },
     {
       "title": "Dry grass, tumbleweeds and fire concerns",
       "description": "Read the profiles for the evidence about dry vegetation, tumbling plants and effects on land management.",
-      "plant_ids": ["cheatgrass", "medusahead", "ventenata", "russian-thistle"]
+      "plant_ids": [
+        "cheatgrass",
+        "medusahead",
+        "ventenata",
+        "russian-thistle",
+        "tumble-mustard"
+      ]
     },
     {
       "title": "Persistent roots and habitat displacement",
       "description": "Plants whose spread or persistence can make restoration and routine garden management difficult. Methods depend on the site and confirmed identity.",
-      "plant_ids": ["field-bindweed", "canada-thistle", "leafy-spurge", "japanese-knotweed", "bohemian-knotweed", "perennial-pepperweed", "tree-of-heaven", "russian-olive", "tamarisk", "yellow-nutsedge", "quackgrass", "giant-reed"]
+      "plant_ids": [
+        "field-bindweed",
+        "canada-thistle",
+        "leafy-spurge",
+        "japanese-knotweed",
+        "bohemian-knotweed",
+        "perennial-pepperweed",
+        "tree-of-heaven",
+        "russian-olive",
+        "tamarisk",
+        "yellow-nutsedge",
+        "quackgrass",
+        "giant-reed",
+        "horseweed",
+        "silverleaf-nightshade",
+        "crownvetch"
+      ]
     },
     {
       "title": "Waterways and aquatic habitats",
       "description": "Use the individual accounts to understand spread and identification before moving plants, water or equipment from an affected site.",
-      "plant_ids": ["hydrilla", "giant-salvinia", "eurasian-watermilfoil", "parrotfeather", "flowering-rush", "purple-loosestrife", "yellow-flag-iris"]
+      "plant_ids": [
+        "hydrilla",
+        "giant-salvinia",
+        "eurasian-watermilfoil",
+        "parrotfeather",
+        "flowering-rush",
+        "purple-loosestrife",
+        "yellow-flag-iris"
+      ]
+    },
+    {
+      "title": "Pollen and seasonal allergies",
+      "description": "Ragweed profiles separate documented allergy concerns from species-specific questions still under research. This is not a local pollen forecast.",
+      "plant_ids": [
+        "common-ragweed",
+        "giant-ragweed",
+        "western-ragweed"
+      ]
     }
   ]
 }

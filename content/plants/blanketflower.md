@@ -59,7 +59,39 @@
       "note": "This review did not establish livestock toxicity despite documented wildlife use.",
       "id": "blanketflower-5"
     }
-  ]
+  ],
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "blanketflower-4"
+        ]
+      },
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "blanketflower-5"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -72,6 +104,11 @@
 > **Contact dermatitis possible.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** Many nursery blanketflowers are Gaillardia × grandiflora hybrids. Their appearance does not prove they are G. aristata.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **Dogs & cats, Other animals**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -109,6 +146,14 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **N-gaillardia-aristata** — [Gaillardia aristata — Plant Toolbox](https://plants.ces.ncsu.edu/plants/gaillardia-aristata/), NC State Extension. Accessed 2026-09-07T00:23:59+00:00. Locator: Description, Attributes, Poisonous to Humans, Problems.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

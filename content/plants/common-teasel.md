@@ -61,7 +61,39 @@
       "id": "common-teasel-5"
     }
   ],
-  "noxious_class": "B"
+  "noxious_class": "B",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Dogs & cats",
+        "question": "Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.",
+        "related_claim_ids": [
+          "common-teasel-4"
+        ]
+      },
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "common-teasel-5"
+        ]
+      },
+      {
+        "area": "Identification",
+        "question": "Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.",
+        "related_claim_ids": []
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -74,6 +106,11 @@
 > **Prickly heads; prolific seed spread.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
 **Identification caveat:** The Colorado county designation is for Dipsacus spp. This page illustrates source-identified D. fullonum; cutleaf teasel, D. laciniatus, requires a separate identification.
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **Dogs & cats, Other animals**. Identification and source-photo limits are explained below. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -118,6 +155,14 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **J-teasel** — [Teasel](https://www.jeffco.us/2152/Teasel), Jefferson County, Colorado. Accessed 2026-09-07T00:27:26+00:00. Locator: Description, impacts, Colorado list designation, management.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Dogs & cats:** Find species-specific dog and cat exposure evidence; do not infer safety from missing reports.
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Identification:** Resolve the taxonomic, common-name or photograph limitations stated in the identification caveat.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 

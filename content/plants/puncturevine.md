@@ -73,7 +73,27 @@
       "id": "puncturevine-5"
     }
   ],
-  "noxious_class": "C"
+  "noxious_class": "C",
+  "research": {
+    "status": "researching",
+    "label": "Still researching this plant",
+    "basis": "Editorial assessment of the cited evidence and stated review gaps; not a toxicity score.",
+    "open_questions": [
+      {
+        "area": "Other animals",
+        "question": "Clarify feeding and exposure risks for each animal group; do not transfer findings between species.",
+        "related_claim_ids": [
+          "puncturevine-5"
+        ]
+      },
+      {
+        "area": "Expert review",
+        "question": "Obtain independent botanical and veterinary review of the identification and hazard summary.",
+        "related_claim_ids": []
+      }
+    ],
+    "expert_review": "pending"
+  }
 }
 ---
 
@@ -84,6 +104,11 @@
 **Colorado List C.** [S29](https://www.larimer.gov/sites/default/files/uploads/2023/weed_management_reference_guide_-_5.5_x_8_-_jan_24_2023_-_website_reader_spreads_0.pdf)
 
 > **Sharp burs · Animal injury.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
+
+## Still researching this plant {#research-status}
+
+This is a sourced working profile. Evidence is incomplete for **Other animals**. Independent botanical and veterinary review is pending. **Uncertainty is not a finding that the plant is safe.**
+
 
 ## Three views of this plant
 
@@ -123,6 +148,12 @@ Confirm the scientific name before removing a plant, changing animal access, or 
 - **S19** — [Here They Come!](https://pueblo.extension.colostate.edu/here-they-come/), CSU Extension · Pueblo County. Accessed 2026-09-07T00:23:54+00:00. Locator: Puncturevine seed-casings and animal injury; herbicide label guidance.
 
 # Appendix for agents
+
+## Open research questions
+
+- **Other animals:** Clarify feeding and exposure risks for each animal group; do not transfer findings between species.
+- **Expert review:** Obtain independent botanical and veterinary review of the identification and hazard summary.
+
 
 ## Taxon and evidence boundaries
 
