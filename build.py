@@ -3,6 +3,7 @@ import argparse, datetime as dt, hashlib, html, json, re, shutil, subprocess
 from pathlib import Path
 from urllib.parse import urlparse
 import markdown
+import companion
 
 ROOT = Path(__file__).resolve().parent
 CFG = json.loads((ROOT/'site.json').read_text(encoding='utf-8'))
@@ -92,7 +93,11 @@ for meta,body in PLANTS:
     raw=body.replace('{{GALLERY}}',gallery_md(meta))
     human=markdown.markdown(body.replace('{{BASE}}',BASE).split('\n# Appendix for agents')[0].replace('{{GALLERY}}',gallery(meta)),extensions=['tables','fenced_code','attr_list'])
     human=human.replace('<blockquote>',f'<blockquote class="notice {esc(meta["warning_tone"])}">',1)
+    discuss=f'[Discuss this plant with the guide]({url("companion/?plant="+meta["id"])}) — choose this profile as a possible match and prepare your observations for Colorado Weed Guide.'
+    raw=raw.replace('\n# Appendix for agents', '\n\n'+discuss+'\n\n# Appendix for agents',1)
+    human=re.sub(r'(</h1>)',r'\1<div class="quick-routes">'+markdown.markdown(discuss)+'</div>',human,count=1)
     publish(meta['name'],raw,path,meta,human=f'<article class="article">{human}</article>')
+    jsdump('companion/plants/'+meta['id']+'.json',companion.reference_packet(meta,body,BASE,REVISIONS[meta['source']]['modified']))
 def card(p):
     i=next(x for x in IMAGES if x['plant_id']==p['id']); needle=(p['name']+' '+p['scientific']+' '+' '.join(p.get('aliases',[]))+' '+p['warning']).lower()
     thumb=i.get('thumbnail',i)
@@ -102,7 +107,7 @@ for category in [None,*CATEGORIES]:
     subset=[p for p,b in PLANTS if category is None or p['category']==category]
     title=CATEGORIES[category] if category else 'Know what is growing.'
     intro={'native':'Native plants that can volunteer or spread where they are not wanted. Their ecological value and their hazards deserve separate consideration. Regional and taxonomic limits are explained in the profiles.','xeriscape':'Plants used in dry gardens that may spread beyond their allotted space. This group includes Colorado natives and introduced ornamentals.','invasive':'State-listed noxious plants and common garden, crop and disturbed-ground weeds. Navigation does not assign native status or equal invasiveness to every plant. Legal weed class and toxicity are separate.'}.get(category,'A Colorado guide to native volunteers, xeriscape spreaders, and invasive and common weeds—with the hazards for people, pets, and habitat kept in view.')
-    quick=f'[Biggest concerns]({url("biggest-concerns/")}) · [Coverage: all {len(COVERAGE["entries"])} state-list entries]({url("coverage/")}) · [Exposure and safety guide]({url("safety/")})'
+    quick=f'[Biggest concerns]({url("biggest-concerns/")}) · [Coverage: all {len(COVERAGE["entries"])} state-list entries]({url("coverage/")}) · [Exposure and safety guide]({url("safety/")}) · [Explore with a BoodleBot]({url("companion/")})'
     head=f'<p class="eyebrow">Colorado · {len(PLANTS)} profiles · {len(IMAGES)} photographs</p><h1>{title}</h1><p class="intro">{intro}</p><div class="quick-routes">'+markdown.markdown(quick)+'</div>'
     head+=f'<div class="category-tabs">'+''.join(f'<a href="{url(k+"/")}">{v}</a>' for k,v in CATEGORIES.items())+'</div>'
     head+='<div class="browse-tools"><label for="plant-search">Find a plant</label><input type="search" id="plant-search" data-search placeholder="Name, scientific name, or hazard"><button type="button" data-clear>Clear</button><span class="metadata" aria-live="polite" data-result>'+str(len(subset))+' plants</span></div><noscript><p>All plants are listed below. Use your browser’s Find command to search this page.</p></noscript>'
@@ -164,7 +169,13 @@ concern_md+=more+'\n# Appendix for agents\n\nGroup membership is an editorial se
 concern_html+=markdown.markdown(more)
 publish('Biggest concerns',concern_md,'biggest-concerns/',{'source_ids':sorted({s for g in CONCERNS['groups'] for pid in g['plant_ids'] for s in by_id[pid]['source_ids']})},human=concern_html)
 for f in sorted((ROOT/'content/pages').glob('*.md')):
-    meta,body=read(f);meta['source']=f.relative_to(ROOT).as_posix();publish(meta['title'],body,meta['id']+'/',meta)
+    meta,body=read(f);meta['source']=f.relative_to(ROOT).as_posix()
+    if meta['id']=='companion':
+        human=markdown.markdown(body.split('\n# Appendix for agents')[0].replace('{{BASE}}',BASE).replace('{{COMPANION}}','COMPANION_WIDGET'),extensions=['tables'])
+        human=human.replace('<p>COMPANION_WIDGET</p>',companion.panel(BASE,PLANTS))
+        body=body.replace('{{COMPANION}}',f'Open the [interactive field-note form]({url("companion/")}) or the [Colorado Weed Guide bot]({companion.BOT}). The form offers up to two catalog profiles, a discussion goal, an optional general setting and your observations. Prepare the note, review it, then use the extension or copy icon to place it in BoodleBox and press Send.')
+        publish(meta['title'],body,meta['id']+'/',meta,human)
+    else: publish(meta['title'],body,meta['id']+'/',meta)
 # Sources: citation metadata, not reproductions of copyrighted publications.
 srcmd='# Sources and photo credits\n\nEvery profile links its claims to these references. Retrieval dates record when a source was accessed; they are not publication dates. Photo credits appear beside each image and in the full ledger.\n\n'
 for sid,s in SOURCES.items():

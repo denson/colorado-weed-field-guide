@@ -1,0 +1,39 @@
+"""Static companion UI and reference packets; no accounts or application backend."""
+import html, json, re
+
+BOT = 'https://box.boodle.ai/a/@ColoradoWeedGuide'
+
+def panel(base, plants):
+    options = ''.join(f'<option value="{html.escape(p["id"])}">{html.escape(p["name"])} — {html.escape(p["scientific"])}</option>' for p, _ in sorted(plants, key=lambda pair: pair[0]['name']))
+    return f'''<section class="companion-workspace" data-weed-workspace data-base="{html.escape(base)}">
+<div class="field-bot"><img src="{base}/assets/colorado-weed-guide-avatar-v1.png" width="80" height="80" alt="Colorado Weed Guide’s decorative thistle and hand-lens emblem"><p><strong>Colorado Weed Guide</strong><br>A conversational companion for the evidence in this field guide.</p></div>
+<div class="field-grid"><form id="field-form">
+<h2>1. What caught your attention?</h2>
+<label for="plant-one">A possible match</label><select id="plant-one"><option value="">I’m not sure yet</option>{options}</select>
+<label for="plant-two">Compare with another plant <span>(optional)</span></label><select id="plant-two"><option value="">No comparison yet</option>{options}</select>
+<label for="field-goal">What would you like help with?</label><select id="field-goal"><option>Compare identifying features</option><option>Understand risks to people or animals</option><option>Understand habitat and ecological effects</option><option>Prepare questions about removal or management</option></select>
+<label for="field-place">General setting <span>(optional; no street address needed)</span></label><input id="field-place" maxlength="180" placeholder="For example: Pueblo County, beside a ditch">
+<label for="field-observations">What can you see?</label><textarea id="field-observations" rows="5" maxlength="1800" placeholder="Leaves, stem, flower or fruit, height, season… Describe only what you actually observed."></textarea>
+<p class="metadata">A selected profile is a candidate, not a confirmed identification. Observe without tasting or handling an unfamiliar plant.</p>
+<button type="submit">Prepare my field note →</button><p id="prepare-status" role="status"></p>
+</form><section id="field-result" hidden aria-labelledby="note-heading">
+<h2 id="note-heading" tabindex="-1">2. Take it to your guide</h2>
+<p>Your observations and the selected profiles’ text are ready below. Review them before sharing. Nothing has been sent to BoodleBox.</p>
+<div class="field-note-heading"><label for="field-note">Your field note and references</label><button type="button" class="field-copy" id="copy-field-note" title="Copy field note" aria-label="Copy field note"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3"/></svg></button></div>
+<textarea id="field-note" rows="14" readonly></textarea>
+<div data-fieldwork-share data-note-id="field-note" data-companion="ColoradoWeedGuide" hidden></div>
+<p id="copy-status" role="status"></p>
+<p><a class="field-open" href="{BOT}" target="_blank" rel="noopener">Open Colorado Weed Guide ↗</a></p>
+<p>In BoodleBox, choose <strong>Start New Chat</strong>, or keep using your existing Colorado Weed Guide conversation. With the updated Fieldwork extension and both pages in Chrome split view, <strong>Put note in BoodleBox</strong> fills the empty chat draft. Review it and press <strong>Send</strong>.</p>
+<p>Without that button, use the small copy icon, paste into the chat, and press Send. Ask the guide about what you noticed. Its links bring you back to a profile or comparison.</p>
+<p><a id="field-return" href="{base}/companion/">Reopen these selected profiles</a> · <a href="{base}/">Browse all plants</a></p>
+</section></div>
+<noscript><p>To prepare a note here, enable JavaScript. You can also <a href="{BOT}">open Colorado Weed Guide</a> and paste a profile link and your observations directly into the chat.</p></noscript>
+</section><script src="{base}/assets/companion.js" defer></script>'''
+
+def reference_packet(meta, body, base, revised):
+    # Preserve all article safety sections and evidence appendices, without photo markup.
+    text = re.sub(r'## Three views of this plant\n.*?(?=\n## |\Z)', '', body, flags=re.S)
+    return {'id': meta['id'], 'name': meta['name'], 'scientific': meta['scientific'],
+            'url': base+'/plants/'+meta['id']+'/', 'revised': revised,
+            'text': text.replace('{{BASE}}', base).replace('{{GALLERY}}', '')}
