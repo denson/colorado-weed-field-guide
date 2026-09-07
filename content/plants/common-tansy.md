@@ -4,7 +4,7 @@
   "name": "Common tansy",
   "scientific": "Tanacetum vulgare",
   "category": "invasive",
-  "status": "Colorado noxious weed · List B",
+  "status": "Colorado noxious weed · List B — Stop the spread",
   "status_sources": [
     "CO-rules-2025"
   ],
@@ -15,7 +15,8 @@
   "source_ids": [
     "CO-rules-2025",
     "N-tanacetum-vulgare",
-    "S27"
+    "S27",
+    "Fremont-list-definitions"
   ],
   "description": "Common tansy: Toxic ingestion; contact dermatitis. Identification and evidence for Colorado readers.",
   "claim_evidence": [
@@ -61,6 +62,16 @@
       "scope": "Species-specific",
       "note": "",
       "id": "common-tansy-5"
+    },
+    {
+      "id": "common-tansy-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "B",
@@ -88,7 +99,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "B — Stop the spread"
 }
 ---
 
@@ -96,7 +108,9 @@
 
 *Tanacetum vulgare*
 
-**Colorado noxious weed · List B.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+**Colorado noxious weed · List B — Stop the spread.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+
+Established in some areas. Requirements vary by location: eradication, containment or suppression to stop further spread. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Toxic ingestion; contact dermatitis.** [Exposure help]({{BASE}}/safety/).
 
@@ -171,3 +185,7 @@ All actionable hazard information is in the human sections above. Do not interpr
 - Establish exact species, plant part, route, amount and timing when researching an exposure. Do not use this guide to diagnose or calculate a treatment.
 - Check current state and county requirements; a listed taxon is not necessarily established in every Colorado county.
 - Expert botanical and veterinary review is pending. Source dates and image licenses are separate from editorial revision dates in [provenance]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “B — Stop the spread” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

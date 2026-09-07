@@ -4,7 +4,7 @@
   "name": "Myrtle spurge",
   "scientific": "Euphorbia myrsinites",
   "category": "invasive",
-  "status": "Colorado List A",
+  "status": "Colorado List A — Eradicate",
   "status_sources": [
     "S14"
   ],
@@ -16,7 +16,8 @@
     "S14",
     "S13",
     "S15",
-    "S27"
+    "S27",
+    "Fremont-list-definitions"
   ],
   "description": "Myrtle spurge: Poisonous · Eye & skin injury. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -75,6 +76,16 @@
       "note": "",
       "reviewed": "2026-09-06",
       "id": "myrtle-spurge-5"
+    },
+    {
+      "id": "myrtle-spurge-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "A",
@@ -97,7 +108,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "A — Eradicate"
 }
 ---
 
@@ -105,7 +117,9 @@
 
 *Euphorbia myrsinites*
 
-**Colorado List A.** [S14](https://www.jeffco.us/2364/Myrtle-Spurge)
+**Colorado List A — Eradicate.** [S14](https://www.jeffco.us/2364/Myrtle-Spurge)
+
+Uncommon in Colorado. All populations are designated for eradication statewide. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Poisonous · Eye & skin injury.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -179,3 +193,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “A — Eradicate” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

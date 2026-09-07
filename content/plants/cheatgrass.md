@@ -4,7 +4,7 @@
   "name": "Cheatgrass / downy brome",
   "scientific": "Bromus tectorum",
   "category": "invasive",
-  "status": "Colorado List C",
+  "status": "Colorado List C — Manage widespread weeds",
   "status_sources": [
     "S20"
   ],
@@ -15,7 +15,8 @@
   "source_ids": [
     "S20",
     "S22",
-    "S21"
+    "S21",
+    "Fremont-list-definitions"
   ],
   "description": "Cheatgrass / downy brome: Grass awns · Fire hazard. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -69,6 +70,16 @@
       "note": "",
       "reviewed": "2026-09-06",
       "id": "cheatgrass-5"
+    },
+    {
+      "id": "cheatgrass-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "C",
@@ -84,7 +95,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "C — Manage widespread weeds"
 }
 ---
 
@@ -92,7 +104,9 @@
 
 *Bromus tectorum*
 
-**Colorado List C.** [S20](https://extension.colostate.edu/resource/cheatgrass-and-wildfire/)
+**Colorado List C — Manage widespread weeds.** [S20](https://extension.colostate.edu/resource/cheatgrass-and-wildfire/)
+
+Widespread and well established. Control is recommended by the state; local governments may require management. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Grass awns · Fire hazard.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -164,3 +178,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “C — Manage widespread weeds” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

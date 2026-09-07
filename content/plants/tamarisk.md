@@ -4,7 +4,7 @@
   "name": "Tamarisk",
   "scientific": "Tamarix ramosissima",
   "category": "invasive",
-  "status": "Colorado noxious weed · List B",
+  "status": "Colorado noxious weed · List B — Stop the spread",
   "status_sources": [
     "J-saltcedar---tamarisk"
   ],
@@ -16,7 +16,8 @@
   ],
   "taxonomy_note": "The county covers T. chinensis and T. ramosissima together. Photos and broad saltcedar descriptions cannot reliably resolve every hybrid or species. No universal water-saving amount is inferred from removal.",
   "source_ids": [
-    "J-saltcedar---tamarisk"
+    "J-saltcedar---tamarisk",
+    "Fremont-list-definitions"
   ],
   "description": "Tamarisk: Alters riparian vegetation. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -58,6 +59,16 @@
       "scope": "Review limitation",
       "note": "This review does not establish unrestricted livestock feeding safety.",
       "id": "tamarisk-5"
+    },
+    {
+      "id": "tamarisk-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "B",
@@ -99,7 +110,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "B — Stop the spread"
 }
 ---
 
@@ -107,7 +119,9 @@
 
 *Tamarix ramosissima*
 
-**Colorado noxious weed · List B.** [J-saltcedar---tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk)
+**Colorado noxious weed · List B — Stop the spread.** [J-saltcedar---tamarisk](https://www.jeffco.us/2216/Saltcedar---Tamarisk)
+
+Established in some areas. Requirements vary by location: eradication, containment or suppression to stop further spread. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Alters riparian vegetation.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -185,3 +199,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “B — Stop the spread” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

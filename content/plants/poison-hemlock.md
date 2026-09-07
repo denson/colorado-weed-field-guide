@@ -4,7 +4,7 @@
   "name": "Poison hemlock",
   "scientific": "Conium maculatum",
   "category": "invasive",
-  "status": "Colorado List C",
+  "status": "Colorado List C — Manage widespread weeds",
   "status_sources": [
     "S16"
   ],
@@ -15,7 +15,8 @@
   "source_ids": [
     "S16",
     "S26",
-    "S04"
+    "S04",
+    "Fremont-list-definitions"
   ],
   "description": "Poison hemlock: Poisonous to people & animals. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -70,6 +71,16 @@
       "note": "Risk interpretation follows the county page listing both List C and toxicity.",
       "reviewed": "2026-09-06",
       "id": "poison-hemlock-5"
+    },
+    {
+      "id": "poison-hemlock-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "C",
@@ -85,7 +96,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "C — Manage widespread weeds"
 }
 ---
 
@@ -93,7 +105,9 @@
 
 *Conium maculatum*
 
-**Colorado List C.** [S16](https://www.jeffco.us/2230/Poison-Hemlock)
+**Colorado List C — Manage widespread weeds.** [S16](https://www.jeffco.us/2230/Poison-Hemlock)
+
+Widespread and well established. Control is recommended by the state; local governments may require management. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Poisonous to people & animals.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -165,3 +179,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “C — Manage widespread weeds” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

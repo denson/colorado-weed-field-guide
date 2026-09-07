@@ -4,7 +4,7 @@
   "name": "Common teasel",
   "scientific": "Dipsacus fullonum",
   "category": "invasive",
-  "status": "Colorado noxious weed · List B",
+  "status": "Colorado noxious weed · List B — Stop the spread",
   "status_sources": [
     "J-teasel"
   ],
@@ -13,7 +13,8 @@
   "aliases": [],
   "taxonomy_note": "The Colorado county designation is for Dipsacus spp. This page illustrates source-identified D. fullonum; cutleaf teasel, D. laciniatus, requires a separate identification.",
   "source_ids": [
-    "J-teasel"
+    "J-teasel",
+    "Fremont-list-definitions"
   ],
   "description": "Common teasel: Prickly heads; prolific seed spread. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -59,6 +60,16 @@
       "scope": "Review limitation",
       "note": "Species-specific ingestion effects and exposure thresholds were not established in the reviewed sources.",
       "id": "common-teasel-5"
+    },
+    {
+      "id": "common-teasel-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "B",
@@ -93,7 +104,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "B — Stop the spread"
 }
 ---
 
@@ -101,7 +113,9 @@
 
 *Dipsacus fullonum*
 
-**Colorado noxious weed · List B.** [J-teasel](https://www.jeffco.us/2152/Teasel)
+**Colorado noxious weed · List B — Stop the spread.** [J-teasel](https://www.jeffco.us/2152/Teasel)
+
+Established in some areas. Requirements vary by location: eradication, containment or suppression to stop further spread. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Prickly heads; prolific seed spread.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -184,3 +198,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “B — Stop the spread” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

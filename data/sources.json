@@ -2927,5 +2927,20 @@
     "verification": "Table of contents and plant topic pages reviewed in the source comparison; names and page hashes retained. No treatment or toxicity claims are taken from this comparison.",
     "reuse": "Bibliographic and taxonomic crosswalk only; manufacturer prose and photographs are not republished.",
     "published_or_updated": null
+  },
+  "Fremont-list-definitions": {
+    "id": "Fremont-list-definitions",
+    "title": "Weed Identification: Colorado List A, B and C definitions",
+    "publisher": "Fremont County, Colorado — Weed Management",
+    "url": "https://fremontcountyco.gov/weed-control/weed-identification",
+    "locator": "Opening paragraphs defining List A, List B and List C under the Colorado Noxious Weed Act",
+    "accessed": "2026-09-07T03:48:41.948837+00:00",
+    "retrieved_url": "https://fremontcountyco.gov/weed-control/weed-identification",
+    "response_sha256": "3b3805cc275fb7920dc34c1a4241d83fe143f89ec5ea4ba41d6068fd44fde885",
+    "content_type": "text/html; charset=UTF-8",
+    "published_or_updated": null,
+    "author": null,
+    "verification": "Category definitions reviewed through web retrieval; source response downloaded and hashed separately.",
+    "reuse": "Facts paraphrased; short category labels are editorial summaries."
   }
 }

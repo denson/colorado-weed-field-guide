@@ -7,7 +7,8 @@
     "S04",
     "S22",
     "S25",
-    "S27"
+    "S27",
+    "Fremont-list-definitions"
   ],
   "description": "Plant exposure and safety for the Colorado Weed Field Guide"
 }
@@ -36,6 +37,18 @@ After suspected toxic-plant ingestion, contact your veterinarian or **ASPCA Pois
 
 These labels describe how this guide organizes evidence. Even plants listed as non-toxic can cause stomach upset if eaten. Native plants and xeriscape plants are not automatically safe for pets. [ASPCA database scope](https://www.aspca.org/pet-care/aspca-poison-control/toxic-and-non-toxic-plants).
 
+## What Lists A, B and C mean {#weed-lists}
+
+These are Colorado's noxious-weed management categories. The letters are separate from danger ratings for people, pets, livestock and other plants.
+
+| State list | Meaning |
+|---|---|
+| **List A — Eradicate** | Uncommon in Colorado. All populations are designated for eradication statewide. |
+| **List B — Stop the spread** | Established in some areas. Requirements vary by location: eradication, containment or suppression to stop further spread. |
+| **List C — Manage widespread weeds** | Widespread and well established. Control is recommended by the state; local governments may require management. |
+
+The short labels are this guide's plain-language summaries of [Fremont County's Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification). A plant's list designation does not describe its toxicity.
+
 ## Before removing a plant
 
 Confirm the species using several features. Colorado has native thistles and many plants with similar flowers. Seek help from a local Extension or weed specialist when identification is uncertain.
@@ -55,5 +68,6 @@ This is a reference guide, not a diagnostic tool. No dose calculator is provided
 - S22 concerns foxtail/grass-awn injuries broadly, not a single grass species.
 - S25 supports the limitation that even non-toxic plants can cause gastrointestinal upset.
 - S27 supports the distinction between noxious-weed designation and general garden weeds; labels and local programs must be rechecked before action.
+- Fremont-list-definitions supports the A/B/C management definitions and the distinction between state recommendations and local requirements for List C. The short action labels are editorial paraphrases; preserve the location-dependent requirements for List B and List C.
 
 The hazard vocabulary and information-gathering checklist are editorial organization, not quoted clinical protocols.

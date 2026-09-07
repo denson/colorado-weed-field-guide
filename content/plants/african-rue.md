@@ -4,7 +4,7 @@
   "name": "African rue",
   "scientific": "Peganum harmala",
   "category": "invasive",
-  "status": "Colorado noxious weed · List A",
+  "status": "Colorado noxious weed · List A — Eradicate",
   "status_sources": [
     "CO-rules-2025"
   ],
@@ -16,7 +16,8 @@
     "CO-rules-2025",
     "NPS-african",
     "WA-african-rue",
-    "S27"
+    "S27",
+    "Fremont-list-definitions"
   ],
   "description": "African rue: Highly poisonous if eaten; deep-rooted invader. Identification and evidence for Colorado readers.",
   "claim_evidence": [
@@ -65,6 +66,16 @@
       "scope": "General animal warning",
       "note": "",
       "id": "african-rue-5"
+    },
+    {
+      "id": "african-rue-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "A",
@@ -80,7 +91,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "A — Eradicate"
 }
 ---
 
@@ -88,7 +100,9 @@
 
 *Peganum harmala*
 
-**Colorado noxious weed · List A.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+**Colorado noxious weed · List A — Eradicate.** [CO-rules-2025](https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11948&fileName=8+CCR+1206-2)
+
+Uncommon in Colorado. All populations are designated for eradication statewide. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Highly poisonous if eaten; deep-rooted invader.** [Exposure help]({{BASE}}/safety/).
 
@@ -166,3 +180,7 @@ All actionable hazard information is in the human sections above. Do not interpr
 - Establish exact species, plant part, route, amount and timing when researching an exposure. Do not use this guide to diagnose or calculate a treatment.
 - Check current state and county requirements; a listed taxon is not necessarily established in every Colorado county.
 - Expert botanical and veterinary review is pending. Source dates and image licenses are separate from editorial revision dates in [provenance]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “A — Eradicate” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.

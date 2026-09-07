@@ -3,3 +3,4 @@
 @media(max-width:1000px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}.gallery img{height:250px}}@media(max-width:740px){main{padding:1.5rem 1rem}.bar{padding:1rem}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery{grid-template-columns:1fr}.gallery img{height:auto;max-height:500px}.help-grid{grid-template-columns:1fr}h1{font-size:2.8rem}.card img{height:170px}}@media(max-width:400px){.grid{grid-template-columns:1fr}.card img{height:230px}.section-head{display:block}nav{gap:.7rem}}@media print{header nav,.browse-tools,button{display:none}main{padding:0}.gallery img{height:170px}.grid{grid-template-columns:repeat(3,1fr)}a{color:inherit}.card,.gallery figure{break-inside:avoid}}
 
 .quick-routes{border-left:4px solid var(--green);background:var(--field);padding:.6rem 1rem;margin:1.5rem 0}.quick-routes p{margin:.3rem 0}.quick-routes a{font-weight:650}
+.management{font-size:.85rem;line-height:1.45;margin:.65rem 0}.management a{color:var(--muted)}

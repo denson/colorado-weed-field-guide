@@ -31,6 +31,21 @@ def read(path):
     return json.loads(front),body.strip()+'\n'
 def source_link(sid):
     s=SOURCES[sid];return f'[{sid}: {s["title"]}]({s["url"]})'
+def list_label(plant):
+    definition=COVERAGE['list_definitions'].get(plant.get('noxious_class'))
+    return 'List '+definition['label'] if definition else ''
+
+def list_note_md(plant):
+    label=list_label(plant)
+    return f' State management: [{label}]({url("safety/#weed-lists")}).' if label else ''
+
+def list_definitions_md():
+    text='## What the state lists mean\n\nThese categories describe weed management requirements. They are separate from danger ratings for people, pets, livestock and other plants.\n\n| State list | Meaning |\n|---|---|\n'
+    for definition in COVERAGE['list_definitions'].values():
+        text+=f'| **List {definition["label"]}** | {definition["summary"]} |\n'
+    source_ids=sorted({sid for d in COVERAGE['list_definitions'].values() for sid in d['source_ids']})
+    return text+'\nSource: '+', '.join(source_link(sid) for sid in source_ids)+'.\n\n'
+
 def gallery(plant):
     items=[i for i in IMAGES if i['plant_id']==plant['id']]
     parts=['<div class="gallery">']
@@ -81,7 +96,8 @@ for meta,body in PLANTS:
 def card(p):
     i=next(x for x in IMAGES if x['plant_id']==p['id']); needle=(p['name']+' '+p['scientific']+' '+' '.join(p.get('aliases',[]))+' '+p['warning']).lower()
     thumb=i.get('thumbnail',i)
-    return f'<article class="card" data-plant="{esc(needle)}"><a href="{url("plants/"+p["id"]+"/")}"><img src="{url(thumb["path"])}" width="{thumb["width"]}" height="{thumb["height"]}" alt="{esc(i["alt"])}" loading="lazy"></a><h3><a href="{url("plants/"+p["id"]+"/")}">{esc(p["name"])}</a></h3><p class="scientific">{esc(p["scientific"])}</p><span class="badge {esc(p["warning_tone"])}">{esc(p["warning"])}</span><p class="metadata">Photo: <a href="{esc(i["source_page"])}">{esc(i["creator"])}</a> · <a href="{esc(i["license_url"])}">{esc(i["license"])}</a></p></article>'
+    management=f'<p class="management"><a href="{url("safety/#weed-lists")}">{esc(list_label(p))}</a></p>' if list_label(p) else ''
+    return f'<article class="card" data-plant="{esc(needle)}"><a href="{url("plants/"+p["id"]+"/")}"><img src="{url(thumb["path"])}" width="{thumb["width"]}" height="{thumb["height"]}" alt="{esc(i["alt"])}" loading="lazy"></a><h3><a href="{url("plants/"+p["id"]+"/")}">{esc(p["name"])}</a></h3><p class="scientific">{esc(p["scientific"])}</p><span class="badge {esc(p["warning_tone"])}">{esc(p["warning"])}</span>{management}<p class="metadata">Photo: <a href="{esc(i["source_page"])}">{esc(i["creator"])}</a> · <a href="{esc(i["license_url"])}">{esc(i["license"])}</a></p></article>'
 for category in [None,*CATEGORIES]:
     subset=[p for p,b in PLANTS if category is None or p['category']==category]
     title=CATEGORIES[category] if category else 'Know what is growing.'
@@ -97,7 +113,7 @@ for category in [None,*CATEGORIES]:
         head+=f'<section data-category><div class="section-head"><h2>{v}</h2><span>{len(plants)} plants</span></div><div class="grid">'+''.join(card(p) for p in plants)+'</div></section>'
         md+='## '+v+'\n\n'
         for p in plants:
-            md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — *{p["scientific"]}*. **{p["warning"]}**. [Full Markdown profile]({url("plants/"+p["id"]+"/index.md")}).\n'
+            md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — *{p["scientific"]}*. **{p["warning"]}**.'+list_note_md(p)+f' [Full Markdown profile]({url("plants/"+p["id"]+"/index.md")}).\n'
             i=next(i for i in IMAGES if i['plant_id']==p['id'])
             md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: [{i["creator"]}]({i["source_page"]}); [{i["license"]}]({i["license_url"]}).\n'
         md+='\n'
@@ -107,6 +123,7 @@ for category in [None,*CATEGORIES]:
 # A traceable finite baseline, including mappings and unresolved taxonomic scope.
 by_id={p['id']:p for p,b in PLANTS}
 coverage_md=f'# Coverage checklist\n\n**{len(COVERAGE["entries"])} of {len(COVERAGE["entries"])} state-list entries have illustrated profiles.** The guide contains {len(PLANTS)} profiles and {len(IMAGES)} distinct photographs overall.\n\nBaseline: [Colorado noxious-weed rule, effective {COVERAGE["rule_effective"]}]({SOURCES[COVERAGE["source_id"]]["url"]}), parts 3.1, 4.1 and 5.1. Source checked {SOURCES[COVERAGE["source_id"]]["accessed"]}.\n\n{COVERAGE["scope_note"]}\n\nCoverage means that a profile discusses the entry, with three source-identified photographs and explicit evidence limits. It does not mean every listed subspecies, hybrid or local population has been independently identified or that pet toxicology is complete.\n\n'
+coverage_md+=list_definitions_md()
 comparison=COVERAGE.get('source_comparison')
 if comparison:
     coverage_md+='## Beyond the state lists\n\n'+comparison['scope']+'\n\n| Compared publication | Topics | Fully matched | Partly represented | Still missing |\n|---|---:|---:|---:|---:|\n'
@@ -122,26 +139,27 @@ if comparison:
     coverage_md+='\n'
 for cls in 'ABC':
     rows=[e for e in COVERAGE['entries'] if e['noxious_class']==cls]
-    coverage_md+=f'## List {cls} · {len(rows)} entries\n\n| State listing | Listed scientific name | Illustrated profile | Mapping and limits |\n|---|---|---|---|\n'
+    definition=COVERAGE['list_definitions'][cls]
+    coverage_md+=f'## List {definition["label"]} · {len(rows)} entries\n\n{definition["summary"]}\n\n| State listing | Listed scientific name | Illustrated profile | Mapping and limits |\n|---|---|---|---|\n'
     for e in rows:
         p=by_id[e['profile_id']]
         coverage_md+=f'| {e["name"]} | *{e["listed_taxon"]}* | [{p["name"]}]({url("plants/"+p["id"]+"/")}) | {e["mapping_note"]} |\n'
     coverage_md+='\n'
 coverage_md+='## Still open\n\n'+'\n'.join('- '+g for g in COVERAGE['open_gaps'])+'\n\n# Appendix for agents\n\nUse [coverage.json]('+url('coverage.json')+') for the row-to-profile mapping. Preserve listed_taxon separately from profile_taxon; an exact spelling match is not a new botanical determination. Do not infer county occurrence from regulatory listing or a photograph taken elsewhere.\n'
-publish('Coverage checklist',coverage_md,'coverage/',{'source_ids':[COVERAGE['source_id']]+([p['source_id'] for p in comparison['publications']] if comparison else [])})
+publish('Coverage checklist',coverage_md,'coverage/',{'source_ids':sorted({COVERAGE['source_id']}|{sid for d in COVERAGE['list_definitions'].values() for sid in d['source_ids']}|({p['source_id'] for p in comparison['publications']} if comparison else set()))})
 # Concern groupings are editorial navigation; linked profiles retain the evidence.
-concern_md='# Biggest concerns\n\nStart with the kind of problem you need to prevent. These are selected routes into the guide, not a universal severity ranking. Read each profile for the affected animal group and evidence limits. For suspected exposure, use the [safety guide]('+url('safety/')+').\n\n'
+concern_md='# Biggest concerns\n\nStart with the kind of problem you need to prevent. These are selected routes into the guide, not a universal severity ranking. Read each profile for the affected animal group and evidence limits. For suspected exposure, use the [safety guide]('+url('safety/')+').\n\nState-list labels describe management requirements, separately from these hazards. [What Lists A, B and C mean]('+url('safety/#weed-lists')+').\n\n'
 concern_html=markdown.markdown(concern_md)
 for group in CONCERNS['groups']:
     members=[by_id[pid] for pid in group['plant_ids']]
     concern_md+='## '+group['title']+'\n\n'+group['description']+'\n\n'
     concern_html+=f'<section><h2>{esc(group["title"])}</h2><p>{esc(group["description"])}</p><div class="grid">'+''.join(card(p) for p in members)+'</div></section>'
     for p in members:
-        concern_md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — **{p["warning"]}**. [Evidence and agent notes]({url("plants/"+p["id"]+"/index.md")}).\n'
+        concern_md+=f'- [{p["name"]}]({url("plants/"+p["id"]+"/")}) — **{p["warning"]}**.'+list_note_md(p)+f' [Evidence and agent notes]({url("plants/"+p["id"]+"/index.md")}).\n'
         i=next(i for i in IMAGES if i['plant_id']==p['id'])
         concern_md+=f'  ![{i["alt"]}]({url(i.get("thumbnail",i)["path"])}) Photo: [{i["creator"]}]({i["source_page"]}); [{i["license"]}]({i["license_url"]}).\n'
     concern_md+='\n'
-more='## Early detection matters\n\nAll List A entries are included in the [coverage checklist]('+url('coverage/')+'). Statewide eradication requirements make these reporting priorities even where a plant is not yet widespread. ['+COVERAGE['source_id']+']('+SOURCES[COVERAGE['source_id']]['url']+').\n'
+more='## Early detection matters\n\nAll **List '+COVERAGE['list_definitions']['A']['label']+'** entries are included in the [coverage checklist]('+url('coverage/')+'). Statewide eradication requirements make these reporting priorities even where a plant is not yet widespread. ['+COVERAGE['source_id']+']('+SOURCES[COVERAGE['source_id']]['url']+').\n'
 concern_md+=more+'\n# Appendix for agents\n\nGroup membership is an editorial selection based on the linked profile warnings. It is not an incidence estimate, dose comparison or complete toxic-plant list. The [concerns.json]('+url('concerns.json')+') mapping preserves these choices; claim-level references remain with each plant.\n'
 concern_html+=markdown.markdown(more)
 publish('Biggest concerns',concern_md,'biggest-concerns/',{'source_ids':sorted({s for g in CONCERNS['groups'] for pid in g['plant_ids'] for s in by_id[pid]['source_ids']})},human=concern_html)

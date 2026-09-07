@@ -2930,5 +2930,31 @@
         "response_sha256": "3bdabd4f55a88678aebcd297f25d17d75a611b712d155c5e7db9a38a7da34005"
       }
     ]
+  },
+  "list_definitions": {
+    "A": {
+      "label": "A — Eradicate",
+      "summary": "Uncommon in Colorado. All populations are designated for eradication statewide.",
+      "source_ids": [
+        "Fremont-list-definitions"
+      ],
+      "interpretation": "Plain-language editorial label for a management category; not a toxicity or danger rating."
+    },
+    "B": {
+      "label": "B — Stop the spread",
+      "summary": "Established in some areas. Requirements vary by location: eradication, containment or suppression to stop further spread.",
+      "source_ids": [
+        "Fremont-list-definitions"
+      ],
+      "interpretation": "Plain-language editorial label for a management category; not a toxicity or danger rating."
+    },
+    "C": {
+      "label": "C — Manage widespread weeds",
+      "summary": "Widespread and well established. Control is recommended by the state; local governments may require management.",
+      "source_ids": [
+        "Fremont-list-definitions"
+      ],
+      "interpretation": "Plain-language editorial label for a management category; not a toxicity or danger rating."
+    }
   }
 }

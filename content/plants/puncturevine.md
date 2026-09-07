@@ -4,7 +4,7 @@
   "name": "Puncturevine / goathead",
   "scientific": "Tribulus terrestris",
   "category": "invasive",
-  "status": "Colorado List C",
+  "status": "Colorado List C — Manage widespread weeds",
   "status_sources": [
     "S29"
   ],
@@ -16,7 +16,8 @@
     "S29",
     "S17",
     "S18",
-    "S19"
+    "S19",
+    "Fremont-list-definitions"
   ],
   "description": "Puncturevine / goathead: Sharp burs · Animal injury. Colorado identification, habitat and exposure evidence.",
   "claim_evidence": [
@@ -71,6 +72,16 @@
       "note": "",
       "reviewed": "2026-09-06",
       "id": "puncturevine-5"
+    },
+    {
+      "id": "puncturevine-list-meaning",
+      "label": "State-list meaning",
+      "sources": [
+        "Fremont-list-definitions"
+      ],
+      "scope": "Colorado management-category definition; species classification retains its original status sources",
+      "note": "Plain-language editorial label for a management category; not a toxicity or danger rating.",
+      "reviewed": "2026-09-07"
     }
   ],
   "noxious_class": "C",
@@ -93,7 +104,8 @@
       }
     ],
     "expert_review": "pending"
-  }
+  },
+  "noxious_class_label": "C — Manage widespread weeds"
 }
 ---
 
@@ -101,7 +113,9 @@
 
 *Tribulus terrestris*
 
-**Colorado List C.** [S29](https://www.larimer.gov/sites/default/files/uploads/2023/weed_management_reference_guide_-_5.5_x_8_-_jan_24_2023_-_website_reader_spreads_0.pdf)
+**Colorado List C — Manage widespread weeds.** [S29](https://www.larimer.gov/sites/default/files/uploads/2023/weed_management_reference_guide_-_5.5_x_8_-_jan_24_2023_-_website_reader_spreads_0.pdf)
+
+Widespread and well established. Control is recommended by the state; local governments may require management. This is a management category, separate from danger ratings. [Category source](https://fremontcountyco.gov/weed-control/weed-identification) · [What the lists mean]({{BASE}}/safety/#weed-lists).
 
 > **Sharp burs · Animal injury.** Native status, garden use and noxious-weed class are separate from toxicity. [Exposure help]({{BASE}}/safety/).
 
@@ -175,3 +189,7 @@ These are publisher notes about the evidence. They do not override an assistant�
 - For an exposure, distinguish animal species, plant part, amount, route, time and symptoms; the guide cannot supply a clinical diagnosis.
 - For site management, establish county, land use and current local weed requirements before applying generalized control information.
 - Expert botanical and veterinary review is pending. Source publication dates, retrieval timestamps, hashes and photograph licenses are in [the provenance ledger]({{BASE}}/provenance.json).
+
+## State-list label provenance
+
+The label “C — Manage widespread weeds” is this guide’s plain-language summary of [Fremont County’s Colorado noxious-weed definitions](https://fremontcountyco.gov/weed-control/weed-identification) [Fremont-list-definitions]. The letter and species assignment retain the status sources above. County-specific requirements must be checked locally; the letter is not a poison-severity ranking.
