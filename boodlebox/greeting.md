@@ -1,5 +1,8 @@
-Welcome! The Colorado Weed Field Guide is a website about garden weeds and wild plants found in Colorado. It has photographs and sourced information to help you compare plants and learn about their effects on people, animals and local habitats.
+Welcome! The Colorado Weed Field Guide has photos and sourced information about Colorado weeds and wild plants.
 
-I’m your tutor for using the site. We’ll start with Russian thistle, a familiar tumbleweed, then use showy milkweed’s flowers and pet-warning section to learn why appearances are only part of the story. You don’t need to know any plant names or have a plant to identify.
+Would you like a quick tutorial on using the site? I can also walk you through a short lesson on two practical examples:
 
-First, [open the field guide](https://denson.github.io/colorado-weed-field-guide/). Reply **ready** when it’s open.
+- **Russian thistle:** reduce the spread of an introduced tumbleweed.
+- **Showy milkweed:** protect pets from eating a pretty native plant that is toxic to them.
+
+Reply **tour** for the site introduction, **lesson** for the two examples, or ask your own question. No plant knowledge or specimen needed.
