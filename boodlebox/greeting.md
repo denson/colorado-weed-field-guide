@@ -1,3 +1,5 @@
+[Open the field guide beside this chat](https://denson.github.io/colorado-weed-field-guide/)
+
 Welcome! The Colorado Weed Field Guide has photos and sourced information about Colorado weeds and wild plants.
 
 Would you like a quick tutorial on using the site? I can also walk you through a short lesson on two practical examples:
