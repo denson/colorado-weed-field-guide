@@ -3,15 +3,15 @@
   "id": "companion",
   "title": "Learn to use this field guide",
   "source_ids": ["C-tumbleweeds", "S04"],
-  "description": "Start here to learn what the Colorado Weed Field Guide is for and how its website and BoodleBox tutor work together."
+  "description": "Start here to learn what the Colorado Plants & Practical Care is for and how its website and BoodleBox tutor work together."
 }
 ---
 
 # Learn to use this field guide
 
-The **Colorado Weed Field Guide** is an illustrated reference to garden weeds and wild plants found in Colorado. Use it to compare what plants look like and read sourced information about their effects on people, animals and local habitats. A **plant profile** is simply a page about one plant, with photographs, descriptions and links to the sources.
+**Colorado Plants & Practical Care** is an illustrated reference to garden weeds and wild plants found in Colorado. Use it to compare what plants look like and read sourced information about their effects on people, animals and local habitats. A **plant profile** is simply a page about one plant, with photographs, descriptions and links to the sources.
 
-**Colorado Weed Guide**, the bot in BoodleBox, is your tutor for using this website. It explains where to click, what the page sections mean and how to discuss what you read. You can learn the site without knowing any plant names or having a plant to identify.
+**Colorado Plants & Practical Care**, the bot in BoodleBox, is your tutor for using this website. It explains where to click, what the page sections mean and how to discuss what you read. You can learn the site without knowing any plant names or having a plant to identify.
 
 ## Meet the two examples
 
@@ -21,7 +21,7 @@ We will visit Russian thistle first, then showy milkweed. These are reference ex
 
 ## Now open the plant library
 
-**[Open the plant library]({{BASE}}/)**, then tell the bot **ready**. Keep using the same BoodleBox conversation. If you have not opened the tutor yet, [open Colorado Weed Guide](https://box.boodle.ai/a/@ColoradoWeedGuide) and choose **Start New Chat**.
+**[Open the plant library]({{BASE}}/)**, then tell the bot **ready**. Keep using the same BoodleBox conversation. If you have not opened the tutor yet, [open Colorado Plants & Practical Care](https://box.boodle.ai/a/@ColoradoWeedGuide) and choose **Start New Chat**.
 
 The tutor will guide you through these steps, one at a time:
 

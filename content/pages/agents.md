@@ -5,7 +5,7 @@
   "source_ids": [
     "ST-pattern"
   ],
-  "description": "Read this guide with an AI assistant for the Colorado Weed Field Guide"
+  "description": "Read this guide with an AI assistant for the Colorado Plants & Practical Care"
 }
 ---
 

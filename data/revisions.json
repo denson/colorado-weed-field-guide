@@ -1,20 +1,20 @@
 {
   "content/pages/about.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T02:43:00Z",
-    "sha256": "40208cb55096ea1d7e158d6feacfe6e8724cb3ef34b85498dea48237355c30f6",
+    "modified": "2026-09-21T19:48:00Z",
+    "sha256": "be267ac22fda6735f924589aa2c5d7cd42b1ff44258b16762a0284462c0c9f66",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/pages/agents.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T02:43:00Z",
-    "sha256": "87b6c128707e778e01a77263784efe66826a5c857be3fd7a143be44702f1738e",
+    "modified": "2026-09-21T19:48:00Z",
+    "sha256": "8d7c6fab663c9a48d15d6fd701cb6a7a3bb960dbf97f69c44232e25d71196256",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/pages/safety.md": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T03:50:00Z",
-    "sha256": "30e9ff3941724b80047817b887565ee9b130432bfbd6c99a588699379b98f9f5",
+    "modified": "2026-09-21T19:48:00Z",
+    "sha256": "6a92c86132f211fca73fa3937e848049599407cef22d5a954564da56742b9b7f",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   },
   "content/plants/blanketflower.md": {
@@ -271,7 +271,7 @@
   },
   "_project": {
     "created": "2026-09-07T00:41:00Z",
-    "modified": "2026-09-07T17:53:00Z"
+    "modified": "2026-09-21T19:48:00Z"
   },
   "data/exclusions.json": {
     "created": "2026-09-07T00:44:00Z",
@@ -977,8 +977,8 @@
   },
   "content/pages/companion.md": {
     "created": "2026-09-07T04:51:00Z",
-    "modified": "2026-09-07T17:53:00Z",
-    "sha256": "36b2ab01922008e1b8c446a5292f3b38bf7d678af5fc43cab88574920a2136cd",
+    "modified": "2026-09-21T19:48:00Z",
+    "sha256": "314475b59484dbd2ae6c2188bb13dbaf283a23aab01228182478a813c7ea72c0",
     "time_basis": "UTC timestamp of the editorial revision-recording event; not source publication or expert validation"
   }
 }

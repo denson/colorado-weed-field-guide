@@ -7,7 +7,7 @@
     "S27",
     "ST-pattern"
   ],
-  "description": "About this guide for the Colorado Weed Field Guide"
+  "description": "About this guide for the Colorado Plants & Practical Care"
 }
 ---
 

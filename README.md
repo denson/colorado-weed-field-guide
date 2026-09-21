@@ -1,4 +1,4 @@
-# Colorado Weed Field Guide
+# Colorado Plants & Practical Care
 
 154 plant profiles, three source-identified photographs each, and separately sourced hazards for people, pets, other animals and surrounding vegetation. Native volunteers, xeriscape spreaders and invasive and common weeds have their own sections.
 

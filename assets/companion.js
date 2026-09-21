@@ -46,14 +46,14 @@
       if (one.value) returnUrl.searchParams.set('plant', one.value);
       if (practice) returnUrl.searchParams.set('practice', '1');
       else if (two.value && two.value !== one.value) returnUrl.searchParams.set('compare', two.value);
-      const text = (practice ? ['COLORADO WEED FIELD GUIDE — MY TUTORIAL PRACTICE NOTE',
+      const text = (practice ? ['COLORADO PLANTS & PRACTICAL CARE — MY TUTORIAL PRACTICE NOTE',
         'Tutorial practice: I am learning how to use the website, not identifying a plant outdoors.',
         'My takeaway or website question: ' + (observations.value.trim() || 'Please help me review what the profile page offers.'),
         'Example profile I read: ' + (packets.map(p => p.name + ' (' + p.scientific + ')').join('; ') || 'None selected'),
         '\nPlease acknowledge my actual takeaway and answer my website question briefly. Keep this a website tutorial: do not analyze a specimen, add a what-fits/uncertainty checklist, or ask for plant observations. Then give me the homepage link so I can continue exploring.',
         '\nField guide homepage: ' + base + '/',
         'Return to my practice note: ' + returnUrl.href,
-        ...packets.map(p => '\nExample profile reference: ' + p.url)] : ['COLORADO WEED FIELD GUIDE — MY FIELD NOTE',
+        ...packets.map(p => '\nExample profile reference: ' + p.url)] : ['COLORADO PLANTS & PRACTICAL CARE — MY FIELD NOTE',
         'These selections are possible matches, not a confirmed identification.',
         'My question: ' + document.getElementById('field-goal').value,
         'General setting: ' + (document.getElementById('field-place').value.trim() || 'Not supplied'),
@@ -76,7 +76,7 @@
   });
   document.getElementById('copy-field-note').addEventListener('click', async () => {
     const status = document.getElementById('copy-status');
-    try { await navigator.clipboard.writeText(note.value); status.textContent = 'Copied. Paste into Colorado Weed Guide, review, and press Send.'; }
+    try { await navigator.clipboard.writeText(note.value); status.textContent = 'Copied. Paste into Colorado Plants & Practical Care, review, and press Send.'; }
     catch { note.focus(); note.select(); status.textContent = 'Select and copy the note with Ctrl+C (Command+C on Mac), then paste it into the chat.'; }
   });
 })();

@@ -10,7 +10,7 @@
     "S27",
     "Fremont-list-definitions"
   ],
-  "description": "Plant exposure and safety for the Colorado Weed Field Guide"
+  "description": "Plant exposure and safety for the Colorado Plants & Practical Care"
 }
 ---
 

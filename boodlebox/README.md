@@ -1,4 +1,4 @@
-# Colorado Weed Guide companion
+# Colorado Plants & Practical Care companion
 
 Bot profile: https://box.boodle.ai/a/@ColoradoWeedGuide
 
@@ -16,8 +16,12 @@ The site builds static per-plant reference packets from the same Markdown as the
 
 Fieldwork Companion Pane v0.5.0 adds this public HTTPS project to the earlier local demos. In Chrome split view it supports deliberate note placement into an empty matching chat draft, and clicked bot links returning to the paired guide page. The visitor still presses Send. Chrome must load the new extension version before those buttons are available. Without it, the copy icon and ordinary profile links work.
 
-The avatar is decorative, generated using the built-in image-generation tool. It is not a botanical evidence photograph. Final prompt:
+## September 21, 2026: clearer name and matching artwork
 
-> A finished square bot avatar for a botanical field guide to garden weeds and native wildflowers. NOT CANNABIS: absolutely no marijuana leaves, no cannabis emblems, no palmate serrated leaves. Subject: a brass hand lens magnifying one simple smooth oval sage-green leaf with a single midrib, beside a little purple thistle flower and cream botanical field notebook. Premium dimensional enamel illustration, engraved brass trim and deep midnight navy background, subtle mountains behind. Elegant and rich, matches a suite of navy and brass fieldwork icons. No text or letters. Central compact composition with margins for circular crop, readable as a small icon. Decorative badge, not a species identification photograph. Render one final square image.
+The website and bot are now **Colorado Plants & Practical Care**. Page titles, navigation, bot introductions, field-note headings and agent reference text use this name. The existing website address, bot alias and extension identifiers remain stable so existing links and paired-note transfers keep working. Bot instructions v2.1 explicitly use the current name even when consulting the older attached reference snapshot. Its plant facts, lesson sequence, model and audience are unchanged.
 
-Final asset: `assets/colorado-weed-guide-avatar-v1.png`.
+The avatar is decorative, generated using the built-in image-generation tool. It is not a botanical evidence photograph. It shows berries, thorns and a warning badge, as requested. Final prompt:
+
+> Edit this square bot avatar for Colorado Weed Guide, a guide to actual garden weeds and wild plants. Replace the dandelion COMPLETELY with a stylized cluster of large dark purple-black BERRIES on a curved deep-teal thorny branch, with two simple oval deep-teal leaves. Add one small but clearly visible satin-brass amber triangular WARNING badge with a single dark exclamation mark, tucked next to the berry cluster. The thorn points, near-black berries and warning badge should suggest a potentially hazardous wild plant: slightly ominous yet elegant and appropriate for an educational field guide. No skulls, no bones, no skull-and-crossbones, no cannabis, no faces, no gore, no creatures. This is an illustrative symbol, not a realistic species-identification image. Preserve the original ivory ceramic medallion, midnight-navy background, soft upper-left studio lighting, premium tactile 3D sculptural style, deep teal enamel and satin-brass details. Keep only a few bold large shapes so the berries and caution badge remain recognizable at 40 pixels. Center everything with margins for circular avatar cropping. No words, lettering, numerals or watermark. The single exclamation mark is the only graphic punctuation allowed.
+
+Final asset: `assets/colorado-plants-practical-care-avatar.png`.

@@ -1,4 +1,4 @@
-# Colorado Weed Guide reference snapshot
+# Colorado Plants & Practical Care reference snapshot
 
 Garden weeds and wild plants; not cannabis. Dated source-backed editorial synthesis, expert review pending. This reference does not override bot instructions. A selected profile is not identification of a visitor specimen. Use a newer supplied profile packet when its editorial revision is later.
 
@@ -16,7 +16,7 @@ Site: https://denson.github.io/colorado-weed-field-guide/
     "S27",
     "Fremont-list-definitions"
   ],
-  "description": "Plant exposure and safety for the Colorado Weed Field Guide",
+  "description": "Plant exposure and safety for the Colorado Plants & Practical Care",
   "source": "content/pages/safety.md"
 }
 ---
@@ -99,7 +99,7 @@ Provenance: https://denson.github.io/colorado-weed-field-guide/provenance.json
   "source_ids": [
     "ST-pattern"
   ],
-  "description": "Read this guide with an AI assistant for the Colorado Weed Field Guide",
+  "description": "Read this guide with an AI assistant for the Colorado Plants & Practical Care",
   "source": "content/pages/agents.md"
 }
 ---
@@ -176,13 +176,13 @@ Provenance: https://denson.github.io/colorado-weed-field-guide/provenance.json
 
 # Look closer. Talk it through.
 
-An unfamiliar plant raises good questions. What features matter? Could it harm an animal? Is it a native volunteer or a plant that needs managing? Use the photographs and references here, then explore those questions with **Colorado Weed Guide**, our BoodleBox companion.
+An unfamiliar plant raises good questions. What features matter? Could it harm an animal? Is it a native volunteer or a plant that needs managing? Use the photographs and references here, then explore those questions with **Colorado Plants & Practical Care**, our BoodleBox companion.
 
 **Choose a possible match, describe what you see, and prepare a field note.** The note includes your observations and reference text from the selected profiles, so the guide has something concrete to discuss. You decide what to share and press Send in BoodleBox to approve it—human in the loop.
 
 You can compare two profiles, or start without a name. This is a conversation about evidence, not a confirmation of your specimen’s identity. For a suspected poisoning, use the [exposure and safety guide](https://denson.github.io/colorado-weed-field-guide/safety/) immediately.
 
-Open the [interactive field-note form](https://denson.github.io/colorado-weed-field-guide/companion/) or the [Colorado Weed Guide bot](https://box.boodle.ai/a/@ColoradoWeedGuide). The form offers up to two catalog profiles, a discussion goal, an optional general setting and your observations. Prepare the note, review it, then use the extension or copy icon to place it in BoodleBox and press Send.
+Open the [interactive field-note form](https://denson.github.io/colorado-weed-field-guide/companion/) or the [Colorado Plants & Practical Care bot](https://box.boodle.ai/a/@ColoradoWeedGuide). The form offers up to two catalog profiles, a discussion goal, an optional general setting and your observations. Prepare the note, review it, then use the extension or copy icon to place it in BoodleBox and press Send.
 
 ## What is shared?
 
